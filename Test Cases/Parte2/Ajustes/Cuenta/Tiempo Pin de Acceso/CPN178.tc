@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seleccionar la opción 30 segundos y seguido boton cancelar</description>
+   <name>CPN178</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edda7d30-3027-423e-87ea-b27344ebb9de</testCaseGuid>
+</TestCaseEntity>

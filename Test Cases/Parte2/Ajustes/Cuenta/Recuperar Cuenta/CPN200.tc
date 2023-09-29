@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case validar campo de &quot;Respuesta&quot; cuando este vacio y dar clic en el boton &quot;Siguiente&quot;</description>
+   <name>CPN200</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>975b8d78-381b-45d5-9c08-6f34cbb9bf32</testCaseGuid>
+</TestCaseEntity>

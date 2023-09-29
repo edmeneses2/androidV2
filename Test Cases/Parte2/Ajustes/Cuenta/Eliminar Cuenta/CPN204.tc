@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case verificar modal para eliminacion de cuenta.</description>
+   <name>CPN204</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e913e953-cdb6-42b5-9296-cd97debdc4f2</testCaseGuid>
+</TestCaseEntity>

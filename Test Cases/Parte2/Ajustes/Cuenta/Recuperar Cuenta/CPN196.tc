@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case verificar modal de advertencia de modificacion preguntas de recuperar cuenta</description>
+   <name>CPN196</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9dbcf72c-bb32-45b3-9432-9daa9c57b67f</testCaseGuid>
+</TestCaseEntity>

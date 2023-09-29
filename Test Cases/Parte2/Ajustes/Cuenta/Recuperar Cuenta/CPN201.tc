@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case modal de verificación de salir al editar pregunta</description>
+   <name>CPN201</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e21f7ca4-f4f1-4ca1-8d0f-af670e14d80d</testCaseGuid>
+</TestCaseEntity>

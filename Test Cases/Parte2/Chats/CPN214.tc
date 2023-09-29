@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CPN214</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19935a5e-d750-4c56-ab4e-bf4576115422</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b81b1dc-7cd3-412d-816c-4df8ecf51789</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>332c0ceb-eb0e-473c-844e-4c2bb82d7b4e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebcd6499-2e12-4943-9e03-96b24f54d156</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>200</defaultValue>
+      <description></description>
+      <id>2b81b1dc-7cd3-412d-816c-4df8ecf51789</id>
+      <masked>false</masked>
+      <name>ancho</name>
+   </variable>
+   <variable>
+      <defaultValue>500</defaultValue>
+      <description></description>
+      <id>332c0ceb-eb0e-473c-844e-4c2bb82d7b4e</id>
+      <masked>false</masked>
+      <name>alto</name>
+   </variable>
+   <variable>
+      <defaultValue>15</defaultValue>
+      <description></description>
+      <id>ebcd6499-2e12-4943-9e03-96b24f54d156</id>
+      <masked>false</masked>
+      <name>centro</name>
+   </variable>
+</TestCaseEntity>

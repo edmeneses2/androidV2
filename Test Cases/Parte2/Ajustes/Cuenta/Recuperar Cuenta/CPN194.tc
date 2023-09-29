@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case recuperar cuenta fallida por desconexion de internet</description>
+   <name>CPN194</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>405e4602-f8e3-4318-ae6a-a9253aeff359</testCaseGuid>
+</TestCaseEntity>

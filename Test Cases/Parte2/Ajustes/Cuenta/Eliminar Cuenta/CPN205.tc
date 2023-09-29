@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case btn cancelar modal eliminar cuenta</description>
+   <name>CPN205</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff7327e0-a208-4593-b1fb-30421330544e</testCaseGuid>
+</TestCaseEntity>

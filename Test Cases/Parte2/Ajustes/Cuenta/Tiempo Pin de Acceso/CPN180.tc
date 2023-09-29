@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seleccionar la opción 5 minutos y seguido boton cancelar</description>
+   <name>CPN180</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7c49621-2253-4145-8bec-c64df4d060da</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case validacion visual(manual) toast con alerta de &quot;El dispositivo no tiene asignado un desbloqueo biometrico&quot;</description>
+   <name>CPN163</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ad5d281-9cb5-4846-8018-816d57ee0c7a</testCaseGuid>
+</TestCaseEntity>

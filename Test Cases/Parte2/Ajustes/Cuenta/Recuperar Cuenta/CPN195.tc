@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case recuperar cuenta exitoso</description>
+   <name>CPN195</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0f3e4be-c027-45d8-99ab-ff361f7c6d53</testCaseGuid>
+</TestCaseEntity>

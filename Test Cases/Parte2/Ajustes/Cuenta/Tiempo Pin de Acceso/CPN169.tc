@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Seleccionar tiempo para solicitud de pin de acceso &quot;inmediatamente&quot;</description>
+   <name>CPN169</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e303c5ba-2bed-43ef-9eaa-5557c8524404</testCaseGuid>
+</TestCaseEntity>

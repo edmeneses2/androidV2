@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tiempo para solicitud de pin de acceso en 1 minuto</description>
+   <name>CPN172</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f92682d8-4a43-4f5e-bbfb-934b7c7247bb</testCaseGuid>
+</TestCaseEntity>
