@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-07-25 16:59:01,2023-07-25 16:59:06,"4,575s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-07-25 16:59:01,2023-07-25 16:59:05,"3,896s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-07-25 16:59:02,2023-07-25 16:59:05,"3,502s",FAILED
+,,,,,,,
+Test Cases/CPN208,,,,2023-07-25 16:59:05,2023-07-25 16:59:06,"0,373s",PASSED
+return null,,,,2023-07-25 16:59:06,2023-07-25 16:59:06,"0,001s",PASSED

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-08-18 10:56:30,2023-08-18 10:58:09,"1m - 39,490s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-08-18 10:56:30,2023-08-18 10:57:35,"1m - 4,997s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 14-08-23\app-qa.apk"", true)",,,,2023-08-18 10:56:30,2023-08-18 10:57:10,"39,315s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-08-18 10:57:10,2023-08-18 10:57:11,"1,374s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta""), 0)",,,,2023-08-18 10:57:11,2023-08-18 10:57:12,"1,327s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-08-18 10:57:12,2023-08-18 10:57:14,"1,195s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar""), 0)",,,,2023-08-18 10:57:14,2023-08-18 10:57:21,"7,707s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-08-18 10:57:21,2023-08-18 10:57:25,"3,591s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente""), 0)",,,,2023-08-18 10:57:25,2023-08-18 10:57:26,"1,210s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-08-18 10:57:26,2023-08-18 10:57:29,"3,228s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-08-18 10:57:29,2023-08-18 10:57:32,"2,659s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-08-18 10:57:32,2023-08-18 10:57:33,"0,994s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-08-18 10:57:33,2023-08-18 10:57:35,"2,032s",PASSED
+,,,,,,,
+Test Cases/agregar1,,,,2023-08-18 10:57:35,2023-08-18 10:58:09,"34,212s",FAILED
+"delay(2, STOP_ON_FAILURE)",,,,2023-08-18 10:57:35,2023-08-18 10:57:37,"2,014s",PASSED
+"tap(findTestObject(""Object Repository/agregar1/android.widget.FrameLayout""), 0)",,,,2023-08-18 10:57:37,2023-08-18 10:57:38,"0,461s",PASSED
+"tap(findTestObject(""Object Repository/agregar1/android.widget.Button""), 0)",,,,2023-08-18 10:57:38,2023-08-18 10:58:09,"31,505s",FAILED

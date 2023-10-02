@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-08-18 10:13:08,2023-08-18 10:13:14,"5,630s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-08-18 10:13:08,2023-08-18 10:13:11,"2,880s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23\app-qa.apk"", true)",,,,2023-08-18 10:13:09,2023-08-18 10:13:11,"2,503s",FAILED
+,,,,,,,
+Test Cases/Parte1/Agregar contacto/agregar,,,,2023-08-18 10:13:11,2023-08-18 10:13:14,"2,477s",FAILED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-08-18 10:13:12,2023-08-18 10:13:14,"2,044s",PASSED
+"tap(findTestObject(""Parte1/agregar/android.widget.ImageView""), 1)",,,,2023-08-18 10:13:14,2023-08-18 10:13:14,"0,086s",PASSED

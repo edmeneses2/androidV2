@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-07-27 14:16:21,2023-07-27 14:17:53,"1m - 32,131s",PASSED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-07-27 14:16:21,2023-07-27 14:17:30,"1m - 9,603s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23\app-qa.apk"", true)",,,,2023-07-27 14:16:21,2023-07-27 14:17:05,"43,555s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-07-27 14:17:05,2023-07-27 14:17:06,"1,392s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta""), 0)",,,,2023-07-27 14:17:06,2023-07-27 14:17:07,"1,278s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-07-27 14:17:07,2023-07-27 14:17:09,"1,816s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar""), 0)",,,,2023-07-27 14:17:09,2023-07-27 14:17:15,"5,786s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-07-27 14:17:15,2023-07-27 14:17:20,"5,340s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente""), 0)",,,,2023-07-27 14:17:20,2023-07-27 14:17:22,"1,153s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-07-27 14:17:22,2023-07-27 14:17:25,"3,180s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-07-27 14:17:25,2023-07-27 14:17:27,"2,671s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-07-27 14:17:27,2023-07-27 14:17:28,"0,984s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-27 14:17:28,2023-07-27 14:17:30,"2,034s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN214,,,,2023-07-27 14:17:30,2023-07-27 14:17:53,"22,234s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout""), 0)",,,,2023-07-27 14:17:31,2023-07-27 14:17:32,"1,498s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout""), 0)",,,,2023-07-27 14:17:32,2023-07-27 14:17:34,"1,635s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (1)""), 0)",,,,2023-07-27 14:17:34,2023-07-27 14:17:36,"2,071s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (2)""), 0)",,,,2023-07-27 14:17:36,2023-07-27 14:17:37,"1,001s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-27 14:17:37,2023-07-27 14:17:39,"2,019s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton""), 0)",,,,2023-07-27 14:17:39,2023-07-27 14:17:39,"0,359s",PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-27 14:17:39,2023-07-27 14:17:42,"3,009s",PASSED
+"pinchToZoomInAtPosition(alto, ancho, 50)",,,,2023-07-27 14:17:42,2023-07-27 14:17:43,"1,006s",PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-27 14:17:43,2023-07-27 14:17:46,"3,016s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.TextView""), 0)",,,,2023-07-27 14:17:46,2023-07-27 14:17:48,"1,757s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-27 14:17:48,2023-07-27 14:17:50,"2,012s",PASSED
+pressBack(),,,,2023-07-27 14:17:50,2023-07-27 14:17:51,"0,615s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton (1)""), 0)",,,,2023-07-27 14:17:51,2023-07-27 14:17:52,"0,848s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout (1)""), 0)",,,,2023-07-27 14:17:52,2023-07-27 14:17:53,"1,061s",PASSED

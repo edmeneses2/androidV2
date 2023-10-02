@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-07-28 14:16:28,2023-07-28 14:18:01,"1m - 33,233s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-07-28 14:16:28,2023-07-28 14:17:34,"1m - 6,046s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23\app-qa.apk"", true)",,,,2023-07-28 14:16:28,2023-07-28 14:17:08,"39,388s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-07-28 14:17:08,2023-07-28 14:17:09,"1,427s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta""), 0)",,,,2023-07-28 14:17:09,2023-07-28 14:17:11,"1,264s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-07-28 14:17:11,2023-07-28 14:17:13,"2,215s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar""), 0)",,,,2023-07-28 14:17:13,2023-07-28 14:17:19,"5,749s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-07-28 14:17:19,2023-07-28 14:17:24,"5,410s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente""), 0)",,,,2023-07-28 14:17:24,2023-07-28 14:17:25,"1,315s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-07-28 14:17:25,2023-07-28 14:17:28,"3,205s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-07-28 14:17:28,2023-07-28 14:17:31,"2,652s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-07-28 14:17:31,2023-07-28 14:17:32,"0,991s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-28 14:17:32,2023-07-28 14:17:34,"2,039s",PASSED
+,,,,,,,
+Test Cases/prueba,,,,2023-07-28 14:17:34,2023-07-28 14:18:01,"26,859s",FAILED
+"tap(findTestObject(""Object Repository/prueba/android.widget.FrameLayout""), 0)",,,,2023-07-28 14:17:34,2023-07-28 14:17:36,"1,555s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.widget.LinearLayout""), 0)",,,,2023-07-28 14:17:36,2023-07-28 14:17:38,"1,625s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.widget.LinearLayout (1)""), 0)",,,,2023-07-28 14:17:38,2023-07-28 14:17:40,"2,134s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.widget.LinearLayout (2)""), 0)",,,,2023-07-28 14:17:40,2023-07-28 14:17:41,"0,964s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.widget.ImageButton""), 0)",,,,2023-07-28 14:17:41,2023-07-28 14:17:42,"1,697s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-28 14:17:42,2023-07-28 14:17:45,"3,002s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.widget.LinearLayout (3)""), 0)",,,,2023-07-28 14:17:45,2023-07-28 14:17:46,"0,366s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-28 14:17:46,2023-07-28 14:17:49,"3,015s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.view.View""), 0)",,,,2023-07-28 14:17:49,2023-07-28 14:17:49,"0,319s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-28 14:17:49,2023-07-28 14:17:52,"3,010s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.widget.LinearLayout (4)""), 0)",,,,2023-07-28 14:17:52,2023-07-28 14:17:52,"0,341s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-28 14:17:52,2023-07-28 14:17:55,"3,006s",PASSED
+"tap(findTestObject(""Object Repository/prueba/android.view.View (1)""), 0)",,,,2023-07-28 14:17:55,2023-07-28 14:17:56,"0,334s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-28 14:17:56,2023-07-28 14:17:59,"3,016s",PASSED
+"tap(findTestObject(""""), 0)",,,,2023-07-28 14:17:59,2023-07-28 14:18:01,"2,207s",FAILED

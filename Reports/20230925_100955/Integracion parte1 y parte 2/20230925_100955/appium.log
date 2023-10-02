@@ -1,0 +1,226 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 59986
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\Testing\AppData\Local\Temp\\Katalon\Appium\Temp1695654605448
+[35m[Appium][39m   chromedriverPort: 59987
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 59987
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59986
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","noReset":false,"deviceId":"","deviceName":"samsung SM-A107M (Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"R9WN40KBXDJ","systemPort":59985},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"samsung SM-A107M (Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":59985,"appium:udid":"R9WN40KBXDJ"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 6fae5bf6-bfb0-4f86-b784-7073d51a06bf
+[35m[BaseDriver][39m Using local app 'C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Testing\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Testing/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Testing\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: R9WN40KBXDJ
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Testing\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.naposystems.napoleonchat'
+[35m[ADB][39m Main activity name: 'com.naposystems.napoleonchat.ui.mainActivity.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Testing\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Testing\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Testing\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk' is signed with a non-default certificate
+[35m[ADB][39m com.naposystems.napoleonchat was not uninstalled, because it was not present on the device
+[35m[ADB][39m The application at 'C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'NapoleoN.apk' took 8920ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Testing\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Testing\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.naposystems.napoleonchat/com.naposystems.napoleonchat.ui.mainActivity.MainActivity and waiting for 'com.naposystems.napoleonchat/com.naposystems.napoleonchat.ui.mainActivity.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 6fae5bf6-bfb0-4f86-b784-7073d51a06bf added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m35421 ms - 1345[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf [39m[32m200[39m [90m20 ms - 1299[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf [39m[32m200[39m [90m20 ms - 1299[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/screenshot [39m[32m200[39m [90m1694 ms - 89212[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/window/rect [39m[32m200[39m [90m28 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/appium/device/system_bars [39m[32m200[39m [90m117 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/window/rect [39m[32m200[39m [90m25 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.FrameLayout' and @resource-id = 'com.naposystems.napoleonchat:id/action_bar_root' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/elements [39m[32m200[39m [90m1046 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff00000003/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6fae5bf6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1a39e518-b9c2-4345-8cc3-905f387022d4 with 6fae5bf6-bfb0-4f86-b784-7073d51a06bf
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff00000003/location [39m[32m200[39m [90m33 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff00000003/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6fae5bf6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1a39e518-b9c2-4345-8cc3-905f387022d4 with 6fae5bf6-bfb0-4f86-b784-7073d51a06bf
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff00000003/text [39m[32m200[39m [90m27 ms - 63[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/window/rect [39m[32m200[39m [90m16 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Omitir' or . = 'Omitir') and @resource-id = 'com.naposystems.napoleonchat:id/textViewSkip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/elements [39m[32m200[39m [90m234 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff0000003e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6fae5bf6)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 1a39e518-b9c2-4345-8cc3-905f387022d4 with 6fae5bf6-bfb0-4f86-b784-7073d51a06bf
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff0000003e/location [39m[32m200[39m [90m29 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff0000003e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ed-ffff-ffff0000003e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/element/00000000-0000-00ed-ffff-ffff0000003e/click [39m[32m200[39m [90m100 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/contexts [39m[32m200[39m [90m284 ms - 70[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/appium/device/press_keycode[39m
+[35m[HTTP][39m [90m{"keycode":4}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/appium/device/press_keycode [39m[32m200[39m [90m825 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6fae5bf6-bfb0-4f86-b784-7073d51a06bf/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","noReset":false,"deviceId":"","deviceName":"samsung SM-A107M (Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"R9WN40KBXDJ","systemPort":60169},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"samsung SM-A107M (Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":60169,"appium:udid":"R9WN40KBXDJ"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: f17b0560-e5af-41ed-a52b-dc1f8398f9c7
+[35m[BaseDriver][39m Using local app 'C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Testing\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: R9WN40KBXDJ
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Testing\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.naposystems.napoleonchat'
+[35m[ADB][39m Main activity name: 'com.naposystems.napoleonchat.ui.mainActivity.MainActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.naposystems.napoleonchat was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[ADB][39m The installation of 'NapoleoN.apk' took 8592ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Testing\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Testing\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.naposystems.napoleonchat/com.naposystems.napoleonchat.ui.mainActivity.MainActivity and waiting for 'com.naposystems.napoleonchat/com.naposystems.napoleonchat.ui.mainActivity.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session f17b0560-e5af-41ed-a52b-dc1f8398f9c7 added to master session list
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '6fae5bf6-bfb0-4f86-b784-7073d51a06bf' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[ADB][39m com.naposystems.napoleonchat was successfully uninstalled
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'f17b0560-e5af-41ed-a52b-dc1f8398f9c7' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[ADB][39m com.naposystems.napoleonchat was not uninstalled, because it was not present on the device
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion parte1 y parte 2,,,,2023-06-27 14:43:03,2023-06-27 14:43:06,"2,980s",FAILED
+,,,,,,,
+Test Cases/Parte1/Agregar contacto/agregar,,,,2023-06-27 14:43:03,2023-06-27 14:43:06,"2,721s",FAILED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-27 14:43:04,2023-06-27 14:43:06,"2,081s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/agregar/android.widget.ImageView""), 1)",,,,2023-06-27 14:43:06,2023-06-27 14:43:06,"0,277s",PASSED

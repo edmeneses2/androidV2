@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-07-31 14:43:58,2023-07-31 14:47:20,"3m - 21,749s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-07-31 14:43:59,2023-07-31 14:45:06,"1m - 7,241s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23\app-qa.apk"", true)",,,,2023-07-31 14:43:59,2023-07-31 14:44:40,"40,760s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-07-31 14:44:40,2023-07-31 14:44:41,"1,468s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta""), 0)",,,,2023-07-31 14:44:41,2023-07-31 14:44:43,"1,293s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-07-31 14:44:43,2023-07-31 14:44:44,"1,656s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar""), 0)",,,,2023-07-31 14:44:44,2023-07-31 14:44:51,"7,274s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-07-31 14:44:51,2023-07-31 14:44:55,"4,039s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente""), 0)",,,,2023-07-31 14:44:55,2023-07-31 14:44:57,"1,359s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-07-31 14:44:57,2023-07-31 14:45:00,"3,290s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-07-31 14:45:00,2023-07-31 14:45:03,"2,667s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-07-31 14:45:03,2023-07-31 14:45:04,"0,972s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-31 14:45:04,2023-07-31 14:45:06,"2,039s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN217,,,,2023-07-31 14:45:06,2023-07-31 14:45:29,"23,425s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:45:06,2023-07-31 14:45:07,"0,921s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout""), 0)",,,,2023-07-31 14:45:07,2023-07-31 14:45:09,"1,818s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:45:09,2023-07-31 14:45:11,"1,942s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:45:11,2023-07-31 14:45:12,"0,995s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton""), 0)",,,,2023-07-31 14:45:12,2023-07-31 14:45:13,"1,665s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:13,2023-07-31 14:45:16,"3,012s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (3)""), 0)",,,,2023-07-31 14:45:16,2023-07-31 14:45:17,"0,354s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:17,2023-07-31 14:45:18,"0,951s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:18,2023-07-31 14:45:21,"3,010s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:21,2023-07-31 14:45:21,"0,332s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:21,2023-07-31 14:45:24,"3,004s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:24,2023-07-31 14:45:24,"0,339s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.TextView""), 0)",,,,2023-07-31 14:45:24,2023-07-31 14:45:25,"0,847s",PASSED
+pressBack(),,,,2023-07-31 14:45:25,2023-07-31 14:45:27,"1,643s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton (1)""), 0)",,,,2023-07-31 14:45:27,2023-07-31 14:45:28,"1,339s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (2)""), 0)",,,,2023-07-31 14:45:28,2023-07-31 14:45:29,"1,030s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN218,,,,2023-07-31 14:45:29,2023-07-31 14:45:54,"24,497s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:45:30,2023-07-31 14:45:31,"1,173s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout""), 0)",,,,2023-07-31 14:45:31,2023-07-31 14:45:32,"1,141s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:45:32,2023-07-31 14:45:33,"0,862s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:45:33,2023-07-31 14:45:34,"0,979s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton""), 0)",,CAPTURAR FOTO,,2023-07-31 14:45:34,2023-07-31 14:45:35,"1,139s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:35,2023-07-31 14:45:38,"3,012s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (3)""), 0)",,ROTAR,,2023-07-31 14:45:38,2023-07-31 14:45:38,"0,332s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:38,2023-07-31 14:45:39,"0,919s",PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-31 14:45:39,2023-07-31 14:45:41,"2,006s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:41,2023-07-31 14:45:41,"0,287s",PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-31 14:45:41,2023-07-31 14:45:43,"2,010s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:43,2023-07-31 14:45:44,"0,330s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:44,2023-07-31 14:45:47,"3,005s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:45:47,2023-07-31 14:45:47,"0,324s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (4)""), 0)",,,,2023-07-31 14:45:47,2023-07-31 14:45:48,"1,330s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.TextView""), 0)",,,,2023-07-31 14:45:48,2023-07-31 14:45:49,"0,310s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:49,2023-07-31 14:45:52,"3,002s",PASSED
+pressBack(),,,,2023-07-31 14:45:52,2023-07-31 14:45:52,"0,267s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton (2)""), 0)",,,,2023-07-31 14:45:52,2023-07-31 14:45:53,"0,807s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (2)""), 0)",,,,2023-07-31 14:45:53,2023-07-31 14:45:54,"0,966s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN219,,,,2023-07-31 14:45:54,2023-07-31 14:46:05,"11,120s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:45:54,2023-07-31 14:45:55,"1,232s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout""), 0)",,,,2023-07-31 14:45:55,2023-07-31 14:45:56,"1,130s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:45:56,2023-07-31 14:45:57,"0,840s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:45:57,2023-07-31 14:45:58,"0,879s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton""), 0)",,,,2023-07-31 14:45:58,2023-07-31 14:45:59,"1,110s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:45:59,2023-07-31 14:46:02,"3,003s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (1)""), 0)",,,,2023-07-31 14:46:02,2023-07-31 14:46:03,"0,311s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (2)""), 0)",,,,2023-07-31 14:46:03,2023-07-31 14:46:04,"1,971s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:46:04,2023-07-31 14:46:05,"0,381s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN220,,,,2023-07-31 14:46:05,2023-07-31 14:46:17,"11,665s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:46:05,2023-07-31 14:46:06,"1,051s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout""), 0)",,,,2023-07-31 14:46:06,2023-07-31 14:46:07,"1,091s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:46:07,2023-07-31 14:46:08,"0,844s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:46:08,2023-07-31 14:46:09,"0,928s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton""), 0)",,,,2023-07-31 14:46:09,2023-07-31 14:46:10,"1,074s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:46:10,2023-07-31 14:46:13,"3,015s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.TextView""), 0)",,,,2023-07-31 14:46:13,2023-07-31 14:46:13,"0,318s",PASSED
+pressBack(),,,,2023-07-31 14:46:13,2023-07-31 14:46:15,"1,388s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton (1)""), 0)",,,,2023-07-31 14:46:15,2023-07-31 14:46:16,"0,783s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:46:16,2023-07-31 14:46:17,"0,949s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN221,,,,2023-07-31 14:46:17,2023-07-31 14:46:31,"14,383s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:46:17,2023-07-31 14:46:18,"1,082s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout""), 0)",,,,2023-07-31 14:46:18,2023-07-31 14:46:19,"1,046s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:46:19,2023-07-31 14:46:20,"0,809s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:46:20,2023-07-31 14:46:21,"0,898s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton""), 0)",,,,2023-07-31 14:46:21,2023-07-31 14:46:22,"1,595s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:46:22,2023-07-31 14:46:25,"3,018s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN221/android.widget.TextView""), 0)",,,,2023-07-31 14:46:25,2023-07-31 14:46:27,"1,603s",PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-07-31 14:46:27,2023-07-31 14:46:29,"2,017s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.Button - CANCELAR""), 0)",,,,2023-07-31 14:46:29,2023-07-31 14:46:29,"0,278s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (1)""), 0)",,,,2023-07-31 14:46:29,2023-07-31 14:46:30,"0,836s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:46:30,2023-07-31 14:46:31,"0,917s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN222,,,,2023-07-31 14:46:31,2023-07-31 14:46:46,"14,711s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:46:31,2023-07-31 14:46:32,"0,998s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout""), 0)",,,,2023-07-31 14:46:32,2023-07-31 14:46:33,"1,100s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:46:33,2023-07-31 14:46:34,"0,839s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:46:34,2023-07-31 14:46:35,"0,911s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton""), 0)",,,,2023-07-31 14:46:35,2023-07-31 14:46:37,"1,574s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:46:37,2023-07-31 14:46:40,"3,014s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.TextView""), 0)",,,,2023-07-31 14:46:40,2023-07-31 14:46:40,"0,299s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.Button - ACEPTAR""), 0)",,,,2023-07-31 14:46:40,2023-07-31 14:46:41,"1,456s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-31 14:46:41,2023-07-31 14:46:44,"3,009s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (1)""), 0)",,,,2023-07-31 14:46:44,2023-07-31 14:46:45,"0,941s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (1)""), 0)",,,,2023-07-31 14:46:45,2023-07-31 14:46:46,"0,328s",PASSED
+,,,,,,,
+Test Cases/Parte2/Chats/CPN223,,,,2023-07-31 14:46:46,2023-07-31 14:47:20,"34,356s",FAILED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout""), 0)",,,,2023-07-31 14:46:46,2023-07-31 14:46:47,"1,046s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (1)""), 0)",,,,2023-07-31 14:46:47,2023-07-31 14:46:48,"1,047s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (2)""), 0)",,,,2023-07-31 14:46:48,2023-07-31 14:46:49,"0,824s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton""), 0)",,,,2023-07-31 14:46:49,2023-07-31 14:47:20,"31,217s",FAILED

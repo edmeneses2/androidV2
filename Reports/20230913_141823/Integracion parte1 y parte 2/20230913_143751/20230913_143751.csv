@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion parte1 y parte 2,,,,2023-09-13 14:37:58,2023-09-13 14:38:02,"4,140s",FAILED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN103,,,,2023-09-13 14:37:59,2023-09-13 14:38:02,"3,839s",FAILED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-09-13 14:37:59,2023-09-13 14:38:02,"3,103s",PASSED
+"tap(findTestObject(""Parte1/Envio de mensajes/CPN103/android.view.ViewGroup""), 0)",,,,2023-09-13 14:38:02,2023-09-13 14:38:02,"0,291s",PASSED

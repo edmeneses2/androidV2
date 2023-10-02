@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PRUEBA,,,,2023-06-01 10:48:38,2023-06-01 10:49:33,"54,830s",PASSED
+,,,,,,,
+Test Cases/Abrir_App/CPN1,,,,2023-06-01 10:48:38,2023-06-01 10:49:23,"44,863s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-06-01 10:48:39,2023-06-01 10:49:15,"36,172s",PASSED
+pressBack(),,,,2023-06-01 10:49:15,2023-06-01 10:49:15,"0,614s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-06-01 10:49:15,2023-06-01 10:49:16,"1,032s",PASSED
+"tap(findTestObject(""Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN""), 0)",,,,2023-06-01 10:49:16,2023-06-01 10:49:18,"1,786s",PASSED
+delay(2),,,,2023-06-01 10:49:18,2023-06-01 10:49:20,"2,044s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-06-01 10:49:20,2023-06-01 10:49:21,"0,874s",PASSED
+delay(2),,,,2023-06-01 10:49:21,2023-06-01 10:49:23,"2,004s",PASSED
+,,,,,,,
+Test Cases/Abrir_App/CPN2,,,,2023-06-01 10:49:23,2023-06-01 10:49:33,"9,695s",PASSED
+pressBack(),,,,2023-06-01 10:49:23,2023-06-01 10:49:24,"0,376s",PASSED
+"tap(findTestObject(""Object Repository/CPN2/android.widget.TextView - NapoleoN""), 0)",,,,2023-06-01 10:49:24,2023-06-01 10:49:25,"1,480s",PASSED
+"tap(findTestObject(""Object Repository/CPN2/android.widget.TextView - Omitir""), 0)",,,,2023-06-01 10:49:25,2023-06-01 10:49:27,"2,272s",PASSED
+"verifyElementExist(findTestObject(""Object Repository/CPN2/android.view.ViewGroup""), 0)",,,,2023-06-01 10:49:27,2023-06-01 10:49:29,"1,203s",PASSED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-06-01 10:49:29,2023-06-01 10:49:30,"1,119s",PASSED
+delay(3),,,,2023-06-01 10:49:30,2023-06-01 10:49:33,"3,009s",PASSED

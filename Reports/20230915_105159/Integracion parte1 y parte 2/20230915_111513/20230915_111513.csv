@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion parte1 y parte 2,,,,2023-09-15 11:15:18,2023-09-15 11:15:22,"4,509s",FAILED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204,,Test Case verificar modal para eliminacion de cuenta.,,2023-09-15 11:15:18,2023-09-15 11:15:22,"3,748s",FAILED
+"delay(3, STOP_ON_FAILURE)",,,,2023-09-15 11:15:19,2023-09-15 11:15:22,"3,083s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.FrameLayout (1)""), 0)",,,,2023-09-15 11:15:22,2023-09-15 11:15:22,"0,292s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN205,,Test case btn cancelar modal eliminar cuenta,,2023-09-15 11:15:22,2023-09-15 11:15:22,"0,487s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-09-15 11:15:22,2023-09-15 11:15:22,"0,063s",PASSED

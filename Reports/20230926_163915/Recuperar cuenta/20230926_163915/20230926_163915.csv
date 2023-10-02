@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Recuperar cuenta,,,,2023-09-26 16:39:22,2023-09-26 16:42:34,"3m - 11,996s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-09-26 16:39:23,2023-09-26 16:40:02,"39,678s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk"", true)",,,,2023-09-26 16:39:23,2023-09-26 16:40:01,"37,638s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-09-26 16:40:01,2023-09-26 16:40:02,"1,689s",PASSED
+,,,,,,,
+Test Cases/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24,,,,2023-09-26 16:40:02,2023-09-26 16:41:15,"1m - 12,333s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Iniciar sesin""), 0)",,,,2023-09-26 16:40:03,2023-09-26 16:40:04,"1,015s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Recuperar Cuenta""), 0)",,,,2023-09-26 16:40:04,2023-09-26 16:40:05,"1,460s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo""), 0)",,,,2023-09-26 16:40:05,2023-09-26 16:40:06,"0,663s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo (1)""), ""edwin_1324"", 0)",,,,2023-09-26 16:40:06,2023-09-26 16:40:09,"3,570s",PASSED
+hideKeyboard(),,,,2023-09-26 16:40:09,2023-09-26 16:40:13,"3,427s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar""), 0)",,,,2023-09-26 16:40:13,2023-09-26 16:40:13,"0,578s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-09-26 16:40:13,2023-09-26 16:40:18,"5,031s",PASSED
+i = 1,,,,2023-09-26 16:40:18,2023-09-26 16:40:18,"0,000s",PASSED
+while (i <= 5),,,,2023-09-26 16:40:18,2023-09-26 16:40:49,"31,193s",PASSED
+"verifyElementVisible(findTestObject(""Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Tu cuenta ha sido recuperada. Gracias por recuperar tu cuenta, ahora puedes chatear de forma privada y segura con tus contactos""), 0)",,,,2023-09-26 16:40:49,2023-09-26 16:40:52,"2,884s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Cerrar""), 0)",,,,2023-09-26 16:40:52,2023-09-26 16:40:54,"1,741s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso""), 0)",,,,2023-09-26 16:40:54,2023-09-26 16:40:58,"4,040s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso (1)""), ""0000"", 0)",,,,2023-09-26 16:40:58,2023-09-26 16:41:02,"3,799s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso""), 0)",,,,2023-09-26 16:41:02,2023-09-26 16:41:03,"0,938s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso (1)""), ""0000"", 0)",,,,2023-09-26 16:41:03,2023-09-26 16:41:06,"2,610s",PASSED
+hideKeyboard(),,,,2023-09-26 16:41:06,2023-09-26 16:41:08,"2,765s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar cuenta""), 0)",,,,2023-09-26 16:41:08,2023-09-26 16:41:09,"0,273s",PASSED
+"delay(6, STOP_ON_FAILURE)",,,,2023-09-26 16:41:09,2023-09-26 16:41:15,"6,015s",PASSED
+,,,,,,,
+Test Cases/Tutorial_nuevo,,,,2023-09-26 16:41:15,2023-09-26 16:41:22,"7,669s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-09-26 16:41:15,2023-09-26 16:41:20,"5,006s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Tutorial_nuevo/android.widget.FrameLayout""), 0)",,,,2023-09-26 16:41:20,2023-09-26 16:41:22,"2,187s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Parte1/Tutorial_nuevo/android.widget.TextView - NapoleoN""), 0)",,,,2023-09-26 16:41:22,2023-09-26 16:41:22,"0,239s",PASSED
+,,,,,,,
+Test Cases/Parte1/Recuperar_cuenta/CPN25,,,,2023-09-26 16:41:22,2023-09-26 16:41:54,"31,960s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.FrameLayout (2)""), 0)",,ESTABLECER FOTO DE PERFIL,,2023-09-26 16:41:22,2023-09-26 16:41:23,"0,320s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.ImageButton (1)""), 0)",,,,2023-09-26 16:41:23,2023-09-26 16:41:24,"1,294s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.LinearLayout""), 0)",,,,2023-09-26 16:41:24,2023-09-26 16:41:25,"1,027s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.ImageButton (2)""), 0)",,,,2023-09-26 16:41:25,2023-09-26 16:41:27,"1,669s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.Button""), 0)",,,,2023-09-26 16:41:27,2023-09-26 16:41:31,"4,165s",PASSED
+"delay(4, STOP_ON_FAILURE)",,,,2023-09-26 16:41:31,2023-09-26 16:41:35,"4,008s",PASSED
+"tap(findTestObject(""Parte1/Recuperar_cuenta/CPN25/android.widget.ImageButton (1)""), 0)",,,,2023-09-26 16:41:35,2023-09-26 16:41:35,"0,328s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.LinearLayout (1)""), 0)",,,,2023-09-26 16:41:35,2023-09-26 16:41:36,"0,877s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.ImageView (5)""), 0)",,,,2023-09-26 16:41:36,2023-09-26 16:41:37,"1,227s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.ImageView (6)""), 0)",,,,2023-09-26 16:41:37,2023-09-26 16:41:39,"1,425s",PASSED
+"tap(findTestObject(""Parte1/Recuperar_cuenta/CPN25/android.widget.ImageButton (1)""), 0)",,,,2023-09-26 16:41:39,2023-09-26 16:41:45,"6,043s",PASSED
+"tap(findTestObject(""Parte1/Recuperar_cuenta/CPN25/android.widget.FrameLayout (3)""), 0)",,,,2023-09-26 16:41:45,2023-09-26 16:41:54,"9,341s",PASSED
+,,,,,,,
+Test Cases/Parte1/Recuperar_cuenta/CPN26,,,,2023-09-26 16:41:54,2023-09-26 16:42:34,"40,069s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.FrameLayout""), 0)",,,,2023-09-26 16:41:54,2023-09-26 16:41:55,"1,019s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.ImageButton""), 0)",,,,2023-09-26 16:41:55,2023-09-26 16:41:58,"2,821s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.TextView - Ver perfil""), 0)",,,,2023-09-26 16:41:58,2023-09-26 16:42:01,"2,817s",PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-09-26 16:42:01,2023-09-26 16:42:02,"1,017s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.ImageButton (1)""), 0)",,,,2023-09-26 16:42:02,2023-09-26 16:42:02,"0,353s",PASSED
+"clearText(findTestObject(""Parte1/Recuperar_cuenta/CPN26/android.widget.EditText - android once""), 0)",,,,2023-09-26 16:42:02,2023-09-26 16:42:34,"31,784s",FAILED

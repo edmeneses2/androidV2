@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PRUEBA-CPN105.1" time="2.57" tests="1" failures="0" errors="0">
+   <testsuite name="PRUEBA-CPN105.1" tests="1" failures="0" errors="0" time="2.57" skipped="0" timestamp="2023-06-09 17:25:11" hostname="Testing - DESKTOP-OBIGNLU" id="Test Suites/PRUEBA-CPN105.1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230609_172500\\PRUEBA-CPN105.1\\20230609_172500"/>
+         <property name="logFiles" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230609_172500\\PRUEBA-CPN105.1\\20230609_172500\\appium.log, C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230609_172500\\PRUEBA-CPN105.1\\20230609_172500\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - DESKTOP-OBIGNLU"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+      </properties>
+      <testcase name="Test Cases/CPNTUTORIAL/CPNTUTORIAL" time="2.321" classname="Test Cases/CPNTUTORIAL/CPNTUTORIAL" status="INCOMPLETE">
+         <system-out><![CDATA[2023-06-09 17:25:11 - [TEST_CASE][INCOMPLETE] - Test Cases/CPNTUTORIAL/CPNTUTORIAL: null
+
+2023-06-09 17:25:11 - [TEST_STEP][INCOMPLETE] - startApplication("C:\Users\Testing\Desktop\katalon\APK SERVIDOR NUEVO\NapoleoN.apk", true): Appium server started on port 49.380
+
+2023-06-09 17:25:12 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-06-09 17:25:13 - [MESSAGE][INFO] - Appium server started on port 49.380]]></system-out>
+         <system-err><![CDATA[2023-06-09 17:25:11 - [TEST_CASE][INCOMPLETE] - Test Cases/CPNTUTORIAL/CPNTUTORIAL: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-09 17:25:11 - [TEST_SUITE][INCOMPLETE] - PRUEBA-CPN105.1: null]]></system-out>
+      <system-err><![CDATA[2023-06-09 17:25:11 - [TEST_SUITE][INCOMPLETE] - PRUEBA-CPN105.1: null]]></system-err>
+   </testsuite>
+</testsuites>

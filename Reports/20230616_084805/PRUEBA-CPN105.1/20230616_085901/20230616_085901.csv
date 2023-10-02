@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PRUEBA-CPN105.1,,,,2023-06-16 08:59:08,2023-06-16 08:59:11,"3,000s",FAILED
+,,,,,,,
+Test Cases/EnvioMensajes/CPN104,,,,2023-06-16 08:59:08,2023-06-16 08:59:11,"2,722s",FAILED
+"delay(2, STOP_ON_FAILURE)",,,,2023-06-16 08:59:09,2023-06-16 08:59:11,"2,071s",PASSED
+"tap(findTestObject(""Object Repository/CPN104/android.view.ViewGroup""), 0)",,1,,2023-06-16 08:59:11,2023-06-16 08:59:11,"0,259s",PASSED

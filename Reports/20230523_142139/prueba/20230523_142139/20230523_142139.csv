@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+prueba,,,,2023-05-23 14:21:47,2023-05-23 14:23:24,"1m - 37,240s",FAILED
+,,,,,,,
+Test Cases/ingreso,,,,2023-05-23 14:21:47,2023-05-23 14:22:49,"1m - 2,286s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-23 14:21:48,2023-05-23 14:22:24,"36,349s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.TextView - Omitir""), 0)",,,,2023-05-23 14:22:24,2023-05-23 14:22:25,"1,374s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-23 14:22:25,2023-05-23 14:22:27,"1,332s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-23 14:22:27,2023-05-23 14:22:28,"1,810s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Continuar""), 0)",,,,2023-05-23 14:22:28,2023-05-23 14:22:36,"7,970s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Apodo""), ""libre02"", 0)",,,,2023-05-23 14:22:36,2023-05-23 14:22:41,"4,995s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Siguiente""), 0)",,,,2023-05-23 14:22:41,2023-05-23 14:22:43,"1,444s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-05-23 14:22:43,2023-05-23 14:22:46,"3,194s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-05-23 14:22:46,2023-05-23 14:22:49,"2,554s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-05-23 14:22:49,2023-05-23 14:22:49,"0,885s",PASSED
+,,,,,,,
+Test Cases/agregar,,,,2023-05-23 14:22:49,2023-05-23 14:23:24,"34,694s",FAILED
+delay(2),,,,2023-05-23 14:22:50,2023-05-23 14:22:52,"2,032s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.FrameLayout""), 0)",,,,2023-05-23 14:22:52,2023-05-23 14:22:53,"1,395s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.TextView""), 0)",,,,2023-05-23 14:22:53,2023-05-23 14:23:24,"31,051s",FAILED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+prueba,,,,2023-05-23 17:02:40,2023-05-23 17:04:56,"2m - 16,416s",FAILED
+,,,,,,,
+Test Cases/ingreso,,,,2023-05-23 17:02:40,2023-05-23 17:03:54,"1m - 13,833s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-23 17:02:40,2023-05-23 17:03:18,"37,888s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.TextView - Omitir""), 0)",,,,2023-05-23 17:03:18,2023-05-23 17:03:20,"1,378s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-23 17:03:20,2023-05-23 17:03:21,"1,300s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-23 17:03:21,2023-05-23 17:03:23,"1,883s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Continuar""), 0)",,,,2023-05-23 17:03:23,2023-05-23 17:03:54,"31,049s",FAILED
+,,,,,,,
+Test Cases/agregar,,,,2023-05-23 17:03:54,2023-05-23 17:04:25,"31,116s",FAILED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView""), 0)",,,,2023-05-23 17:03:54,2023-05-23 17:04:25,"30,890s",FAILED
+,,,,,,,
+Test Cases/Mensaje,,,,2023-05-23 17:04:25,2023-05-23 17:04:56,"31,213s",FAILED
+"tap(findTestObject(""Object Repository/Mensajes/android.view.ViewGroup (1)""), 0)",,,,2023-05-23 17:04:25,2023-05-23 17:04:56,"30,990s",FAILED

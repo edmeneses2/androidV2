@@ -1,0 +1,142 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion parte1 y parte 2,,,,2023-07-17 12:45:02,2023-07-17 13:27:17,"42m - 15,164s",FAILED
+,,,,,,,
+Test Cases/Parte1/Agregar contacto/agregar,,,,2023-07-17 12:45:02,2023-07-17 12:45:05,"2,759s",FAILED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-17 12:45:03,2023-07-17 12:45:05,"2,082s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/agregar/android.widget.ImageView""), 1)",,,,2023-07-17 12:45:05,2023-07-17 12:45:05,"0,262s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN40,,,,2023-07-17 12:45:05,2023-07-17 12:45:05,"0,406s",FAILED
+"tap(findTestObject(""Parte1/Envio de mensajes/CPN40/android.widget.FrameLayout""), 100)",,,,2023-07-17 12:45:05,2023-07-17 12:45:05,"0,063s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN76,,,,2023-07-17 12:45:05,2023-07-17 12:45:06,"0,322s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Envio de mensajes/CPN76/android.widget.FrameLayout""), 1)",,,,2023-07-17 12:45:06,2023-07-17 12:45:06,"0,072s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN85,,,,2023-07-17 12:45:06,2023-07-17 12:45:10,"4,308s",FAILED
+"delay(4, CONTINUE_ON_FAILURE)",,,,2023-07-17 12:45:06,2023-07-17 12:45:10,"4,029s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Envio de mensajes/CPN85/android.view.ViewGroup""), 0)",,,,2023-07-17 12:45:10,2023-07-17 12:45:10,"0,042s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN94,,,,2023-07-17 12:45:10,2023-07-17 12:45:13,"2,806s",FAILED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-17 12:45:11,2023-07-17 12:45:13,"2,007s",PASSED
+"tap(findTestObject(""Parte1/Envio de mensajes/CPN94/android.view.ViewGroup""), 0)",,abrir chat,,2023-07-17 12:45:13,2023-07-17 12:45:13,"0,041s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN103,,,,2023-07-17 12:45:13,2023-07-17 12:45:16,"3,226s",FAILED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-17 12:45:13,2023-07-17 12:45:16,"3,014s",PASSED
+"tap(findTestObject(""Parte1/Envio de mensajes/CPN103/android.view.ViewGroup""), 0)",,,,2023-07-17 12:45:16,2023-07-17 12:45:16,"0,036s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN104,,,,2023-07-17 12:45:16,2023-07-17 13:26:59,"41m - 42,872s",FAILED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2023-07-17 12:45:16,2023-07-17 13:26:59,"41m - 42,298s",PASSED
+"tap(findTestObject(""Parte1/Envio de mensajes/CPN104/android.view.ViewGroup""), 0)",,1,,2023-07-17 13:26:59,2023-07-17 13:26:59,"0,355s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN105,,,,2023-07-17 13:26:59,2023-07-17 13:27:00,"1,125s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Envio de mensajes/CPN105/android.view.ViewGroup""), 0)",,1,,2023-07-17 13:27:00,2023-07-17 13:27:00,"0,124s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN105.1,,,,2023-07-17 13:27:00,2023-07-17 13:27:03,"2,836s",FAILED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-17 13:27:01,2023-07-17 13:27:03,"2,041s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Envio de mensajes/CPN105.1/android.view.ViewGroup""), 0)",,,,2023-07-17 13:27:03,2023-07-17 13:27:03,"0,087s",PASSED
+,,,,,,,
+Test Cases/Eliminar_conversacion,,,,2023-07-17 13:27:03,2023-07-17 13:27:08,"5,252s",FAILED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-07-17 13:27:03,2023-07-17 13:27:08,"5,000s",PASSED
+"tapAndHold(findTestObject(""Parte1/Eliminar_conversacion/android.view.ViewGroup""), 2, 1)",,,,2023-07-17 13:27:08,2023-07-17 13:27:08,"0,033s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159,,"Valdación de campos nuevo pin de acceso y confirmacion de pin: ""El pin de acceso no coincide""",pin de acceso,2023-07-17 13:27:08,2023-07-17 13:27:09,"0,393s",FAILED
+"delay(0, STOP_ON_FAILURE)",,,,2023-07-17 13:27:09,2023-07-17 13:27:09,"0,000s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.FrameLayout (1)""), 0)",,,,2023-07-17 13:27:09,2023-07-17 13:27:09,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160,,"Valdación de campo pin de acceso antiguo: ""Pin de acceso no corresponde""",,2023-07-17 13:27:09,2023-07-17 13:27:09,"0,299s",FAILED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""1234"", 0)",,,,2023-07-17 13:27:09,2023-07-17 13:27:09,"0,057s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161,,,,2023-07-17 13:27:09,2023-07-17 13:27:09,"0,337s",FAILED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""0000"", 0)",,,,2023-07-17 13:27:09,2023-07-17 13:27:09,"0,070s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162,,Test case ver modal con las opciones de desbloqueo,,2023-07-17 13:27:09,2023-07-17 13:27:10,"0,277s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.TextView - Opciones de desbloqueo""), 0)",,,,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163,,"Test case validacion visual(manual) toast con alerta de ""El dispositivo no tiene asignado un desbloqueo biometrico""",,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,224s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioButton - Pin  Huella dactilar""), 0)",,,,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,036s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169,,"Seleccionar tiempo para solicitud de pin de acceso ""inmediatamente""",,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,377s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170,,Seleccionar tiempo para pin de acceso en 10 segundos,,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,223s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-07-17 13:27:10,2023-07-17 13:27:10,"0,044s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN171,,Configurar tiempo para solicitud de pin de acceso en 30 segundos,,2023-07-17 13:27:10,2023-07-17 13:27:11,"0,220s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,042s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN172,,Tiempo para solicitud de pin de acceso en 1 minuto,,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,204s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,031s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN173,,Tiempo para solicitud de pin de acceso en 5 minutos,,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,220s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN174,,"Tiempo para la solicitud de pin de acceso ""1 hora""",,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,267s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:11,2023-07-17 13:27:11,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN175,,"Tiempo para la solicitud de pin de acceso ""1 día""",,2023-07-17 13:27:11,2023-07-17 13:27:12,"0,233s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,044s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN176,,"Tiempo para la solicitud de pin de acceso ""Nunca""",,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,220s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,031s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN177,,Seleccionar la opción 10 segundos y seguido boton cancelar,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,204s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN178,,Seleccionar la opción 30 segundos y seguido boton cancelar,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,220s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN179,,Seleccionar la opción 1 minuto y seguido boton cancelar,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,221s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:12,2023-07-17 13:27:12,"0,028s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN180,,Seleccionar la opción 5 minutos y seguido boton cancelar,,2023-07-17 13:27:12,2023-07-17 13:27:13,"0,207s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,033s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN181,,Seleccionar la opción 1 hora y seguido boton cancelar,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,221s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,048s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN182,,Seleccionar la opción 1 día y seguido boton cancelar,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,237s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN183,,Seleccionar la opción nunca y seguido boton cancelar,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,220s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-07-17 13:27:13,2023-07-17 13:27:13,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Contactos Bloqueados/CPN184,,Visualizar Contactos bloquados,,2023-07-17 13:27:13,2023-07-17 13:27:14,"0,204s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.TextView - Contactos bloqueados""), 0)",,,,2023-07-17 13:27:13,2023-07-17 13:27:14,"0,031s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN187,,Cambio de idioma a Deutsch,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,219s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma""), 0)",,,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,045s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN188,,Cambio de idioma a Francais,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,220s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Franais""), 0)",,,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN189,,Cambio de idioma a English,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,219s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - English""), 0)",,,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,031s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN190,,Cambio de idioma a Italiano,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,250s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Italiano""), 0)",,,,2023-07-17 13:27:14,2023-07-17 13:27:14,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN191,,Portugues,,2023-07-17 13:27:14,2023-07-17 13:27:15,"0,266s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Portugus""), 0)",,,,2023-07-17 13:27:15,2023-07-17 13:27:15,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN192,,Cambio de idioma a Español,,2023-07-17 13:27:15,2023-07-17 13:27:15,"0,290s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Espaol""), 0)",,,,2023-07-17 13:27:15,2023-07-17 13:27:15,"0,071s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN193,,"Test case terminos, condiciones y politicas de privacidad de Recuperar Cuenta",,2023-07-17 13:27:15,2023-07-17 13:27:15,"0,298s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Recuperar Cuenta""), 0)",,,,2023-07-17 13:27:15,2023-07-17 13:27:15,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194,,Test case recuperar cuenta fallida por desconexion de internet,,2023-07-17 13:27:15,2023-07-17 13:27:16,"0,266s",FAILED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-07-17 13:27:16,2023-07-17 13:27:16,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN195,,Test case recuperar cuenta exitoso,,2023-07-17 13:27:16,2023-07-17 13:27:16,"0,395s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar (1)""), 0)",,,,2023-07-17 13:27:16,2023-07-17 13:27:16,"0,035s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN196,,Test case verificar modal de advertencia de modificacion preguntas de recuperar cuenta,,2023-07-17 13:27:16,2023-07-17 13:27:16,"0,293s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar""), 0)",,,,2023-07-17 13:27:16,2023-07-17 13:27:16,"0,057s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN197,,Test case verificar el funcionamiento del boton cancelar en el modal de advertencia.,,2023-07-17 13:27:16,2023-07-17 13:27:17,"0,282s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-07-17 13:27:17,2023-07-17 13:27:17,"0,047s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN198,,Test case verificar el funcionamiento del boton aceptar en el modal de advertencia.,,2023-07-17 13:27:17,2023-07-17 13:27:17,"0,282s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar""), 0)",,,,2023-07-17 13:27:17,2023-07-17 13:27:17,"0,048s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN199,,Test case verificacion manual al no seleccionar ninguna pregunta de seguridad al dar clic en el boton siguiente,,2023-07-17 13:27:17,2023-07-17 13:27:17,"0,322s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente""), 0)",,,,2023-07-17 13:27:17,2023-07-17 13:27:17,"0,024s",PASSED

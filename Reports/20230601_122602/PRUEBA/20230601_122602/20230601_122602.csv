@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PRUEBA,,,,2023-06-01 12:26:12,2023-06-01 12:28:51,"2m - 39,612s",FAILED
+,,,,,,,
+Test Cases/Abrir_App/CPN1,,,,2023-06-01 12:26:12,2023-06-01 12:27:00,"47,552s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-06-01 12:26:13,2023-06-01 12:26:52,"39,682s",PASSED
+pressBack(),,,,2023-06-01 12:26:52,2023-06-01 12:26:53,"0,638s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-06-01 12:26:53,2023-06-01 12:26:54,"1,376s",PASSED
+"tap(findTestObject(""Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN""), 0)",,,,2023-06-01 12:26:54,2023-06-01 12:26:56,"2,157s",PASSED
+delay(2),,,,2023-06-01 12:26:56,2023-06-01 12:26:58,"2,072s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-06-01 12:26:58,2023-06-01 12:27:00,"1,067s",PASSED
+,,,,,,,
+Test Cases/Abrir_App/CPN2,,,,2023-06-01 12:27:00,2023-06-01 12:27:08,"8,509s",PASSED
+pressBack(),,,,2023-06-01 12:27:00,2023-06-01 12:27:00,"0,313s",PASSED
+pressBack(),,,,2023-06-01 12:27:00,2023-06-01 12:27:01,"0,985s",PASSED
+"tap(findTestObject(""Object Repository/CPN2/android.widget.TextView - NapoleoN""), 0)",,,,2023-06-01 12:27:01,2023-06-01 12:27:03,"1,565s",PASSED
+"tap(findTestObject(""Object Repository/CPN2/android.widget.TextView - Omitir""), 0)",,,,2023-06-01 12:27:03,2023-06-01 12:27:05,"1,793s",PASSED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-06-01 12:27:05,2023-06-01 12:27:06,"1,391s",PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-06-01 12:27:06,2023-06-01 12:27:08,"2,004s",PASSED
+,,,,,,,
+Test Cases/Abrir_App/CPN3,,,,2023-06-01 12:27:08,2023-06-01 12:27:54,"45,844s",FAILED
+pressBack(),,,,2023-06-01 12:27:08,2023-06-01 12:27:09,"0,394s",PASSED
+pressBack(),,,,2023-06-01 12:27:09,2023-06-01 12:27:10,"0,977s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-06-01 12:27:10,2023-06-01 12:27:11,"1,056s",PASSED
+delay(5),,,,2023-06-01 12:27:11,2023-06-01 12:27:16,"5,019s",PASSED
+"tap(findTestObject(""Abrir_App/CPN1/android.widget.TextView - NapoleoN""), 0)",,,,2023-06-01 12:27:16,2023-06-01 12:27:16,"0,541s",PASSED
+"tap(findTestObject(""Abrir_App/CPN3/android.widget.Button - Crear Cuenta""), 0)",,,,2023-06-01 12:27:16,2023-06-01 12:27:18,"1,658s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-06-01 12:27:18,2023-06-01 12:27:20,"1,429s",PASSED
+delay(3),,,,2023-06-01 12:27:20,2023-06-01 12:27:23,"3,011s",PASSED
+"tap(findTestObject(""Object Repository/Abrir_App/CPN3/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-06-01 12:27:23,2023-06-01 12:27:54,"31,384s",FAILED
+,,,,,,,
+Test Cases/INICIA_SESION_APODO_INEXISTENTE3.1/CPN21,,,,2023-06-01 12:27:54,2023-06-01 12:28:29,"35,375s",FAILED
+"tap(findTestObject(""Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.ImageButton""), 0)",,,,2023-06-01 12:27:54,2023-06-01 12:27:55,"0,316s",PASSED
+"tap(findTestObject(""Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Iniciar sesin""), 0)",,,,2023-06-01 12:27:55,2023-06-01 12:27:56,"1,163s",PASSED
+"verifyElementText(findTestObject(""Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Recuperar Cuenta""), ""Recuperar Cuenta"")",,,,2023-06-01 12:27:56,2023-06-01 12:28:29,"33,499s",FAILED
+,,,,,,,
+Test Cases/INICIA_SESION_APODO_EXISTENTE3.2/CPN22,,,,2023-06-01 12:28:29,2023-06-01 12:28:51,"21,874s",FAILED
+"tap(findTestObject(""Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo""), 0)",,,,2023-06-01 12:28:30,2023-06-01 12:28:51,"21,339s",FAILED

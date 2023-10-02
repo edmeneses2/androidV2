@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prueba integracion" time="381.982" tests="44" failures="0" errors="0">
+   <testsuite name="Prueba integracion" tests="44" failures="0" errors="0" time="381.982" skipped="0" timestamp="2023-06-23 12:10:36" hostname="Testing - DESKTOP-OBIGNLU" id="Test Suites/Prueba integracion">
+      <properties>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230623_121031\\Prueba integracion\\20230623_121031"/>
+         <property name="logFiles" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230623_121031\\Prueba integracion\\20230623_121031\\appium.log, C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230623_121031\\Prueba integracion\\20230623_121031\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - DESKTOP-OBIGNLU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A107M"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9WN40KBXDJ"/>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/ingreso para prueba" time="63.154" classname="Test Cases/ingreso para prueba" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:10:36 - [TEST_CASE][PASSED] - Test Cases/ingreso para prueba: Test Cases/ingreso para prueba
+
+2023-06-23 12:10:37 - [TEST_STEP][PASSED] - startApplication("C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk", true): Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-06-23 12:10:37 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-06-23 12:10:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-06-23 12:10:39 - [MESSAGE][INFO] - Appium server started on port 62.674
+
+2023-06-23 12:11:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-06-23 12:11:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir'
+
+2023-06-23 12:11:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir'
+
+2023-06-23 12:11:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta'
+
+2023-06-23 12:11:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta'
+
+2023-06-23 12:11:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro'
+
+2023-06-23 12:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro'
+
+2023-06-23 12:11:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar'
+
+2023-06-23 12:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar'
+
+2023-06-23 12:11:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo"), "libre024", 0): Text 'libre024' has been set to element 'Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo'
+
+2023-06-23 12:11:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:30 - [MESSAGE][PASSED] - Text 'libre024' has been set to element 'Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo'
+
+2023-06-23 12:11:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente'
+
+2023-06-23 12:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente'
+
+2023-06-23 12:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso"), "0000", 0): Text '0000' has been set to element 'Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso'
+
+2023-06-23 12:11:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:34 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso'
+
+2023-06-23 12:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso"), "0000", 0): Text '0000' has been set to element 'Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-23 12:11:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:37 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-23 12:11:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)'
+
+2023-06-23 12:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)'
+
+2023-06-23 12:11:38 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-06-23 12:11:40 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159" time="13.953" classname="Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:11:40 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159: Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159
+
+2023-06-23 12:11:40 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.FrameLayout (1)'
+
+2023-06-23 12:11:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.FrameLayout (1)'
+
+2023-06-23 12:11:41 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:11:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:11:42 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)'
+
+2023-06-23 12:11:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)'
+
+2023-06-23 12:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo"), "0000", 0): Text '0000' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo'
+
+2023-06-23 12:11:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:47 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo'
+
+2023-06-23 12:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso"), "1234", 0): Text '1234' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso'
+
+2023-06-23 12:11:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:48 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso'
+
+2023-06-23 12:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso"), "4321", 0): Text '4321' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-23 12:11:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:50 - [MESSAGE][PASSED] - Text '4321' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-23 12:11:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar'
+
+2023-06-23 12:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar'
+
+2023-06-23 12:11:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide"), "El pin de acceso no coincide"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide' are matched.
+
+2023-06-23 12:11:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide' are matched.
+
+2023-06-23 12:11:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide (1)"), "El pin de acceso no coincide"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide (1)' are matched.
+
+2023-06-23 12:11:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide (1)' are matched.
+
+2023-06-23 12:11:52 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton'
+
+2023-06-23 12:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton'
+
+2023-06-23 12:11:53 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)'
+
+2023-06-23 12:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160" time="9.77" classname="Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:11:54 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160: Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160
+
+2023-06-23 12:11:54 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo"), "1234", 0): Text '1234' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo'
+
+2023-06-23 12:11:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:56 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo'
+
+2023-06-23 12:11:56 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso"), "1111", 0): Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso'
+
+2023-06-23 12:11:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:11:58 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso'
+
+2023-06-23 12:11:58 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso"), "1111", 0): Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-23 12:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:00 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-23 12:12:00 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar'
+
+2023-06-23 12:12:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar'
+
+2023-06-23 12:12:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - Pin de acceso no corresponde"), "Pin de acceso no corresponde"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - Pin de acceso no corresponde' are matched.
+
+2023-06-23 12:12:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - Pin de acceso no corresponde' are matched.
+
+2023-06-23 12:12:02 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton'
+
+2023-06-23 12:12:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton'
+
+2023-06-23 12:12:03 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)'
+
+2023-06-23 12:12:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161" time="6.879" classname="Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:12:03 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161: Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161
+
+2023-06-23 12:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo"), "0000", 0): Text '0000' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo'
+
+2023-06-23 12:12:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:06 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo'
+
+2023-06-23 12:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso"), "1111", 0): Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso'
+
+2023-06-23 12:12:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:08 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso'
+
+2023-06-23 12:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso (1)"), "1111", 0): Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso (1)'
+
+2023-06-23 12:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:10 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso (1)'
+
+2023-06-23 12:12:10 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar'
+
+2023-06-23 12:12:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162" time="6.706" classname="Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:12:10 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162: Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162
+
+2023-06-23 12:12:10 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.TextView - Opciones de desbloqueo"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.TextView - Opciones de desbloqueo'
+
+2023-06-23 12:12:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.TextView - Opciones de desbloqueo'
+
+2023-06-23 12:12:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioGroup' is exist
+
+2023-06-23 12:12:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:12 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioGroup' is exist
+
+2023-06-23 12:12:12 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-06-23 12:12:17 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163" time="6.334" classname="Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:12:17 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163: Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163
+
+2023-06-23 12:12:17 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioButton - Pin  Huella dactilar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioButton - Pin  Huella dactilar'
+
+2023-06-23 12:12:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioButton - Pin  Huella dactilar'
+
+2023-06-23 12:12:17 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.Button - Aceptar'
+
+2023-06-23 12:12:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.Button - Aceptar'
+
+2023-06-23 12:12:18 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-06-23 12:12:23 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169" time="12.938" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:12:23 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169
+
+2023-06-23 12:12:24 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:12:24 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente'
+
+2023-06-23 12:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente'
+
+2023-06-23 12:12:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:12:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:26 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:12:26 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:12:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:12:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:12:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:12:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:12:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:12:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:12:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:12:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:12:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:12:30 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:12:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:32 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:12:32 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:32 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:33 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:34 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup' is exist
+
+2023-06-23 12:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:36 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170" time="22.839" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:12:36 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170
+
+2023-06-23 12:12:36 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:12:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:12:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:12:38 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:12:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:12:39 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos'
+
+2023-06-23 12:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos'
+
+2023-06-23 12:12:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:40 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:12:40 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:12:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 10 Segundos"), "10 Segundos"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 10 Segundos' are matched.
+
+2023-06-23 12:12:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 10 Segundos' are matched.
+
+2023-06-23 12:12:41 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:12:42 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:12:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:12:42 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:12:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:12:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:12:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-23 12:12:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-23 12:12:54 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:12:54 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:55 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:12:55 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:56 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:57 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:57 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:12:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup' is exist
+
+2023-06-23 12:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:12:59 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN171" time="42.905" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN171" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:12:59 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN171: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN171
+
+2023-06-23 12:12:59 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:13:00 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:13:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:13:01 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:02 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos'
+
+2023-06-23 12:13:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos'
+
+2023-06-23 12:13:03 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:13:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:03 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:13:03 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 30 segundos"), "30 segundos"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 30 segundos' are matched.
+
+2023-06-23 12:13:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 30 segundos' are matched.
+
+2023-06-23 12:13:04 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:13:05 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:13:05 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:13:05 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:13:05 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:13:07 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:13:07 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-06-23 12:13:37 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-06-23 12:13:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:13:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:38 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:13:38 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:39 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:39 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:41 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)'
+
+2023-06-23 12:13:41 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup' is exist
+
+2023-06-23 12:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:42 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN172" time="4.853" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN172" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:13:42 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN172: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN172
+
+2023-06-23 12:13:42 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:13:42 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:13:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:13:44 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:44 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto'
+
+2023-06-23 12:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto'
+
+2023-06-23 12:13:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:13:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:46 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:13:46 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 minuto"), "1 minuto"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 minuto' are matched.
+
+2023-06-23 12:13:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 minuto' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN173" time="2.894" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN173" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:13:47 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN173: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN173
+
+2023-06-23 12:13:47 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:47 - [TEST_STEP][PASSED] - checkElement(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos' is checked
+
+2023-06-23 12:13:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:48 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos' is checked
+
+2023-06-23 12:13:48 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 5 minutos"), "5 minutos"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 5 minutos' are matched.
+
+2023-06-23 12:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 5 minutos' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN174" time="2.872" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN174" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:13:50 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN174: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN174
+
+2023-06-23 12:13:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:50 - [TEST_STEP][PASSED] - checkElement(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora' is checked
+
+2023-06-23 12:13:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:51 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora' is checked
+
+2023-06-23 12:13:51 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 hora"), "1 hora"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 hora' are matched.
+
+2023-06-23 12:13:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 hora' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN175" time="5.686" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN175" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:13:53 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN175: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN175
+
+2023-06-23 12:13:53 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:53 - [TEST_STEP][PASSED] - scrollToText("1 día", STOP_ON_FAILURE): Scrolling to text '1 día' successfully
+
+2023-06-23 12:13:56 - [MESSAGE][PASSED] - Scrolling to text '1 día' successfully
+
+2023-06-23 12:13:56 - [TEST_STEP][PASSED] - checkElement(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da' is checked
+
+2023-06-23 12:13:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:57 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da' is checked
+
+2023-06-23 12:13:57 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:13:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 da"), "1 día"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 da' are matched.
+
+2023-06-23 12:13:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 da' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN176" time="10.256" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN176" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:13:58 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN176: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN176
+
+2023-06-23 12:13:59 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:13:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:13:59 - [TEST_STEP][PASSED] - scrollToText("Nunca", STOP_ON_FAILURE): Scrolling to text 'Nunca' successfully
+
+2023-06-23 12:14:02 - [MESSAGE][PASSED] - Scrolling to text 'Nunca' successfully
+
+2023-06-23 12:14:02 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca'
+
+2023-06-23 12:14:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca'
+
+2023-06-23 12:14:03 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:14:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:14:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Nunca"), "Nunca"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Nunca' are matched.
+
+2023-06-23 12:14:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Nunca' are matched.
+
+2023-06-23 12:14:04 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:14:05 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:14:05 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:14:05 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:14:05 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:14:07 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-23 12:14:07 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:14:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN'
+
+2023-06-23 12:14:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:14:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:09 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN177" time="6.981" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN177" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:09 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN177: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN177
+
+2023-06-23 12:14:09 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout'
+
+2023-06-23 12:14:09 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout'
+
+2023-06-23 12:14:10 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:11 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente'
+
+2023-06-23 12:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente'
+
+2023-06-23 12:14:12 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:14:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:14:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:13 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:13 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos'
+
+2023-06-23 12:14:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos'
+
+2023-06-23 12:14:14 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN178" time="2.7" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN178" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:16 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN178: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN178
+
+2023-06-23 12:14:16 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:16 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos'
+
+2023-06-23 12:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos'
+
+2023-06-23 12:14:17 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN179" time="2.635" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN179" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:18 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN179: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN179
+
+2023-06-23 12:14:18 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:19 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto'
+
+2023-06-23 12:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto'
+
+2023-06-23 12:14:20 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN180" time="2.762" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN180" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:21 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN180: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN180
+
+2023-06-23 12:14:21 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:21 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos'
+
+2023-06-23 12:14:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos'
+
+2023-06-23 12:14:23 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN181" time="2.655" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN181" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:24 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN181: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN181
+
+2023-06-23 12:14:24 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:24 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora'
+
+2023-06-23 12:14:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora'
+
+2023-06-23 12:14:25 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN182" time="5.383" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN182" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:26 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN182: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN182
+
+2023-06-23 12:14:27 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:27 - [TEST_STEP][PASSED] - scrollToText("1 día", STOP_ON_FAILURE): Scrolling to text '1 día' successfully
+
+2023-06-23 12:14:30 - [MESSAGE][PASSED] - Scrolling to text '1 día' successfully
+
+2023-06-23 12:14:30 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da'
+
+2023-06-23 12:14:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da'
+
+2023-06-23 12:14:30 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN183" time="7.274" classname="Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN183" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:32 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN183: Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN183
+
+2023-06-23 12:14:32 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:32 - [TEST_STEP][PASSED] - scrollToText("Nunca", STOP_ON_FAILURE): Scrolling to text 'Nunca' successfully
+
+2023-06-23 12:14:35 - [MESSAGE][PASSED] - Scrolling to text 'Nunca' successfully
+
+2023-06-23 12:14:35 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca'
+
+2023-06-23 12:14:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca'
+
+2023-06-23 12:14:36 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar'
+
+2023-06-23 12:14:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente"), "Inmediatamente"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente' are matched.
+
+2023-06-23 12:14:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso'
+
+2023-06-23 12:14:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos'
+
+2023-06-23 12:14:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos'
+
+2023-06-23 12:14:38 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar'
+
+2023-06-23 12:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Contactos Bloqueados/CPN184" time="1.727" classname="Test Cases/Parte2/Ajustes/Cuenta/Contactos Bloqueados/CPN184" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:39 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Contactos Bloqueados/CPN184: Test Cases/Parte2/Ajustes/Cuenta/Contactos Bloqueados/CPN184
+
+2023-06-23 12:14:39 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.TextView - Contactos bloqueados"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.TextView - Contactos bloqueados'
+
+2023-06-23 12:14:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.TextView - Contactos bloqueados'
+
+2023-06-23 12:14:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.view.ViewGroup' is exist
+
+2023-06-23 12:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:40 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.view.ViewGroup' is exist
+
+2023-06-23 12:14:40 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.ImageButton'
+
+2023-06-23 12:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.ImageButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN187" time="3.534" classname="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN187" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:41 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN187: Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN187
+
+2023-06-23 12:14:41 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma'
+
+2023-06-23 12:14:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma'
+
+2023-06-23 12:14:42 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Deutsch"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Deutsch'
+
+2023-06-23 12:14:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Deutsch'
+
+2023-06-23 12:14:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup' is exist
+
+2023-06-23 12:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:44 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup' is exist
+
+2023-06-23 12:14:44 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Sprache"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Sprache'
+
+2023-06-23 12:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Sprache']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN188" time="2.416" classname="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN188" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:44 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN188: Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN188
+
+2023-06-23 12:14:44 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Franais"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Franais'
+
+2023-06-23 12:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Franais'
+
+2023-06-23 12:14:45 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:46 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:46 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Langage"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Langage'
+
+2023-06-23 12:14:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Langage']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN189" time="2.41" classname="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN189" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:47 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN189: Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN189
+
+2023-06-23 12:14:47 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - English"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - English'
+
+2023-06-23 12:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - English'
+
+2023-06-23 12:14:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:49 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:49 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Language"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Language'
+
+2023-06-23 12:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Language']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN190" time="2.43" classname="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN190" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:49 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN190: Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN190
+
+2023-06-23 12:14:49 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Italiano"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Italiano'
+
+2023-06-23 12:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Italiano'
+
+2023-06-23 12:14:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:51 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:51 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Lingua"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Lingua'
+
+2023-06-23 12:14:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Lingua']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN191" time="2.445" classname="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN191" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:52 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN191: Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN191
+
+2023-06-23 12:14:52 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Portugus"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Portugus'
+
+2023-06-23 12:14:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Portugus'
+
+2023-06-23 12:14:54 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:54 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:54 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma (1)'
+
+2023-06-23 12:14:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN192" time="2.09" classname="Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN192" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:54 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN192: Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN192
+
+2023-06-23 12:14:54 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Espaol"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Espaol'
+
+2023-06-23 12:14:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Espaol'
+
+2023-06-23 12:14:55 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist
+
+2023-06-23 12:14:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:56 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN193" time="12.175" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN193" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:14:56 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN193: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN193
+
+2023-06-23 12:14:56 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Recuperar Cuenta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Recuperar Cuenta'
+
+2023-06-23 12:14:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Recuperar Cuenta'
+
+2023-06-23 12:14:57 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - trminos, condiciones y polticas de privacidad"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - trminos, condiciones y polticas de privacidad'
+
+2023-06-23 12:14:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:14:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - trminos, condiciones y polticas de privacidad'
+
+2023-06-23 12:14:57 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-06-23 12:15:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-23 12:15:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Trminos, condiciones y polticas de privacidad de datos de la app Napoleon chat"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Trminos, condiciones y polticas de privacidad de datos de la app Napoleon chat' is exist
+
+2023-06-23 12:15:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:08 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Trminos, condiciones y polticas de privacidad de datos de la app Napoleon chat' is exist
+
+2023-06-23 12:15:08 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-23 12:15:08 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194" time="35.451" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:15:08 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194
+
+2023-06-23 12:15:09 - [TEST_STEP][PASSED] - toggleWifi("off", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-23 12:15:10 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-23 12:15:10 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-06-23 12:15:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-23 12:15:20 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar'
+
+2023-06-23 12:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar'
+
+2023-06-23 12:15:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup' is exist
+
+2023-06-23 12:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:21 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup' is exist
+
+2023-06-23 12:15:21 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:15:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:15:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (2)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (2)' is exist
+
+2023-06-23 12:15:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:22 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (2)' is exist
+
+2023-06-23 12:15:22 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar'
+
+2023-06-23 12:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar'
+
+2023-06-23 12:15:23 - [TEST_STEP][PASSED] - toggleWifi("on", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-23 12:15:24 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-23 12:15:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2023-06-23 12:15:44 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN195" time="15.973" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN195" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:15:44 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN195: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN195
+
+2023-06-23 12:15:44 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar (1)'
+
+2023-06-23 12:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar (1)'
+
+2023-06-23 12:15:44 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta'
+
+2023-06-23 12:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta'
+
+2023-06-23 12:15:46 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es el mes de nacimiento de tu padre"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es el mes de nacimiento de tu padre'
+
+2023-06-23 12:15:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es el mes de nacimiento de tu padre'
+
+2023-06-23 12:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta"), "test1", 0): Text 'test1' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta'
+
+2023-06-23 12:15:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:49 - [MESSAGE][PASSED] - Text 'test1' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta'
+
+2023-06-23 12:15:49 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)'
+
+2023-06-23 12:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)'
+
+2023-06-23 12:15:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta'
+
+2023-06-23 12:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta'
+
+2023-06-23 12:15:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es la marca de tu computador"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es la marca de tu computador'
+
+2023-06-23 12:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es la marca de tu computador'
+
+2023-06-23 12:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)"), "test2", 0): Text 'test2' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)'
+
+2023-06-23 12:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:53 - [MESSAGE][PASSED] - Text 'test2' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)'
+
+2023-06-23 12:15:53 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)'
+
+2023-06-23 12:15:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)'
+
+2023-06-23 12:15:54 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta (1)'
+
+2023-06-23 12:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta (1)'
+
+2023-06-23 12:15:54 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu profesin"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu profesin'
+
+2023-06-23 12:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu profesin'
+
+2023-06-23 12:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)"), "test3", 0): Text 'test3' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)'
+
+2023-06-23 12:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:57 - [MESSAGE][PASSED] - Text 'test3' has been set to element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)'
+
+2023-06-23 12:15:57 - [TEST_STEP][PASSED] - scrollToText("Finalizar", STOP_ON_FAILURE): Scrolling to text 'Finalizar' successfully
+
+2023-06-23 12:15:58 - [MESSAGE][PASSED] - Scrolling to text 'Finalizar' successfully
+
+2023-06-23 12:15:58 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Finalizar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Finalizar'
+
+2023-06-23 12:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:15:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Finalizar'
+
+2023-06-23 12:15:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar"), "Editar"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar' are matched.
+
+2023-06-23 12:16:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN196" time="1.036" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN196" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:00 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN196: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN196
+
+2023-06-23 12:16:00 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar'
+
+2023-06-23 12:16:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar'
+
+2023-06-23 12:16:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)' is exist
+
+2023-06-23 12:16:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:01 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN197" time="0.45" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN197" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:01 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN197: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN197
+
+2023-06-23 12:16:01 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:16:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN198" time="3.786" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN198" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:01 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN198: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN198
+
+2023-06-23 12:16:01 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar'
+
+2023-06-23 12:16:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar'
+
+2023-06-23 12:16:03 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Aceptar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Aceptar'
+
+2023-06-23 12:16:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Aceptar'
+
+2023-06-23 12:16:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.FrameLayout (1)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.FrameLayout (1)' is exist
+
+2023-06-23 12:16:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:05 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.FrameLayout (1)' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN199" time="0.51" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN199" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:05 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN199: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN199
+
+2023-06-23 12:16:05 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente'
+
+2023-06-23 12:16:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/cpn198.1" time="8.196" classname="Test Cases/cpn198.1" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:05 - [TEST_CASE][PASSED] - Test Cases/cpn198.1: Test Cases/cpn198.1
+
+2023-06-23 12:16:06 - [TEST_STEP][PASSED] - delay(8, CONTINUE_ON_FAILURE): Delayed 8 second(s)
+
+2023-06-23 12:16:14 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN200" time="3.447" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN200" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:14 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN200: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN200
+
+2023-06-23 12:16:14 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta'
+
+2023-06-23 12:16:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta'
+
+2023-06-23 12:16:14 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu tipo de comida favorita"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu tipo de comida favorita'
+
+2023-06-23 12:16:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu tipo de comida favorita'
+
+2023-06-23 12:16:16 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente'
+
+2023-06-23 12:16:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente'
+
+2023-06-23 12:16:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - El campo no puede estar vaco"), "El campo no puede estar vacío"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - El campo no puede estar vaco' are matched.
+
+2023-06-23 12:16:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - El campo no puede estar vaco' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN201" time="1.129" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN201" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:17 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN201: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN201
+
+2023-06-23 12:16:17 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:16:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)' is exist
+
+2023-06-23 12:16:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:18 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN202" time="0.43" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN202" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:18 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN202: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN202
+
+2023-06-23 12:16:18 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cerrar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cerrar'
+
+2023-06-23 12:16:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cerrar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN203" time="2.445" classname="Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN203" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:19 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN203: Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN203
+
+2023-06-23 12:16:19 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:16:19 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar (1)'
+
+2023-06-23 12:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar (1)'
+
+2023-06-23 12:16:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar"), "Editar"): Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar' are matched.
+
+2023-06-23 12:16:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar' are matched.
+
+2023-06-23 12:16:21 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.ImageButton'
+
+2023-06-23 12:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.ImageButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204" time="1.476" classname="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:21 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204: Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204
+
+2023-06-23 12:16:21 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta'
+
+2023-06-23 12:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta'
+
+2023-06-23 12:16:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.view.ViewGroup' is exist
+
+2023-06-23 12:16:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:23 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.view.ViewGroup' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN205" time="0.41" classname="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN205" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:23 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN205: Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN205
+
+2023-06-23 12:16:23 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Cancelar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Cancelar'
+
+2023-06-23 12:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Cancelar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN206" time="23.175" classname="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN206" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:23 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN206: Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN206
+
+2023-06-23 12:16:23 - [TEST_STEP][PASSED] - toggleWifi("off", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-23 12:16:24 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-23 12:16:24 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-06-23 12:16:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-23 12:16:34 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta'
+
+2023-06-23 12:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta'
+
+2023-06-23 12:16:35 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar'
+
+2023-06-23 12:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar'
+
+2023-06-23 12:16:35 - [TEST_STEP][PASSED] - toggleWifi("on", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-23 12:16:36 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-23 12:16:36 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-06-23 12:16:46 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN207" time="11.955" classname="Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN207" status="PASSED">
+         <system-out><![CDATA[2023-06-23 12:16:46 - [TEST_CASE][PASSED] - Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN207: Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN207
+
+2023-06-23 12:16:46 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta'
+
+2023-06-23 12:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta'
+
+2023-06-23 12:16:47 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-06-23 12:16:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-23 12:16:52 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar'
+
+2023-06-23 12:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar'
+
+2023-06-23 12:16:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.FrameLayout"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.FrameLayout' is exist
+
+2023-06-23 12:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-23 12:16:53 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.FrameLayout' is exist
+
+2023-06-23 12:16:53 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-06-23 12:16:58 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-23 12:10:36 - [TEST_SUITE][PASSED] - Prueba integracion: Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN207]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

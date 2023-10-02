@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Recuperar cuenta,,,,2023-09-26 16:04:52,2023-09-26 16:05:51,"58,219s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-09-26 16:04:53,2023-09-26 16:05:44,"51,540s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk"", true)",,,,2023-09-26 16:04:53,2023-09-26 16:05:44,"51,189s",FAILED
+,,,,,,,
+Test Cases/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24,,,,2023-09-26 16:05:44,2023-09-26 16:05:45,"0,481s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Iniciar sesin""), 0)",,,,2023-09-26 16:05:45,2023-09-26 16:05:45,"0,135s",PASSED
+,,,,,,,
+Test Cases/Tutorial_nuevo,,,,2023-09-26 16:05:45,2023-09-26 16:05:50,"5,407s",FAILED
+"delay(5, STOP_ON_FAILURE)",,,,2023-09-26 16:05:45,2023-09-26 16:05:50,"5,032s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/Tutorial_nuevo/android.widget.FrameLayout""), 0)",,,,2023-09-26 16:05:50,2023-09-26 16:05:50,"0,042s",PASSED
+,,,,,,,
+Test Cases/Parte1/Recuperar_cuenta/CPN25,,,,2023-09-26 16:05:50,2023-09-26 16:05:50,"0,259s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN25/android.widget.FrameLayout (2)""), 0)",,ESTABLECER FOTO DE PERFIL,,2023-09-26 16:05:50,2023-09-26 16:05:50,"0,032s",PASSED
+,,,,,,,
+Test Cases/Parte1/Recuperar_cuenta/CPN26,,,,2023-09-26 16:05:50,2023-09-26 16:05:51,"0,267s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.FrameLayout""), 0)",,,,2023-09-26 16:05:51,2023-09-26 16:05:51,"0,047s",PASSED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Iniciar,,,,2023-05-18 14:46:23,2023-05-18 14:47:58,"1m - 35,328s",PASSED
+,,,,,,,
+Test Cases/Abrir_App/CPN1,,,,2023-05-18 14:46:23,2023-05-18 14:47:46,"1m - 23,193s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-18 14:46:23,2023-05-18 14:46:58,"34,359s",PASSED
+pressBack(),,,,2023-05-18 14:46:58,2023-05-18 14:46:58,"0,449s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-05-18 14:46:58,2023-05-18 14:46:59,"0,723s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-18 14:46:59,2023-05-18 14:47:43,"44,258s",PASSED
+delay(3),,,,2023-05-18 14:47:43,2023-05-18 14:47:46,"3,046s",PASSED
+,,,,,,,
+Test Cases/CPNTUTORIAL/CPNTUTORIAL,,,,2023-05-18 14:47:46,2023-05-18 14:47:58,"11,845s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)""), """")",,,,2023-05-18 14:47:47,2023-05-18 14:47:48,"1,273s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir""), 0)",,,,2023-05-18 14:47:48,2023-05-18 14:47:48,"0,499s",PASSED
+pressBack(),,,,2023-05-18 14:47:48,2023-05-18 14:47:49,"1,138s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-05-18 14:47:49,2023-05-18 14:47:50,"0,875s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente""), 0)",,,,2023-05-18 14:47:50,2023-05-18 14:47:51,"0,635s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 14:47:51,2023-05-18 14:47:52,"0,754s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 14:47:52,2023-05-18 14:47:52,"0,420s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 14:47:52,2023-05-18 14:47:53,"0,745s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 14:47:53,2023-05-18 14:47:53,"0,453s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 14:47:53,2023-05-18 14:47:55,"1,808s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 14:47:55,2023-05-18 14:47:56,"0,763s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 14:47:56,2023-05-18 14:47:56,"0,507s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 14:47:56,2023-05-18 14:47:58,"1,292s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar""), 0)",,,,2023-05-18 14:47:58,2023-05-18 14:47:58,"0,430s",PASSED

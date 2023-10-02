@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Iniciar" time="59.764" tests="2" failures="1" errors="0">
+   <testsuite name="Iniciar" tests="2" failures="1" errors="0" time="59.764" skipped="0" timestamp="2023-05-17 17:15:31" hostname="Testing - DESKTOP-OBIGNLU" id="Test Suites/Iniciar">
+      <properties>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230517_171529\\Iniciar\\20230517_171529"/>
+         <property name="logFiles" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230517_171529\\Iniciar\\20230517_171529\\appium.log, C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230517_171529\\Iniciar\\20230517_171529\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - DESKTOP-OBIGNLU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A107M"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9WN40KBXDJ"/>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/CPNTUTORIAL" time="52.242" classname="Test Cases/CPNTUTORIAL" status="PASSED">
+         <system-out><![CDATA[2023-05-17 17:15:32 - [TEST_CASE][PASSED] - Test Cases/CPNTUTORIAL: Test Cases/CPNTUTORIAL
+
+2023-05-17 17:15:32 - [TEST_STEP][PASSED] - startApplication("C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk", true): Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-17 17:15:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-17 17:15:34 - [MESSAGE][INFO] - Appium server started on port 53.327
+
+2023-05-17 17:16:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-17 17:16:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-05-17 17:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-05-17 17:16:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-05-17 17:16:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-05-17 17:16:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-17 17:16:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-17 17:16:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-05-17 17:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-05-17 17:16:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:20 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:20 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:22 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-17 17:16:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-17 17:16:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar'
+
+2023-05-17 17:16:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/prueba" time="7.249" classname="Test Cases/prueba" status="FAILED">
+         <failure type="FAILED" message="Test Cases/prueba FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-17 17:16:24 - [TEST_CASE][FAILED] - Test Cases/prueba: Test Cases/prueba FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-17 17:16:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/prueba/android.widget.TextView - Iniciar sesin"), 0): Tapped on element 'Object Repository/prueba/android.widget.TextView - Iniciar sesin'
+
+2023-05-17 17:16:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/prueba/android.widget.TextView - Iniciar sesin'
+
+2023-05-17 17:16:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/prueba/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/prueba/android.widget.EditText - Apodo'
+
+2023-05-17 17:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/prueba/android.widget.EditText - Apodo'
+
+2023-05-17 17:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/prueba/android.widget.EditText - Apodo (1)"), "ANGELLO16", 0): Text 'ANGELLO16' has been set to element 'Object Repository/prueba/android.widget.EditText - Apodo (1)'
+
+2023-05-17 17:16:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:30 - [MESSAGE][PASSED] - Text 'ANGELLO16' has been set to element 'Object Repository/prueba/android.widget.EditText - Apodo (1)'
+
+2023-05-17 17:16:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/prueba/android.widget.Button - Recuperar"), 0): Tapped on element 'Object Repository/prueba/android.widget.Button - Recuperar'
+
+2023-05-17 17:16:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-17 17:16:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/prueba/android.widget.Button - Recuperar'
+
+2023-05-17 17:16:31 - [TEST_STEP][FAILED] - verifyOptionsPresent(findTestObject(""), ["Test"]): Options [Test] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at Script1684361595329.run(Script1684361595329.groovy:28)
+	... 13 more
+)
+
+2023-05-17 17:16:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-05-17 17:16:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-05-17 17:16:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2023-05-17 17:16:31 - [MESSAGE][FAILED] - Options [Test] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at Script1684361595329.run(Script1684361595329.groovy:28)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2023-05-17 17:16:24 - [TEST_CASE][FAILED] - Test Cases/prueba: Test Cases/prueba FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-17 17:15:31 - [TEST_SUITE][FAILED] - Iniciar: Test Cases/prueba FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-17 17:15:31 - [TEST_SUITE][FAILED] - Iniciar: Test Cases/prueba FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Test] do NOT present.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent.call(Unknown Source)
+	at prueba.run(prueba:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684361729471.run(TempTestSuite1684361729471.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,339 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion PARTE2,,,,2023-08-18 17:35:46,2023-08-18 17:42:26,"6m - 39,351s",PASSED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-08-18 17:35:47,2023-08-18 17:36:48,"1m - 1,125s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 14-08-23\app-qa.apk"", true)",,,,2023-08-18 17:35:47,2023-08-18 17:36:22,"35,346s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-08-18 17:36:22,2023-08-18 17:36:24,"1,399s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta""), 0)",,,,2023-08-18 17:36:24,2023-08-18 17:36:25,"1,283s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-08-18 17:36:25,2023-08-18 17:36:26,"1,353s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar""), 0)",,,,2023-08-18 17:36:26,2023-08-18 17:36:34,"7,750s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-08-18 17:36:34,2023-08-18 17:36:38,"3,511s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente""), 0)",,,,2023-08-18 17:36:38,2023-08-18 17:36:39,"1,198s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-08-18 17:36:39,2023-08-18 17:36:42,"3,278s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-08-18 17:36:42,2023-08-18 17:36:45,"2,657s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-08-18 17:36:45,2023-08-18 17:36:46,"0,993s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-08-18 17:36:46,2023-08-18 17:36:48,"2,026s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159,,"Valdación de campos nuevo pin de acceso y confirmacion de pin: ""El pin de acceso no coincide""",pin de acceso,2023-08-18 17:36:48,2023-08-18 17:37:04,"16,682s",PASSED
+"delay(0, STOP_ON_FAILURE)",,,,2023-08-18 17:36:48,2023-08-18 17:36:48,"0,002s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.FrameLayout (1)""), 0)",,,,2023-08-18 17:36:48,2023-08-18 17:36:50,"1,624s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout""), 0)",,,,2023-08-18 17:36:50,2023-08-18 17:36:51,"1,617s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)""), 0)",,,,2023-08-18 17:36:51,2023-08-18 17:36:53,"2,200s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""0000"", 0)",,,,2023-08-18 17:36:53,2023-08-18 17:36:56,"2,179s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso""), ""1234"", 0)",,,,2023-08-18 17:36:56,2023-08-18 17:36:57,"1,802s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""4321"", 0)",,,,2023-08-18 17:36:57,2023-08-18 17:36:59,"1,788s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar""), 0)",,,,2023-08-18 17:36:59,2023-08-18 17:37:01,"1,585s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide""), ""El pin de acceso no coincide"")",,,,2023-08-18 17:37:01,2023-08-18 17:37:02,"0,865s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide (1)""), ""El pin de acceso no coincide"")",,,,2023-08-18 17:37:02,2023-08-18 17:37:02,"0,262s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton""), 0)",,,,2023-08-18 17:37:02,2023-08-18 17:37:02,"0,378s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)""), 0)",,,,2023-08-18 17:37:02,2023-08-18 17:37:04,"2,148s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160,,"Valdación de campo pin de acceso antiguo: ""Pin de acceso no corresponde""",,2023-08-18 17:37:04,2023-08-18 17:37:14,"9,232s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""1234"", 0)",,,,2023-08-18 17:37:05,2023-08-18 17:37:07,"1,943s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso""), ""1111"", 0)",,,,2023-08-18 17:37:07,2023-08-18 17:37:08,"1,753s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""1111"", 0)",,,,2023-08-18 17:37:08,2023-08-18 17:37:10,"1,775s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar""), 0)",,,,2023-08-18 17:37:10,2023-08-18 17:37:12,"1,560s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - Pin de acceso no corresponde""), ""Pin de acceso no corresponde"")",,,,2023-08-18 17:37:12,2023-08-18 17:37:12,"0,277s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton""), 0, STOP_ON_FAILURE)",,,,2023-08-18 17:37:12,2023-08-18 17:37:12,"0,329s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)""), 0)",,,,2023-08-18 17:37:12,2023-08-18 17:37:14,"1,360s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161,,,,2023-08-18 17:37:14,2023-08-18 17:37:22,"8,103s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""0000"", 0)",,,,2023-08-18 17:37:14,2023-08-18 17:37:16,"2,391s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso""), ""1111"", 0)",,,,2023-08-18 17:37:16,2023-08-18 17:37:18,"1,767s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso (1)""), ""1111"", 0)",,,,2023-08-18 17:37:18,2023-08-18 17:37:20,"1,757s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar""), 0)",,,,2023-08-18 17:37:20,2023-08-18 17:37:22,"1,960s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162,,Test case ver modal con las opciones de desbloqueo,,2023-08-18 17:37:22,2023-08-18 17:37:28,"6,322s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.TextView - Opciones de desbloqueo""), 0)",,,,2023-08-18 17:37:22,2023-08-18 17:37:22,"0,318s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioGroup""), 0)",,,,2023-08-18 17:37:22,2023-08-18 17:37:23,"0,758s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-18 17:37:23,2023-08-18 17:37:28,"5,018s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163,,"Test case validacion visual(manual) toast con alerta de ""El dispositivo no tiene asignado un desbloqueo biometrico""",,2023-08-18 17:37:28,2023-08-18 17:37:35,"6,421s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioButton - Pin  Huella dactilar""), 0)",,,,2023-08-18 17:37:28,2023-08-18 17:37:29,"0,287s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:37:29,2023-08-18 17:37:29,"0,830s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-18 17:37:29,2023-08-18 17:37:35,"5,016s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169,,"Seleccionar tiempo para solicitud de pin de acceso ""inmediatamente""",,2023-08-18 17:37:35,2023-08-18 17:37:54,"19,669s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:37:35,2023-08-18 17:37:35,"0,354s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente""), 0)",,,,2023-08-18 17:37:35,2023-08-18 17:37:36,"1,210s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:37:36,2023-08-18 17:37:37,"0,738s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:37:37,2023-08-18 17:37:37,"0,269s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:37:37,2023-08-18 17:37:38,"0,803s",PASSED
+pressBack(),,,,2023-08-18 17:37:38,2023-08-18 17:37:39,"0,545s",PASSED
+pressBack(),,,,2023-08-18 17:37:39,2023-08-18 17:37:40,"0,825s",PASSED
+pressBack(),,,,2023-08-18 17:37:40,2023-08-18 17:37:41,"1,579s",PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-08-18 17:37:41,2023-08-18 17:37:46,"5,008s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN""), 0)",,,,2023-08-18 17:37:46,2023-08-18 17:37:46,"0,331s",PASSED
+pressBack(),,,,2023-08-18 17:37:46,2023-08-18 17:37:48,"1,526s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN""), 0)",,,,2023-08-18 17:37:48,2023-08-18 17:37:49,"1,125s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:37:49,2023-08-18 17:37:51,"1,520s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:37:51,2023-08-18 17:37:51,"0,851s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,4,,2023-08-18 17:37:51,2023-08-18 17:37:52,"0,727s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:37:52,2023-08-18 17:37:53,"0,730s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup""), 0)",,,,2023-08-18 17:37:53,2023-08-18 17:37:54,"1,274s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170,,Seleccionar tiempo para pin de acceso en 10 segundos,,2023-08-18 17:37:54,2023-08-18 17:38:18,"23,545s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-08-18 17:37:54,2023-08-18 17:37:55,"0,341s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout""), 0)",,,,2023-08-18 17:37:55,2023-08-18 17:37:56,"1,154s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:37:56,2023-08-18 17:37:57,"0,842s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos""), 0)",,,,2023-08-18 17:37:57,2023-08-18 17:37:58,"0,815s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:37:58,2023-08-18 17:37:58,"0,716s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:37:58,2023-08-18 17:37:59,"0,294s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 10 Segundos""), ""10 Segundos"")",,,,2023-08-18 17:37:59,2023-08-18 17:37:59,"0,772s",PASSED
+pressBack(),,,,2023-08-18 17:37:59,2023-08-18 17:38:00,"0,378s",PASSED
+pressBack(),,,,2023-08-18 17:38:00,2023-08-18 17:38:00,"0,702s",PASSED
+pressBack(),,,,2023-08-18 17:38:00,2023-08-18 17:38:02,"1,739s",PASSED
+delay(10),,,,2023-08-18 17:38:02,2023-08-18 17:38:12,"10,016s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN""), 0)",,,,2023-08-18 17:38:12,2023-08-18 17:38:12,"0,305s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)""), 0)",,,,2023-08-18 17:38:12,2023-08-18 17:38:14,"1,417s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:14,2023-08-18 17:38:14,"0,236s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:14,2023-08-18 17:38:15,"0,828s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:15,2023-08-18 17:38:16,"0,715s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:16,2023-08-18 17:38:16,"0,731s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup""), 0)",,,,2023-08-18 17:38:16,2023-08-18 17:38:18,"1,333s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN171,,Configurar tiempo para solicitud de pin de acceso en 30 segundos,,2023-08-18 17:38:18,2023-08-18 17:39:01,"43,687s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-08-18 17:38:18,2023-08-18 17:38:18,"0,312s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout""), 0)",,,,2023-08-18 17:38:18,2023-08-18 17:38:19,"1,100s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:38:19,2023-08-18 17:38:20,"0,827s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos""), 0)",,,,2023-08-18 17:38:20,2023-08-18 17:38:21,"0,813s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:38:21,2023-08-18 17:38:22,"0,696s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:38:22,2023-08-18 17:38:22,"0,282s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 30 segundos""), ""30 segundos"")",,,,2023-08-18 17:38:22,2023-08-18 17:38:23,"0,768s",PASSED
+pressBack(),,,,2023-08-18 17:38:23,2023-08-18 17:38:23,"0,353s",PASSED
+pressBack(),,,,2023-08-18 17:38:23,2023-08-18 17:38:24,"0,669s",PASSED
+pressBack(),,,,2023-08-18 17:38:24,2023-08-18 17:38:25,"1,570s",PASSED
+delay(30),,,,2023-08-18 17:38:25,2023-08-18 17:38:55,"30,004s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN""), 0)",,,,2023-08-18 17:38:55,2023-08-18 17:38:56,"0,301s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)""), 0)",,,,2023-08-18 17:38:56,2023-08-18 17:38:57,"1,399s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:57,2023-08-18 17:38:57,"0,223s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:57,2023-08-18 17:38:58,"0,848s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:58,2023-08-18 17:38:59,"0,747s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:38:59,2023-08-18 17:39:00,"0,730s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup""), 0)",,,,2023-08-18 17:39:00,2023-08-18 17:39:01,"1,831s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN172,,Tiempo para solicitud de pin de acceso en 1 minuto,,2023-08-18 17:39:01,2023-08-18 17:39:06,"5,029s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-08-18 17:39:02,2023-08-18 17:39:02,"0,307s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout""), 0)",,,,2023-08-18 17:39:02,2023-08-18 17:39:03,"1,185s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:03,2023-08-18 17:39:04,"0,844s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto""), 0)",,,,2023-08-18 17:39:04,2023-08-18 17:39:05,"0,798s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:39:05,2023-08-18 17:39:05,"0,676s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:05,2023-08-18 17:39:06,"0,266s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 minuto""), ""1 minuto"")",,,,2023-08-18 17:39:06,2023-08-18 17:39:06,"0,739s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN173,,Tiempo para solicitud de pin de acceso en 5 minutos,,2023-08-18 17:39:06,2023-08-18 17:39:09,"2,897s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:07,2023-08-18 17:39:07,"0,293s",PASSED
+"checkElement(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos""), 0)",,,,2023-08-18 17:39:07,2023-08-18 17:39:08,"0,897s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:08,2023-08-18 17:39:09,"0,776s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 5 minutos""), ""5 minutos"")",,,,2023-08-18 17:39:09,2023-08-18 17:39:09,"0,723s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN174,,"Tiempo para la solicitud de pin de acceso ""1 hora""",,2023-08-18 17:39:09,2023-08-18 17:39:12,"2,852s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:10,2023-08-18 17:39:10,"0,309s",PASSED
+"checkElement(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora""), 0)",,,,2023-08-18 17:39:10,2023-08-18 17:39:11,"0,862s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:11,2023-08-18 17:39:11,"0,778s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 hora""), ""1 hora"")",,,,2023-08-18 17:39:11,2023-08-18 17:39:12,"0,714s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN175,,"Tiempo para la solicitud de pin de acceso ""1 día""",,2023-08-18 17:39:12,2023-08-18 17:39:18,"5,749s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:12,2023-08-18 17:39:13,"0,274s",PASSED
+"scrollToText(""1 día"", STOP_ON_FAILURE)",,,,2023-08-18 17:39:13,2023-08-18 17:39:16,"3,243s",PASSED
+"checkElement(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da""), 0)",,,,2023-08-18 17:39:16,2023-08-18 17:39:16,"0,503s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:16,2023-08-18 17:39:17,"0,811s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - 1 da""), ""1 día"")",,,,2023-08-18 17:39:17,2023-08-18 17:39:18,"0,734s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN176,,"Tiempo para la solicitud de pin de acceso ""Nunca""",,2023-08-18 17:39:18,2023-08-18 17:39:29,"10,617s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:18,2023-08-18 17:39:18,"0,283s",PASSED
+"scrollToText(""Nunca"", STOP_ON_FAILURE)",,,,2023-08-18 17:39:18,2023-08-18 17:39:22,"3,184s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca""), 0)",,,,2023-08-18 17:39:22,2023-08-18 17:39:22,"0,312s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:22,2023-08-18 17:39:23,"0,793s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Nunca""), ""Nunca"")",,,,2023-08-18 17:39:23,2023-08-18 17:39:24,"0,766s",PASSED
+pressBack(),,,,2023-08-18 17:39:24,2023-08-18 17:39:24,"0,346s",PASSED
+pressBack(),,,,2023-08-18 17:39:24,2023-08-18 17:39:25,"0,701s",PASSED
+pressBack(),,,,2023-08-18 17:39:25,2023-08-18 17:39:26,"1,593s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - NapoleoN""), 0)",,,,2023-08-18 17:39:26,2023-08-18 17:39:27,"0,701s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout (1)""), 0)",,,,2023-08-18 17:39:27,2023-08-18 17:39:29,"1,715s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN177,,Seleccionar la opción 10 segundos y seguido boton cancelar,,2023-08-18 17:39:29,2023-08-18 17:39:36,"7,534s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-08-18 17:39:29,2023-08-18 17:39:29,"0,285s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.LinearLayout""), 0)",,,,2023-08-18 17:39:29,2023-08-18 17:39:31,"1,752s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:31,2023-08-18 17:39:31,"0,295s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Inmediatamente""), 0)",,,,2023-08-18 17:39:31,2023-08-18 17:39:32,"0,863s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:32,2023-08-18 17:39:33,"0,811s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:33,2023-08-18 17:39:34,"0,741s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:34,2023-08-18 17:39:34,"0,254s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 10 Segundos""), 0)",,,,2023-08-18 17:39:34,2023-08-18 17:39:35,"0,783s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:35,2023-08-18 17:39:35,"0,774s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:35,2023-08-18 17:39:36,"0,772s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN178,,Seleccionar la opción 30 segundos y seguido boton cancelar,,2023-08-18 17:39:36,2023-08-18 17:39:39,"2,944s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:36,2023-08-18 17:39:37,"0,297s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos""), 0)",,,,2023-08-18 17:39:37,2023-08-18 17:39:37,"0,781s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:37,2023-08-18 17:39:38,"0,880s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:38,2023-08-18 17:39:39,"0,784s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN179,,Seleccionar la opción 1 minuto y seguido boton cancelar,,2023-08-18 17:39:39,2023-08-18 17:39:42,"2,770s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:39,2023-08-18 17:39:40,"0,288s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 minuto""), 0)",,,,2023-08-18 17:39:40,2023-08-18 17:39:40,"0,745s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:40,2023-08-18 17:39:41,"0,778s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:41,2023-08-18 17:39:42,"0,781s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN180,,Seleccionar la opción 5 minutos y seguido boton cancelar,,2023-08-18 17:39:42,2023-08-18 17:39:45,"2,760s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:42,2023-08-18 17:39:42,"0,278s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 5 minutos""), 0)",,,,2023-08-18 17:39:42,2023-08-18 17:39:43,"0,746s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:43,2023-08-18 17:39:44,"0,779s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:44,2023-08-18 17:39:45,"0,774s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN181,,Seleccionar la opción 1 hora y seguido boton cancelar,,2023-08-18 17:39:45,2023-08-18 17:39:47,"2,796s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:45,2023-08-18 17:39:45,"0,279s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 hora""), 0)",,,,2023-08-18 17:39:45,2023-08-18 17:39:46,"0,814s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:46,2023-08-18 17:39:47,"0,776s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:47,2023-08-18 17:39:47,"0,742s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN182,,Seleccionar la opción 1 día y seguido boton cancelar,,2023-08-18 17:39:47,2023-08-18 17:39:53,"5,429s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:48,2023-08-18 17:39:48,"0,232s",PASSED
+"scrollToText(""1 día"", STOP_ON_FAILURE)",,,,2023-08-18 17:39:48,2023-08-18 17:39:51,"3,151s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 1 da""), 0)",,,,2023-08-18 17:39:51,2023-08-18 17:39:51,"0,296s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:51,2023-08-18 17:39:52,"0,809s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:52,2023-08-18 17:39:53,"0,760s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN183,,Seleccionar la opción nunca y seguido boton cancelar,,2023-08-18 17:39:53,2023-08-18 17:40:00,"7,335s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:53,2023-08-18 17:39:53,"0,242s",PASSED
+"scrollToText(""Nunca"", STOP_ON_FAILURE)",,,,2023-08-18 17:39:53,2023-08-18 17:39:56,"3,143s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - Nunca""), 0)",,,,2023-08-18 17:39:56,2023-08-18 17:39:57,"0,300s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:39:57,2023-08-18 17:39:58,"0,798s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Inmediatamente""), ""Inmediatamente"")",,,,2023-08-18 17:39:58,2023-08-18 17:39:58,"0,782s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-08-18 17:39:58,2023-08-18 17:39:59,"0,291s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.RadioButton - 30 segundos""), 0)",,,,2023-08-18 17:39:59,2023-08-18 17:39:59,"0,815s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:39:59,2023-08-18 17:40:00,"0,776s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Contactos Bloqueados/CPN184,,Visualizar Contactos bloquados,,2023-08-18 17:40:00,2023-08-18 17:40:03,"2,348s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.TextView - Contactos bloqueados""), 0)",,,,2023-08-18 17:40:00,2023-08-18 17:40:02,"1,126s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.view.ViewGroup""), 0)",,,,2023-08-18 17:40:02,2023-08-18 17:40:02,"0,728s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Contactos Bloqueados/android.widget.ImageButton""), 0)",,,,2023-08-18 17:40:02,2023-08-18 17:40:03,"0,264s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN187,,Cambio de idioma a Deutsch,,2023-08-18 17:40:03,2023-08-18 17:40:06,"3,774s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma""), 0)",,,,2023-08-18 17:40:03,2023-08-18 17:40:04,"1,107s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Deutsch""), 0)",,,,2023-08-18 17:40:04,2023-08-18 17:40:05,"0,963s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup""), 0)",,,,2023-08-18 17:40:05,2023-08-18 17:40:06,"1,286s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Sprache""), 0)",,,,2023-08-18 17:40:06,2023-08-18 17:40:06,"0,234s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN188,,Cambio de idioma a Francais,,2023-08-18 17:40:06,2023-08-18 17:40:09,"2,631s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Franais""), 0)",,,,2023-08-18 17:40:07,2023-08-18 17:40:07,"0,778s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:40:07,2023-08-18 17:40:09,"1,377s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Langage""), 0)",,,,2023-08-18 17:40:09,2023-08-18 17:40:09,"0,260s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN189,,Cambio de idioma a English,,2023-08-18 17:40:09,2023-08-18 17:40:12,"2,611s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - English""), 0)",,,,2023-08-18 17:40:09,2023-08-18 17:40:11,"1,928s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:40:11,2023-08-18 17:40:11,"0,197s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Language""), 0)",,,,2023-08-18 17:40:11,2023-08-18 17:40:12,"0,302s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN190,,Cambio de idioma a Italiano,,2023-08-18 17:40:12,2023-08-18 17:40:14,"2,516s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Italiano""), 0)",,,,2023-08-18 17:40:12,2023-08-18 17:40:13,"0,802s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:40:13,2023-08-18 17:40:14,"1,235s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Lingua""), 0)",,,,2023-08-18 17:40:14,2023-08-18 17:40:14,"0,289s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN191,,Portugues,,2023-08-18 17:40:14,2023-08-18 17:40:17,"2,586s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Portugus""), 0)",,,,2023-08-18 17:40:14,2023-08-18 17:40:16,"1,950s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:40:16,2023-08-18 17:40:16,"0,211s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Idioma (1)""), 0)",,,,2023-08-18 17:40:16,2023-08-18 17:40:17,"0,243s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Idioma/CPN192,,Cambio de idioma a Español,,2023-08-18 17:40:17,2023-08-18 17:40:19,"2,140s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.widget.TextView - Espaol""), 0)",,,,2023-08-18 17:40:17,2023-08-18 17:40:18,"0,785s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Idioma/android.view.ViewGroup (1)""), 0)",,,,2023-08-18 17:40:18,2023-08-18 17:40:19,"1,166s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN193,,"Test case terminos, condiciones y politicas de privacidad de Recuperar Cuenta",,2023-08-18 17:40:19,2023-08-18 17:40:31,"12,154s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Recuperar Cuenta""), 0)",,,,2023-08-18 17:40:19,2023-08-18 17:40:19,"0,276s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - trminos, condiciones y polticas de privacidad""), 0)",,,,2023-08-18 17:40:19,2023-08-18 17:40:20,"0,742s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-08-18 17:40:20,2023-08-18 17:40:30,"10,007s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Trminos, condiciones y polticas de privacidad de datos de la app Napoleon chat""), 0)",,,,2023-08-18 17:40:30,2023-08-18 17:40:31,"0,560s",PASSED
+pressBack(),,,,2023-08-18 17:40:31,2023-08-18 17:40:31,"0,389s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194,,Test case recuperar cuenta fallida por desconexion de internet,,2023-08-18 17:40:31,2023-08-18 17:41:07,"35,783s",PASSED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-08-18 17:40:31,2023-08-18 17:40:32,"0,972s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-08-18 17:40:32,2023-08-18 17:40:42,"10,006s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar""), 0)",,,,2023-08-18 17:40:42,2023-08-18 17:40:42,"0,298s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup""), 0)",,,,2023-08-18 17:40:42,2023-08-18 17:40:43,"1,037s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:40:43,2023-08-18 17:40:44,"0,271s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (2)""), 0)",,,,2023-08-18 17:40:44,2023-08-18 17:40:44,"0,678s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar""), 0)",,,,2023-08-18 17:40:44,2023-08-18 17:40:46,"1,415s",PASSED
+"toggleWifi(""on"", STOP_ON_FAILURE)",,,,2023-08-18 17:40:46,2023-08-18 17:40:47,"0,876s",PASSED
+delay(20),,,,2023-08-18 17:40:47,2023-08-18 17:41:07,"20,008s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN195,,Test case recuperar cuenta exitoso,,2023-08-18 17:41:07,2023-08-18 17:41:23,"16,715s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Registrar (1)""), 0)",,,,2023-08-18 17:41:07,2023-08-18 17:41:07,"0,283s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta""), 0)",,,,2023-08-18 17:41:07,2023-08-18 17:41:08,"1,159s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es el mes de nacimiento de tu padre""), 0)",,,,2023-08-18 17:41:08,2023-08-18 17:41:10,"1,788s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta""), ""test1"", 0)",,,,2023-08-18 17:41:10,2023-08-18 17:41:12,"1,351s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)""), 0)",,,,2023-08-18 17:41:12,2023-08-18 17:41:12,"0,716s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta""), 0)",,,,2023-08-18 17:41:12,2023-08-18 17:41:13,"0,719s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es la marca de tu computador""), 0)",,,,2023-08-18 17:41:13,2023-08-18 17:41:15,"1,734s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)""), ""test2"", 0)",,,,2023-08-18 17:41:15,2023-08-18 17:41:16,"1,297s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente (1)""), 0)",,,,2023-08-18 17:41:16,2023-08-18 17:41:17,"0,697s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta (1)""), 0)",,,,2023-08-18 17:41:17,2023-08-18 17:41:17,"0,724s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu profesin""), 0)",,,,2023-08-18 17:41:17,2023-08-18 17:41:19,"1,736s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.EditText - Respuesta (1)""), ""test3"", 0)",,,,2023-08-18 17:41:19,2023-08-18 17:41:20,"1,297s",PASSED
+"scrollToText(""Finalizar"", STOP_ON_FAILURE)",,,,2023-08-18 17:41:20,2023-08-18 17:41:21,"0,884s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Finalizar""), 0)",,,,2023-08-18 17:41:21,2023-08-18 17:41:22,"0,275s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar""), ""Editar"")",,,,2023-08-18 17:41:22,2023-08-18 17:41:23,"1,835s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN196,,Test case verificar modal de advertencia de modificacion preguntas de recuperar cuenta,,2023-08-18 17:41:23,2023-08-18 17:41:25,"1,082s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar""), 0)",,,,2023-08-18 17:41:24,2023-08-18 17:41:24,"0,262s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)""), 0)",,,,2023-08-18 17:41:24,2023-08-18 17:41:25,"0,619s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN197,,Test case verificar el funcionamiento del boton cancelar en el modal de advertencia.,,2023-08-18 17:41:25,2023-08-18 17:41:25,"0,437s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:41:25,2023-08-18 17:41:25,"0,251s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN198,,Test case verificar el funcionamiento del boton aceptar en el modal de advertencia.,,2023-08-18 17:41:25,2023-08-18 17:41:28,"3,158s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar""), 0)",,,,2023-08-18 17:41:25,2023-08-18 17:41:26,"0,524s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Aceptar""), 0)",,,,2023-08-18 17:41:26,2023-08-18 17:41:26,"0,716s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.FrameLayout (1)""), 0)",,,,2023-08-18 17:41:26,2023-08-18 17:41:28,"1,717s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN199,,Test case verificacion manual al no seleccionar ninguna pregunta de seguridad al dar clic en el boton siguiente,,2023-08-18 17:41:28,2023-08-18 17:41:29,"0,469s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente""), 0)",,,,2023-08-18 17:41:28,2023-08-18 17:41:29,"0,277s",PASSED
+,,,,,,,
+Test Cases/cpn198.1,,,,2023-08-18 17:41:29,2023-08-18 17:41:37,"8,207s",PASSED
+"delay(8, CONTINUE_ON_FAILURE)",,,,2023-08-18 17:41:29,2023-08-18 17:41:37,"8,010s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN200,,"Test case validar campo de ""Respuesta"" cuando este vacio y dar clic en el boton ""Siguiente""",,2023-08-18 17:41:37,2023-08-18 17:41:40,"3,532s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Elige una pregunta""), 0)",,,,2023-08-18 17:41:37,2023-08-18 17:41:37,"0,289s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - Cul es tu tipo de comida favorita""), 0)",,,,2023-08-18 17:41:37,2023-08-18 17:41:39,"1,731s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Siguiente""), 0)",,,,2023-08-18 17:41:39,2023-08-18 17:41:40,"1,098s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.TextView - El campo no puede estar vaco""), ""El campo no puede estar vacío"")",,,,2023-08-18 17:41:40,2023-08-18 17:41:40,"0,229s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN201,,Test case modal de verificación de salir al editar pregunta,,2023-08-18 17:41:40,2023-08-18 17:41:41,"1,118s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:41:41,2023-08-18 17:41:41,"0,270s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.view.ViewGroup (3)""), 0)",,,,2023-08-18 17:41:41,2023-08-18 17:41:41,"0,657s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN202,,Test case boton cancelar del modal,,2023-08-18 17:41:41,2023-08-18 17:41:42,"0,435s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cerrar""), 0)",,,,2023-08-18 17:41:42,2023-08-18 17:41:42,"0,254s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN203,,Test case boton confirmar del modal,,2023-08-18 17:41:42,2023-08-18 17:41:47,"4,854s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:41:42,2023-08-18 17:41:43,"0,583s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Confirmar (1)""), 0)",,,,2023-08-18 17:41:43,2023-08-18 17:41:43,"0,790s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.Button - Editar""), ""Editar"")",,,,2023-08-18 17:41:43,2023-08-18 17:41:45,"1,242s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.ImageButton""), 0)",,,,2023-08-18 17:41:45,2023-08-18 17:41:45,"0,239s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.ImageButton (1)""), 0)",,,,2023-08-18 17:41:45,2023-08-18 17:41:46,"1,505s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Cuenta/Recuperar Cuenta/android.widget.FrameLayout (4)""), 0)",,,,2023-08-18 17:41:46,2023-08-18 17:41:47,"0,299s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204,,Test Case verificar modal para eliminacion de cuenta.,,2023-08-18 17:41:47,2023-08-18 17:41:51,"3,822s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.FrameLayout (1)""), 0)",,,,2023-08-18 17:41:47,2023-08-18 17:41:48,"1,111s",PASSED
+"tap(findTestObject(""Object Repository/Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.LinearLayout""), 0)",,,,2023-08-18 17:41:48,2023-08-18 17:41:49,"1,012s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta""), 0)",,,,2023-08-18 17:41:49,2023-08-18 17:41:50,"0,809s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.view.ViewGroup""), 0)",,,,2023-08-18 17:41:50,2023-08-18 17:41:51,"0,670s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN205,,Test case btn cancelar modal eliminar cuenta,,2023-08-18 17:41:51,2023-08-18 17:41:51,"0,404s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Cancelar""), 0)",,,,2023-08-18 17:41:51,2023-08-18 17:41:51,"0,218s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN206,,Test case eliminar cuenta sin conexion internet o datos,,2023-08-18 17:41:51,2023-08-18 17:42:14,"23,115s",PASSED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-08-18 17:41:51,2023-08-18 17:41:52,"1,027s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-08-18 17:41:52,2023-08-18 17:42:02,"10,013s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta""), 0)",,,,2023-08-18 17:42:02,2023-08-18 17:42:03,"0,250s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar""), 0)",,,,2023-08-18 17:42:03,2023-08-18 17:42:03,"0,771s",PASSED
+"toggleWifi(""on"", STOP_ON_FAILURE)",,,,2023-08-18 17:42:03,2023-08-18 17:42:04,"0,851s",PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2023-08-18 17:42:04,2023-08-18 17:42:14,"10,009s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN207,,Test case eliminar cuenta con internet,,2023-08-18 17:42:14,2023-08-18 17:42:26,"11,550s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta""), 0)",,,,2023-08-18 17:42:14,2023-08-18 17:42:15,"0,287s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-18 17:42:15,2023-08-18 17:42:20,"5,008s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.Button - Confirmar""), 0)",,,,2023-08-18 17:42:20,2023-08-18 17:42:20,"0,267s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.FrameLayout""), 0)",,,,2023-08-18 17:42:20,2023-08-18 17:42:21,"0,780s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-08-18 17:42:21,2023-08-18 17:42:26,"5,007s",PASSED

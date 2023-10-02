@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-07-25 17:02:33,2023-07-25 17:02:37,"4,291s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-07-25 17:02:33,2023-07-25 17:02:36,"3,684s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23"", true)",,,,2023-07-25 17:02:33,2023-07-25 17:02:36,"3,276s",FAILED
+,,,,,,,
+Test Cases/CPN208,,,,2023-07-25 17:02:36,2023-07-25 17:02:37,"0,298s",PASSED
+return null,,,,2023-07-25 17:02:37,2023-07-25 17:02:37,"0,000s",PASSED

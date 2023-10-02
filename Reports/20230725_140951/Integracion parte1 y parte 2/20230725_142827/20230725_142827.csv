@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion parte1 y parte 2,,,,2023-07-25 14:28:35,2023-07-25 14:28:36,"1,741s",FAILED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Recuperar Cuenta/CPN194,,Test case recuperar cuenta fallida por desconexion de internet,,2023-07-25 14:28:35,2023-07-25 14:28:36,"0,807s",FAILED
+"toggleWifi(""off"", STOP_ON_FAILURE)",,,,2023-07-25 14:28:35,2023-07-25 14:28:36,"0,416s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Eliminar Cuenta/CPN204,,Test Case verificar modal para eliminacion de cuenta.,,2023-07-25 14:28:36,2023-07-25 14:28:36,"0,578s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Eliminar Cuenta/android.widget.TextView - Eliminar cuenta""), 0)",,,,2023-07-25 14:28:36,2023-07-25 14:28:36,"0,123s",PASSED

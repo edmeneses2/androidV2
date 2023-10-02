@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+prueba,,,,2023-05-23 15:35:25,2023-05-23 15:37:18,"1m - 53,403s",FAILED
+,,,,,,,
+Test Cases/ingreso,,,,2023-05-23 15:35:25,2023-05-23 15:36:45,"1m - 19,243s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-23 15:35:26,2023-05-23 15:36:02,"36,026s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.TextView - Omitir""), 0)",,,,2023-05-23 15:36:02,2023-05-23 15:36:03,"1,322s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-23 15:36:03,2023-05-23 15:36:04,"1,364s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-23 15:36:04,2023-05-23 15:36:06,"1,882s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Continuar""), 0)",,,,2023-05-23 15:36:06,2023-05-23 15:36:13,"7,111s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Apodo""), ""libre02"", 0)",,,,2023-05-23 15:36:13,2023-05-23 15:36:45,"31,189s",FAILED
+,,,,,,,
+Test Cases/agregar,,,,2023-05-23 15:36:45,2023-05-23 15:37:17,"32,301s",FAILED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView""), 0)",,,,2023-05-23 15:36:45,2023-05-23 15:37:17,"32,078s",FAILED
+,,,,,,,
+Test Cases/Mensaje,,,,2023-05-23 15:37:17,2023-05-23 15:37:18,"1,603s",FAILED
+"tapAndHold(findTestObject(""""), 0, 0)",,,,2023-05-23 15:37:17,2023-05-23 15:37:18,"1,378s",FAILED

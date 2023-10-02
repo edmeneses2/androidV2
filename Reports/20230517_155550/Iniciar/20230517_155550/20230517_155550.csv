@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Iniciar,,,,2023-05-17 15:55:56,2023-05-17 15:57:26,"1m - 30,392s",PASSED
+,,,,,,,
+Test Cases/CPNTUTORIAL,,,,2023-05-17 15:55:56,2023-05-17 15:56:59,"1m - 3,360s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-17 15:55:56,2023-05-17 15:56:49,"52,548s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)""), """")",,,,2023-05-17 15:56:49,2023-05-17 15:56:50,"1,338s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir""), 0)",,,,2023-05-17 15:56:50,2023-05-17 15:56:51,"0,476s",PASSED
+pressBack(),,,,2023-05-17 15:56:51,2023-05-17 15:56:52,"1,203s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente""), 0)",,,,2023-05-17 15:56:52,2023-05-17 15:56:53,"1,152s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-17 15:56:53,2023-05-17 15:56:54,"0,776s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-17 15:56:54,2023-05-17 15:56:54,"0,451s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-17 15:56:54,2023-05-17 15:56:55,"0,761s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-17 15:56:55,2023-05-17 15:56:55,"0,463s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-17 15:56:55,2023-05-17 15:56:57,"1,484s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-17 15:56:57,2023-05-17 15:56:57,"0,284s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-17 15:56:57,2023-05-17 15:56:58,"0,376s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-17 15:56:58,2023-05-17 15:56:58,"0,842s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar""), 0)",,,,2023-05-17 15:56:58,2023-05-17 15:56:59,"0,867s",PASSED
+,,,,,,,
+Test Cases/CPN21,,,,2023-05-17 15:56:59,2023-05-17 15:57:26,"26,772s",PASSED
+"verifyElementExist(findTestObject(""Object Repository/CPN21/android.view.ViewGroup""), 0)",,,,2023-05-17 15:56:59,2023-05-17 15:57:00,"0,625s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.TextView - Iniciar sesin""), 0)",,,,2023-05-17 15:57:00,2023-05-17 15:57:00,"0,343s",PASSED
+"verifyElementExist(findTestObject(""Object Repository/CPN21/android.widget.FrameLayout""), 0)",,,,2023-05-17 15:57:00,2023-05-17 15:57:02,"1,693s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.EditText - Apodo""), 0)",,,,2023-05-17 15:57:02,2023-05-17 15:57:03,"0,529s",PASSED
+"setText(findTestObject(""Object Repository/CPN21/android.widget.EditText - Apodo (1)""), ""automatizacion"", 0)",,,,2023-05-17 15:57:03,2023-05-17 15:57:06,"3,319s",PASSED
+hideKeyboard(),,,,2023-05-17 15:57:06,2023-05-17 15:57:09,"2,543s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.Button - Recuperar""), 0)",,,,2023-05-17 15:57:09,2023-05-17 15:57:09,"0,363s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN21/android.widget.RadioGroup""), 0)",,,,2023-05-17 15:57:09,2023-05-17 15:57:11,"2,291s",PASSED
+"tap(findTestObject(""CPN21/android.widget.RadioGroup (1)""), 0)",,,,2023-05-17 15:57:11,2023-05-17 15:57:12,"0,360s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.Button - Siguiente""), 0)",,,,2023-05-17 15:57:12,2023-05-17 15:57:13,"1,555s",PASSED
+"tap(findTestObject(""CPN21/android.widget.RadioGroup (1)""), 0)",,,,2023-05-17 15:57:13,2023-05-17 15:57:13,"0,347s",PASSED
+"tap(findTestObject(""CPN21/android.widget.Button - Siguiente (1)""), 0)",,,,2023-05-17 15:57:13,2023-05-17 15:57:14,"0,861s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.RadioButton - No eleg esta pregunta""), 0)",,,,2023-05-17 15:57:14,2023-05-17 15:57:15,"0,917s",PASSED
+"tap(findTestObject(""CPN21/android.widget.Button - Siguiente (1)""), 0)",,,,2023-05-17 15:57:15,2023-05-17 15:57:16,"0,840s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.Button - Siguiente (1)""), 0)",,,,2023-05-17 15:57:16,2023-05-17 15:57:17,"0,909s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.RadioButton - No eleg esta pregunta (1)""), 0)",,,,2023-05-17 15:57:17,2023-05-17 15:57:17,"0,333s",PASSED
+"tap(findTestObject(""CPN21/android.widget.Button - Siguiente (1)""), 0)",,,,2023-05-17 15:57:17,2023-05-17 15:57:18,"0,844s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.RadioGroup (1)""), 0)",,,,2023-05-17 15:57:18,2023-05-17 15:57:19,"0,894s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.Button - Finalizar""), 0)",,,,2023-05-17 15:57:19,2023-05-17 15:57:20,"0,861s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN21/androidx.appcompat.widget.LinearLayoutCompat""), """")",,,,2023-05-17 15:57:20,2023-05-17 15:57:21,"1,543s",PASSED
+delay(2),,,,2023-05-17 15:57:21,2023-05-17 15:57:23,"2,040s",PASSED
+"tap(findTestObject(""Object Repository/CPN21/android.widget.Button - Cerrar""), 0)",,,,2023-05-17 15:57:23,2023-05-17 15:57:24,"0,299s",PASSED
+closeApplication(),,,,2023-05-17 15:57:24,2023-05-17 15:57:26,"2,244s",PASSED

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+prueba,,,,2023-05-23 14:47:40,2023-05-23 14:48:56,"1m - 16,659s",PASSED
+,,,,,,,
+Test Cases/ingreso,,,,2023-05-23 14:47:40,2023-05-23 14:48:44,"1m - 4,252s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-23 14:47:40,2023-05-23 14:48:19,"38,315s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.TextView - Omitir""), 0)",,,,2023-05-23 14:48:19,2023-05-23 14:48:20,"1,391s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-23 14:48:20,2023-05-23 14:48:21,"1,359s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-23 14:48:21,2023-05-23 14:48:23,"1,405s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Continuar""), 0)",,,,2023-05-23 14:48:23,2023-05-23 14:48:30,"7,340s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Apodo""), ""libre02"", 0)",,,,2023-05-23 14:48:30,2023-05-23 14:48:36,"6,193s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Siguiente""), 0)",,,,2023-05-23 14:48:36,2023-05-23 14:48:38,"1,260s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-05-23 14:48:38,2023-05-23 14:48:41,"3,251s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-05-23 14:48:41,2023-05-23 14:48:43,"2,526s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-05-23 14:48:43,2023-05-23 14:48:44,"0,870s",PASSED
+,,,,,,,
+Test Cases/agregar,,,,2023-05-23 14:48:44,2023-05-23 14:48:56,"12,160s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView""), 0)",,,,2023-05-23 14:48:45,2023-05-23 14:48:47,"2,580s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.Button - Agregar contactos""), 0)",,,,2023-05-23 14:48:47,2023-05-23 14:48:48,"1,345s",PASSED
+"setText(findTestObject(""Object Repository/agregar/android.widget.EditText - Busca por apodo""), ""prueba2134"", 0)",,,,2023-05-23 14:48:48,2023-05-23 14:48:53,"4,071s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.Button - AGREGAR""), 0)",,,,2023-05-23 14:48:53,2023-05-23 14:48:55,"2,976s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.TextView""), 0)",,,,2023-05-23 14:48:55,2023-05-23 14:48:56,"0,359s",PASSED
+pressBack(),,,,2023-05-23 14:48:56,2023-05-23 14:48:56,"0,631s",PASSED

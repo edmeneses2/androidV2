@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PRUEBA-CPN105.1,,,,2023-06-14 09:27:06,2023-06-14 09:27:08,"1,961s",FAILED
+,,,,,,,
+Test Cases/Abrir_App/CPN1,,,,2023-06-14 09:27:07,2023-06-14 09:27:08,"1,431s",FAILED
+pressBack(),,,,2023-06-14 09:27:07,2023-06-14 09:27:08,"0,663s",PASSED

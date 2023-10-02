@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Prueba integracion,,,,2023-06-22 14:29:47,2023-06-22 14:31:41,"1m - 53,838s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-06-22 14:29:47,2023-06-22 14:30:56,"1m - 8,818s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-06-22 14:29:47,2023-06-22 14:30:25,"37,287s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir""), 0)",,,,2023-06-22 14:30:25,2023-06-22 14:30:26,"1,533s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta""), 0)",,,,2023-06-22 14:30:26,2023-06-22 14:30:28,"1,331s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-06-22 14:30:28,2023-06-22 14:30:29,"1,427s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Continuar""), 0)",,,,2023-06-22 14:30:29,2023-06-22 14:30:38,"8,800s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-06-22 14:30:38,2023-06-22 14:30:42,"4,036s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Siguiente""), 0)",,,,2023-06-22 14:30:42,2023-06-22 14:30:43,"1,449s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-06-22 14:30:43,2023-06-22 14:30:51,"7,223s",PASSED
+"setText(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-06-22 14:30:51,2023-06-22 14:30:53,"2,496s",PASSED
+"tap(findTestObject(""Object Repository/Parte1/ingreso solo prueba/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-06-22 14:30:53,2023-06-22 14:30:54,"0,839s",PASSED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-22 14:30:54,2023-06-22 14:30:56,"2,031s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN159,,"Valdación de campos nuevo pin de acceso y confirmacion de pin: ""El pin de acceso no coincide""",pin de acceso,2023-06-22 14:30:56,2023-06-22 14:31:11,"14,763s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.FrameLayout (1)""), 0)",,,,2023-06-22 14:30:56,2023-06-22 14:30:58,"1,398s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout""), 0)",,,,2023-06-22 14:30:58,2023-06-22 14:30:59,"1,496s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)""), 0)",,,,2023-06-22 14:30:59,2023-06-22 14:31:01,"2,314s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""0000"", 0)",,,,2023-06-22 14:31:01,2023-06-22 14:31:04,"2,681s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso""), ""1234"", 0)",,,,2023-06-22 14:31:04,2023-06-22 14:31:06,"1,772s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""4321"", 0)",,,,2023-06-22 14:31:06,2023-06-22 14:31:08,"1,778s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar""), 0)",,,,2023-06-22 14:31:08,2023-06-22 14:31:08,"0,727s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide""), ""El pin de acceso no coincide"")",,,,2023-06-22 14:31:08,2023-06-22 14:31:09,"1,002s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - El pin de acceso no coincide (1)""), ""El pin de acceso no coincide"")",,,,2023-06-22 14:31:09,2023-06-22 14:31:10,"0,270s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton""), 0)",,,,2023-06-22 14:31:10,2023-06-22 14:31:10,"0,338s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)""), 0)",,,,2023-06-22 14:31:10,2023-06-22 14:31:11,"0,756s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN160,,"Valdación de campo pin de acceso antiguo: ""Pin de acceso no corresponde""",,2023-06-22 14:31:11,2023-06-22 14:31:20,"9,045s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""1234"", 0)",,,,2023-06-22 14:31:11,2023-06-22 14:31:13,"2,372s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso""), ""1111"", 0)",,,,2023-06-22 14:31:13,2023-06-22 14:31:15,"1,762s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""1111"", 0)",,,,2023-06-22 14:31:15,2023-06-22 14:31:17,"1,767s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar""), 0)",,,,2023-06-22 14:31:17,2023-06-22 14:31:18,"1,553s",PASSED
+"verifyElementText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.TextView - Pin de acceso no corresponde""), ""Pin de acceso no corresponde"")",,,,2023-06-22 14:31:18,2023-06-22 14:31:19,"0,280s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.ImageButton""), 0, STOP_ON_FAILURE)",,,,2023-06-22 14:31:19,2023-06-22 14:31:19,"0,314s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.LinearLayout (1)""), 0)",,,,2023-06-22 14:31:19,2023-06-22 14:31:20,"0,742s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Pin de Acceso/CPN161,,,,2023-06-22 14:31:20,2023-06-22 14:31:26,"6,354s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Pin de acceso antiguo""), ""0000"", 0)",,,,2023-06-22 14:31:20,2023-06-22 14:31:22,"2,367s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Nuevo pin de acceso""), ""1111"", 0)",,,,2023-06-22 14:31:22,2023-06-22 14:31:24,"1,246s",PASSED
+"setText(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.EditText - Confirmar nuevo pin de acceso (1)""), ""1111"", 0)",,,,2023-06-22 14:31:24,2023-06-22 14:31:25,"1,746s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Pin de Acceso/android.widget.Button - Editar""), 0)",,,,2023-06-22 14:31:25,2023-06-22 14:31:26,"0,753s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN162,,Test case ver modal con las opciones de desbloqueo,,2023-06-22 14:31:26,2023-06-22 14:31:33,"6,661s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.TextView - Opciones de desbloqueo""), 0)",,,,2023-06-22 14:31:26,2023-06-22 14:31:27,"0,684s",PASSED
+"verifyElementExist(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioGroup""), 0)",,,,2023-06-22 14:31:27,2023-06-22 14:31:28,"0,741s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-22 14:31:28,2023-06-22 14:31:33,"5,018s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Opciones de desbloqueo/CPN163,,"Test case validacion visual(manual) toast con alerta de ""El dispositivo no tiene asignado un desbloqueo biometrico""",,2023-06-22 14:31:33,2023-06-22 14:31:39,"6,339s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.RadioButton - Pin  Huella dactilar""), 0)",,,,2023-06-22 14:31:33,2023-06-22 14:31:33,"0,305s",PASSED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Opciones de desbloqueo/android.widget.Button - Aceptar""), 0)",,,,2023-06-22 14:31:33,2023-06-22 14:31:34,"0,825s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-22 14:31:34,2023-06-22 14:31:39,"5,011s",PASSED
+,,,,,,,
+Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169,,,,2023-06-22 14:31:39,2023-06-22 14:31:41,"1,518s",FAILED
+"tap(findTestObject(""Object Repository/Ajustes/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-06-22 14:31:39,2023-06-22 14:31:41,"1,272s",FAILED

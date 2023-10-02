@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Iniciar,,,,2023-05-18 15:34:20,2023-05-18 15:36:21,"2m - 0,578s",PASSED
+,,,,,,,
+Test Cases/Abrir_App/CPN1,,,,2023-05-18 15:34:21,2023-05-18 15:35:50,"1m - 29,375s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-18 15:34:21,2023-05-18 15:35:02,"40,582s",PASSED
+pressBack(),,,,2023-05-18 15:35:02,2023-05-18 15:35:02,"0,484s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-05-18 15:35:02,2023-05-18 15:35:03,"0,844s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-18 15:35:03,2023-05-18 15:35:48,"45,079s",PASSED
+delay(2),,,,2023-05-18 15:35:48,2023-05-18 15:35:50,"2,033s",PASSED
+,,,,,,,
+Test Cases/CPNTUTORIAL/CPNTUTORIAL,,,,2023-05-18 15:35:50,2023-05-18 15:36:02,"12,110s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)""), """")",,,,2023-05-18 15:35:50,2023-05-18 15:35:52,"1,209s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir""), 0)",,,,2023-05-18 15:35:52,2023-05-18 15:35:52,"0,469s",PASSED
+pressBack(),,,,2023-05-18 15:35:52,2023-05-18 15:35:53,"1,177s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-05-18 15:35:53,2023-05-18 15:35:54,"0,826s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente""), 0)",,,,2023-05-18 15:35:54,2023-05-18 15:35:55,"0,500s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 15:35:55,2023-05-18 15:35:55,"0,886s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 15:35:55,2023-05-18 15:35:56,"0,448s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 15:35:56,2023-05-18 15:35:58,"2,029s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 15:35:58,2023-05-18 15:35:58,"0,451s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 15:35:58,2023-05-18 15:35:59,"1,086s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 15:35:59,2023-05-18 15:36:00,"1,060s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-18 15:36:00,2023-05-18 15:36:01,"0,489s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-18 15:36:01,2023-05-18 15:36:02,"0,863s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar""), 0)",,,,2023-05-18 15:36:02,2023-05-18 15:36:02,"0,372s",PASSED
+,,,,,,,
+Test Cases/CPN2,,,,2023-05-18 15:36:02,2023-05-18 15:36:05,"2,647s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-05-18 15:36:02,2023-05-18 15:36:04,"1,238s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN2/android.widget.FrameLayout (1)""), 0)",,,,2023-05-18 15:36:04,2023-05-18 15:36:05,"1,196s",PASSED
+,,,,,,,
+Test Cases/CPN3,,,,2023-05-18 15:36:05,2023-05-18 15:36:21,"16,130s",PASSED
+pressBack(),,,,2023-05-18 15:36:05,2023-05-18 15:36:05,"0,338s",PASSED
+pressBack(),,,,2023-05-18 15:36:05,2023-05-18 15:36:06,"0,838s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-05-18 15:36:06,2023-05-18 15:36:08,"1,365s",PASSED
+delay(5),,,,2023-05-18 15:36:08,2023-05-18 15:36:13,"5,016s",PASSED
+"toggleWifi(""OFF"", STOP_ON_FAILURE)",,,,2023-05-18 15:36:13,2023-05-18 15:36:14,"0,887s",PASSED
+"tap(findTestObject(""Object Repository/CPN3/android.widget.TextView - NapoleoN""), 0)",,,,2023-05-18 15:36:14,2023-05-18 15:36:14,"0,725s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN3/android.widget.ImageView""), 0)",,,,2023-05-18 15:36:14,2023-05-18 15:36:16,"1,704s",PASSED
+"tap(findTestObject(""CPN3/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-18 15:36:16,2023-05-18 15:36:16,"0,314s",PASSED
+"tap(findTestObject(""Object Repository/CPN3/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-18 15:36:16,2023-05-18 15:36:18,"1,702s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN3/android.widget.FrameLayout""), 0)",,,,2023-05-18 15:36:18,2023-05-18 15:36:20,"1,842s",PASSED
+"tap(findTestObject(""Object Repository/CPN3/android.widget.Button - OK""), 0)",,,,2023-05-18 15:36:20,2023-05-18 15:36:20,"0,354s",PASSED
+"toggleWifi(""ON"", STOP_ON_FAILURE)",,,,2023-05-18 15:36:20,2023-05-18 15:36:21,"0,826s",PASSED

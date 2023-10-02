@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-05-16 10:38:06,2023-05-16 10:40:24,"2m - 18,402s",FAILED
+,,,,,,,
+Test Cases/CPNTUTORIAL,,,,2023-05-16 10:38:06,2023-05-16 10:38:51,"45,040s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-16 10:38:06,2023-05-16 10:38:41,"34,487s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)""), """")",,,,2023-05-16 10:38:41,2023-05-16 10:38:42,"1,368s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir""), 0)",,,,2023-05-16 10:38:42,2023-05-16 10:38:43,"0,501s",PASSED
+pressBack(),,,,2023-05-16 10:38:43,2023-05-16 10:38:44,"1,206s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente""), 0)",,,,2023-05-16 10:38:44,2023-05-16 10:38:45,"1,180s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-16 10:38:45,2023-05-16 10:38:46,"0,929s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-16 10:38:46,2023-05-16 10:38:46,"0,400s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-16 10:38:46,2023-05-16 10:38:47,"0,733s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-16 10:38:47,2023-05-16 10:38:47,"0,412s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-16 10:38:47,2023-05-16 10:38:48,"0,974s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-16 10:38:48,2023-05-16 10:38:49,"0,825s",PASSED
+"tap(findTestObject(""CPNTUTORIAL/android.widget.TextView - Siguiente (1)""), 0)",,,,2023-05-16 10:38:49,2023-05-16 10:38:50,"0,397s",PASSED
+"verifyElementText(findTestObject(""CPNTUTORIAL/android.widget.FrameLayout""), """")",,,,2023-05-16 10:38:50,2023-05-16 10:38:50,"0,855s",PASSED
+"tap(findTestObject(""Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar""), 0)",,,,2023-05-16 10:38:50,2023-05-16 10:38:51,"0,394s",PASSED
+,,,,,,,
+Test Cases/CPN5,,,,2023-05-16 10:38:51,2023-05-16 10:39:01,"10,250s",PASSED
+"tap(findTestObject(""Object Repository/CPN5/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-16 10:38:51,2023-05-16 10:38:52,"0,705s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN5/android.widget.FrameLayout""), """")",,,,2023-05-16 10:38:52,2023-05-16 10:38:53,"1,253s",PASSED
+"tap(findTestObject(""Object Repository/CPN5/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-16 10:38:53,2023-05-16 10:38:54,"0,862s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat""), ""Bienvenido a NapoleoN Chat"")",,,,2023-05-16 10:38:54,2023-05-16 10:39:00,"6,205s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN5/android.widget.LinearLayout""), 0)",,,,2023-05-16 10:39:00,2023-05-16 10:39:01,"0,959s",PASSED
+,,,,,,,
+Test Cases/CPN6-7,,,,2023-05-16 10:39:01,2023-05-16 10:39:07,"5,408s",PASSED
+"verifyElementVisible(findTestObject(""CPN6-7/android.widget.LinearLayout""), 0)",,,,2023-05-16 10:39:01,2023-05-16 10:39:02,"0,723s",PASSED
+"tap(findTestObject(""Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo""), 0)",,,,2023-05-16 10:39:02,2023-05-16 10:39:04,"2,044s",PASSED
+"verifyElementVisible(findTestObject(""CPN6-7/android.widget.LinearLayout""), 0)",,,,2023-05-16 10:39:04,2023-05-16 10:39:04,"0,339s",PASSED
+"tap(findTestObject(""Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo (1)""), 0)",,,,2023-05-16 10:39:04,2023-05-16 10:39:05,"0,884s",PASSED
+"waitForElementNotPresent(findTestObject(""Object Repository/CPN6-7/android.widget.TextView - Nuevo intento en 459 minutos""), 0)",,,,2023-05-16 10:39:05,2023-05-16 10:39:06,"0,712s",PASSED
+"tap(findTestObject(""CPN6-7/android.widget.Button - Reenviar cdigo (1)""), 0)",,,,2023-05-16 10:39:06,2023-05-16 10:39:07,"0,426s",PASSED
+,,,,,,,
+Test Cases/CPN9,,,,2023-05-16 10:39:07,2023-05-16 10:39:17,"10,398s",PASSED
+"tap(findTestObject(""Object Repository/CPN9/android.widget.Button - Continuar""), 0)",,,,2023-05-16 10:39:07,2023-05-16 10:39:09,"2,468s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN9/android.view.ViewGroup""), """")",,,,2023-05-16 10:39:09,2023-05-16 10:39:10,"0,808s",PASSED
+"tap(findTestObject(""Object Repository/CPN9/android.widget.EditText - Apodo""), 0)",,,,2023-05-16 10:39:10,2023-05-16 10:39:10,"0,474s",PASSED
+"setText(findTestObject(""Object Repository/CPN9/android.widget.EditText - Apodo (1)""), ""PRUEBA"", 0)",,,,2023-05-16 10:39:10,2023-05-16 10:39:13,"2,715s",PASSED
+"clearText(findTestObject(""Object Repository/CPN9/android.widget.EditText - PRUEBA""), 0)",,,,2023-05-16 10:39:13,2023-05-16 10:39:14,"1,040s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:14,2023-05-16 10:39:17,"2,431s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN9/android.widget.TextView - El Apodo es obligatorio""), ""El Apodo es obligatorio"")",,,,2023-05-16 10:39:17,2023-05-16 10:39:17,"0,238s",PASSED
+,,,,,,,
+Test Cases/CPN10,,,,2023-05-16 10:39:17,2023-05-16 10:39:24,"6,936s",PASSED
+"tap(findTestObject(""Object Repository/CPN10/android.widget.EditText - Apodo""), 0)",,,,2023-05-16 10:39:17,2023-05-16 10:39:17,"0,326s",PASSED
+"setText(findTestObject(""Object Repository/CPN10/android.widget.EditText - Apodo (1)""), ""0123456789"", 0)",,,,2023-05-16 10:39:17,2023-05-16 10:39:21,"3,161s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra""), ""El Apodo debe comenzar con una letra"")",,,,2023-05-16 10:39:21,2023-05-16 10:39:22,"0,969s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:22,2023-05-16 10:39:24,"1,983s",PASSED
+"tap(findTestObject(""Object Repository/CPN10/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:39:24,2023-05-16 10:39:24,"0,278s",PASSED
+,,,,,,,
+Test Cases/CPN11,,,,2023-05-16 10:39:24,2023-05-16 10:39:32,"8,184s",PASSED
+"clearText(findTestObject(""Object Repository/CPN11/android.widget.EditText - 0123456789""), 0)",,,,2023-05-16 10:39:24,2023-05-16 10:39:24,"0,318s",PASSED
+"tap(findTestObject(""Object Repository/CPN11/android.widget.EditText - Apodo""), 0)",,,,2023-05-16 10:39:24,2023-05-16 10:39:27,"2,124s",PASSED
+"setText(findTestObject(""Object Repository/CPN11/android.widget.EditText - Apodo (1)""), ""abcde"", 0)",,,,2023-05-16 10:39:27,2023-05-16 10:39:29,"2,049s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero""), ""El apodo debe contener al menos un número"")",,,,2023-05-16 10:39:29,2023-05-16 10:39:30,"0,960s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:30,2023-05-16 10:39:31,"1,916s",PASSED
+"tap(findTestObject(""Object Repository/CPN11/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:39:31,2023-05-16 10:39:32,"0,282s",PASSED
+"clearText(findTestObject(""Object Repository/CPN11/android.widget.EditText - abcde""), 0)",,,,2023-05-16 10:39:32,2023-05-16 10:39:32,"0,321s",PASSED
+,,,,,,,
+Test Cases/CPN12,,,,2023-05-16 10:39:32,2023-05-16 10:39:37,"4,817s",PASSED
+"setText(findTestObject(""Object Repository/CPN12/android.widget.EditText - Apodo""), ""0123456789012345678901"", 0)",,,,2023-05-16 10:39:32,2023-05-16 10:39:35,"2,482s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:35,2023-05-16 10:39:35,"0,452s",PASSED
+"clearText(findTestObject(""Object Repository/CPN12/android.widget.EditText - 01234567890123456789""), 0)",,,,2023-05-16 10:39:35,2023-05-16 10:39:36,"0,564s",PASSED
+"tap(findTestObject(""Object Repository/CPN12/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:39:36,2023-05-16 10:39:37,"1,055s",PASSED
+,,,,,,,
+Test Cases/CPN13,,,,2023-05-16 10:39:37,2023-05-16 10:39:44,"7,215s",PASSED
+"tap(findTestObject(""Object Repository/CPN13/android.widget.EditText - Apodo""), 0)",,,,2023-05-16 10:39:37,2023-05-16 10:39:38,"1,417s",PASSED
+"setText(findTestObject(""Object Repository/CPN13/android.widget.EditText - Apodo (1)""), ""HO"", 0)",,,,2023-05-16 10:39:38,2023-05-16 10:39:41,"2,011s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero""), ""El Apodo debe contener mínimo 3 caracteres y 1 número"")",,,,2023-05-16 10:39:41,2023-05-16 10:39:41,"0,965s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:41,2023-05-16 10:39:44,"2,033s",PASSED
+"tap(findTestObject(""Object Repository/CPN13/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:39:44,2023-05-16 10:39:44,"0,272s",PASSED
+"clearText(findTestObject(""Object Repository/CPN13/android.widget.EditText - HO""), 0)",,,,2023-05-16 10:39:44,2023-05-16 10:39:44,"0,305s",PASSED
+,,,,,,,
+Test Cases/CPN14,,,,2023-05-16 10:39:44,2023-05-16 10:39:56,"12,016s",PASSED
+"tap(findTestObject(""Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional)""), 0)",,,,2023-05-16 10:39:44,2023-05-16 10:39:45,"0,833s",PASSED
+"setText(findTestObject(""Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)""), ""Opcional"", 0)",,,,2023-05-16 10:39:45,2023-05-16 10:39:48,"2,765s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:48,2023-05-16 10:39:50,"1,913s",PASSED
+"tap(findTestObject(""Object Repository/CPN14/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:39:50,2023-05-16 10:39:50,"0,270s",PASSED
+"tap(findTestObject(""Object Repository/CPN14/android.widget.EditText - Apodo""), 0)",,,,2023-05-16 10:39:50,2023-05-16 10:39:50,"0,331s",PASSED
+"setText(findTestObject(""CPN14/android.widget.EditText - Apodo (1)""), ""angello16"", 0)",,,,2023-05-16 10:39:50,2023-05-16 10:39:53,"3,076s",PASSED
+hideKeyboard(),,,,2023-05-16 10:39:53,2023-05-16 10:39:55,"1,879s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN14/android.widget.TextView - Apodo no disponible""), ""Apodo no disponible"")",,,,2023-05-16 10:39:55,2023-05-16 10:39:56,"0,219s",PASSED
+"verifyElementVisible(findTestObject(""CPN14/android.widget.ImageButton""), 0)",,,,2023-05-16 10:39:56,2023-05-16 10:39:56,"0,225s",PASSED
+"tap(findTestObject(""CPN14/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:39:56,2023-05-16 10:39:56,"0,283s",PASSED
+,,,,,,,
+Test Cases/CPN15,,,,2023-05-16 10:39:56,2023-05-16 10:40:05,"8,494s",PASSED
+"clearText(findTestObject(""Object Repository/CPN15/android.widget.EditText - angello16""), 0)",,,,2023-05-16 10:39:56,2023-05-16 10:39:57,"0,313s",PASSED
+"tap(findTestObject(""Object Repository/CPN15/android.widget.EditText - Apodo""), 0)",,,,2023-05-16 10:39:57,2023-05-16 10:39:58,"0,996s",PASSED
+"setText(findTestObject(""Object Repository/CPN15/android.widget.EditText - P000""), ""LIBRE02"", 0)",,,,2023-05-16 10:39:58,2023-05-16 10:40:01,"3,436s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes""), ""El apodo te servirá para identificarse en NapoleoN Chat, no lo podrás cambiar despúes"")",,,,2023-05-16 10:40:01,2023-05-16 10:40:02,"1,083s",PASSED
+"clearText(findTestObject(""Object Repository/CPN15/android.widget.EditText - Opcional""), 0)",,,,2023-05-16 10:40:02,2023-05-16 10:40:02,"0,275s",PASSED
+hideKeyboard(),,,,2023-05-16 10:40:02,2023-05-16 10:40:04,"1,890s",PASSED
+"tap(findTestObject(""Object Repository/CPN15/android.widget.Button - Siguiente""), 0)",,,,2023-05-16 10:40:04,2023-05-16 10:40:05,"0,287s",PASSED
+,,,,,,,
+Test Cases/CPN16-17,,,,2023-05-16 10:40:05,2023-05-16 10:40:14,"9,333s",PASSED
+"tap(findTestObject(""Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso""), 0)",,,,2023-05-16 10:40:05,2023-05-16 10:40:06,"1,268s",PASSED
+"setText(findTestObject(""Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso (1)""), ""00000"", 0)",,,,2023-05-16 10:40:06,2023-05-16 10:40:09,"3,076s",PASSED
+"setText(findTestObject(""Object Repository/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso""), ""1234"", 0)",,,,2023-05-16 10:40:09,2023-05-16 10:40:12,"2,493s",PASSED
+hideKeyboard(),,,,2023-05-16 10:40:12,2023-05-16 10:40:14,"1,901s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide""), ""El pin de acceso no coincide"")",,,,2023-05-16 10:40:14,2023-05-16 10:40:14,"0,203s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)""), ""El pin de acceso no coincide"")",,,,2023-05-16 10:40:14,2023-05-16 10:40:14,"0,185s",PASSED
+,,,,,,,
+Test Cases/CPN18-19,,,,2023-05-16 10:40:14,2023-05-16 10:40:24,"9,964s",FAILED
+"tap(findTestObject(""Object Repository/CPN18-19/android.widget.EditText - 0000""), 0)",,,,2023-05-16 10:40:14,2023-05-16 10:40:14,"0,349s",PASSED
+"clearText(findTestObject(""Object Repository/CPN18-19/android.widget.EditText - 0000 (1)""), 0)",,,,2023-05-16 10:40:14,2023-05-16 10:40:16,"1,324s",PASSED
+"clearText(findTestObject(""Object Repository/CPN18-19/android.widget.EditText - 1234""), 0)",,,,2023-05-16 10:40:16,2023-05-16 10:40:17,"0,982s",PASSED
+"setText(findTestObject(""Object Repository/CPN18-19/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-05-16 10:40:17,2023-05-16 10:40:19,"2,669s",PASSED
+"setText(findTestObject(""Object Repository/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso""), ""1111"", 0)",,,,2023-05-16 10:40:19,2023-05-16 10:40:22,"2,511s",PASSED
+"clearText(findTestObject(""Object Repository/CPN18-19/android.widget.EditText - 1111""), 0)",,,,2023-05-16 10:40:22,2023-05-16 10:40:23,"0,992s",PASSED
+"setText(findTestObject(""""), ""0000"", 0)",,,,2023-05-16 10:40:23,2023-05-16 10:40:24,"0,932s",FAILED

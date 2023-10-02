@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Crear_usuario" time="138.402" tests="12" failures="1" errors="0">
+   <testsuite name="Crear_usuario" tests="12" failures="1" errors="0" time="138.402" skipped="0" timestamp="2023-05-16 10:38:06" hostname="Testing - DESKTOP-OBIGNLU" id="Test Suites/Crear_usuario">
+      <properties>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230516_103759\\Crear_usuario\\20230516_103759"/>
+         <property name="logFiles" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230516_103759\\Crear_usuario\\20230516_103759\\appium.log, C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230516_103759\\Crear_usuario\\20230516_103759\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230516_103759\\Crear_usuario\\20230516_103759\\1684251623483.png"/>
+         <property name="hostName" value="Testing - DESKTOP-OBIGNLU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A107M"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9WN40KBXDJ"/>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/CPNTUTORIAL" time="45.04" classname="Test Cases/CPNTUTORIAL" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:38:06 - [TEST_CASE][PASSED] - Test Cases/CPNTUTORIAL: Test Cases/CPNTUTORIAL
+
+2023-05-16 10:38:06 - [TEST_STEP][PASSED] - startApplication("C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk", true): Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-16 10:38:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-16 10:38:08 - [MESSAGE][INFO] - Appium server started on port 59.029
+
+2023-05-16 10:38:41 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-16 10:38:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-05-16 10:38:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-05-16 10:38:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-05-16 10:38:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-05-16 10:38:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-16 10:38:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-16 10:38:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-05-16 10:38:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-05-16 10:38:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:47 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:47 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:49 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-16 10:38:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar'
+
+2023-05-16 10:38:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN5" time="10.25" classname="Test Cases/CPN5" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:38:51 - [TEST_CASE][PASSED] - Test Cases/CPN5: Test Cases/CPN5
+
+2023-05-16 10:38:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN5/android.widget.Button - Crear Cuenta"), 0): Tapped on element 'Object Repository/CPN5/android.widget.Button - Crear Cuenta'
+
+2023-05-16 10:38:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN5/android.widget.Button - Crear Cuenta'
+
+2023-05-16 10:38:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN5/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPN5/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN5/android.widget.FrameLayout' are matched.
+
+2023-05-16 10:38:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN5/android.widget.Button - Enviar cdigo de registro"), 0): Tapped on element 'Object Repository/CPN5/android.widget.Button - Enviar cdigo de registro'
+
+2023-05-16 10:38:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:38:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN5/android.widget.Button - Enviar cdigo de registro'
+
+2023-05-16 10:38:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat"), "Bienvenido a NapoleoN Chat"): Actual text and expected text of test object 'Object Repository/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat' are matched.
+
+2023-05-16 10:39:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat' are matched.
+
+2023-05-16 10:39:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CPN5/android.widget.LinearLayout"), 0): Element 'Object Repository/CPN5/android.widget.LinearLayout' is visible
+
+2023-05-16 10:39:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:01 - [MESSAGE][PASSED] - Element 'Object Repository/CPN5/android.widget.LinearLayout' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN6-7" time="5.408" classname="Test Cases/CPN6-7" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:01 - [TEST_CASE][PASSED] - Test Cases/CPN6-7: Test Cases/CPN6-7
+
+2023-05-16 10:39:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CPN6-7/android.widget.LinearLayout"), 0): Element 'Object Repository/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-05-16 10:39:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:02 - [MESSAGE][PASSED] - Element 'Object Repository/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-05-16 10:39:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo"), 0): Tapped on element 'Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo'
+
+2023-05-16 10:39:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo'
+
+2023-05-16 10:39:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CPN6-7/android.widget.LinearLayout"), 0): Element 'Object Repository/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-05-16 10:39:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:04 - [MESSAGE][PASSED] - Element 'Object Repository/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-05-16 10:39:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo (1)"), 0): Tapped on element 'Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo (1)'
+
+2023-05-16 10:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo (1)'
+
+2023-05-16 10:39:05 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Object Repository/CPN6-7/android.widget.TextView - Nuevo intento en 459 minutos"), 0): Element 'Object Repository/CPN6-7/android.widget.TextView - Nuevo intento en 459 minutos' is present
+
+2023-05-16 10:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:06 - [MESSAGE][WARNING] - Element 'Object Repository/CPN6-7/android.widget.TextView - Nuevo intento en 459 minutos' is present
+
+2023-05-16 10:39:06 - [TEST_STEP][PASSED] - tap(findTestObject("CPN6-7/android.widget.Button - Reenviar cdigo (1)"), 0): Tapped on element 'Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo (1)'
+
+2023-05-16 10:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN6-7/android.widget.Button - Reenviar cdigo (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN9" time="10.398" classname="Test Cases/CPN9" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:07 - [TEST_CASE][PASSED] - Test Cases/CPN9: Test Cases/CPN9
+
+2023-05-16 10:39:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN9/android.widget.Button - Continuar"), 0): Tapped on element 'Object Repository/CPN9/android.widget.Button - Continuar'
+
+2023-05-16 10:39:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN9/android.widget.Button - Continuar'
+
+2023-05-16 10:39:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN9/android.view.ViewGroup"), ""): Actual text and expected text of test object 'Object Repository/CPN9/android.view.ViewGroup' are matched.
+
+2023-05-16 10:39:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN9/android.view.ViewGroup' are matched.
+
+2023-05-16 10:39:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN9/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/CPN9/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN9/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN9/android.widget.EditText - Apodo (1)"), "PRUEBA", 0): Text 'PRUEBA' has been set to element 'Object Repository/CPN9/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:13 - [MESSAGE][PASSED] - Text 'PRUEBA' has been set to element 'Object Repository/CPN9/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:13 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN9/android.widget.EditText - PRUEBA"), 0): Element 'Object Repository/CPN9/android.widget.EditText - PRUEBA' text is cleared
+
+2023-05-16 10:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:14 - [MESSAGE][PASSED] - Element 'Object Repository/CPN9/android.widget.EditText - PRUEBA' text is cleared
+
+2023-05-16 10:39:14 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN9/android.widget.TextView - El Apodo es obligatorio"), "El Apodo es obligatorio"): Actual text and expected text of test object 'Object Repository/CPN9/android.widget.TextView - El Apodo es obligatorio' are matched.
+
+2023-05-16 10:39:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN9/android.widget.TextView - El Apodo es obligatorio' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN10" time="6.936" classname="Test Cases/CPN10" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:17 - [TEST_CASE][PASSED] - Test Cases/CPN10: Test Cases/CPN10
+
+2023-05-16 10:39:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN10/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/CPN10/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN10/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN10/android.widget.EditText - Apodo (1)"), "0123456789", 0): Text '0123456789' has been set to element 'Object Repository/CPN10/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:21 - [MESSAGE][PASSED] - Text '0123456789' has been set to element 'Object Repository/CPN10/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra"), "El Apodo debe comenzar con una letra"): Actual text and expected text of test object 'Object Repository/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra' are matched.
+
+2023-05-16 10:39:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra' are matched.
+
+2023-05-16 10:39:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN10/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN10/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN10/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN11" time="8.184" classname="Test Cases/CPN11" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:24 - [TEST_CASE][PASSED] - Test Cases/CPN11: Test Cases/CPN11
+
+2023-05-16 10:39:24 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN11/android.widget.EditText - 0123456789"), 0): Element 'Object Repository/CPN11/android.widget.EditText - 0123456789' text is cleared
+
+2023-05-16 10:39:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:24 - [MESSAGE][PASSED] - Element 'Object Repository/CPN11/android.widget.EditText - 0123456789' text is cleared
+
+2023-05-16 10:39:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN11/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/CPN11/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN11/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN11/android.widget.EditText - Apodo (1)"), "abcde", 0): Text 'abcde' has been set to element 'Object Repository/CPN11/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:29 - [MESSAGE][PASSED] - Text 'abcde' has been set to element 'Object Repository/CPN11/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero"), "El apodo debe contener al menos un número"): Actual text and expected text of test object 'Object Repository/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero' are matched.
+
+2023-05-16 10:39:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero' are matched.
+
+2023-05-16 10:39:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN11/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN11/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN11/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:32 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN11/android.widget.EditText - abcde"), 0): Element 'Object Repository/CPN11/android.widget.EditText - abcde' text is cleared
+
+2023-05-16 10:39:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:32 - [MESSAGE][PASSED] - Element 'Object Repository/CPN11/android.widget.EditText - abcde' text is cleared]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN12" time="4.817" classname="Test Cases/CPN12" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:32 - [TEST_CASE][PASSED] - Test Cases/CPN12: Test Cases/CPN12
+
+2023-05-16 10:39:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN12/android.widget.EditText - Apodo"), "0123456789012345678901", 0): Text '0123456789012345678901' has been set to element 'Object Repository/CPN12/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:35 - [MESSAGE][PASSED] - Text '0123456789012345678901' has been set to element 'Object Repository/CPN12/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:35 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:35 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN12/android.widget.EditText - 01234567890123456789"), 0): Element 'Object Repository/CPN12/android.widget.EditText - 01234567890123456789' text is cleared
+
+2023-05-16 10:39:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:36 - [MESSAGE][PASSED] - Element 'Object Repository/CPN12/android.widget.EditText - 01234567890123456789' text is cleared
+
+2023-05-16 10:39:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN12/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN12/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN12/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN13" time="7.215" classname="Test Cases/CPN13" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:37 - [TEST_CASE][PASSED] - Test Cases/CPN13: Test Cases/CPN13
+
+2023-05-16 10:39:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN13/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/CPN13/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN13/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN13/android.widget.EditText - Apodo (1)"), "HO", 0): Text 'HO' has been set to element 'Object Repository/CPN13/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:41 - [MESSAGE][PASSED] - Text 'HO' has been set to element 'Object Repository/CPN13/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero"), "El Apodo debe contener mínimo 3 caracteres y 1 número"): Actual text and expected text of test object 'Object Repository/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero' are matched.
+
+2023-05-16 10:39:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero' are matched.
+
+2023-05-16 10:39:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN13/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN13/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN13/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:44 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN13/android.widget.EditText - HO"), 0): Element 'Object Repository/CPN13/android.widget.EditText - HO' text is cleared
+
+2023-05-16 10:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:44 - [MESSAGE][PASSED] - Element 'Object Repository/CPN13/android.widget.EditText - HO' text is cleared]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN14" time="12.016" classname="Test Cases/CPN14" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:44 - [TEST_CASE][PASSED] - Test Cases/CPN14: Test Cases/CPN14
+
+2023-05-16 10:39:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional)"), 0): Tapped on element 'Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional)'
+
+2023-05-16 10:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional)'
+
+2023-05-16 10:39:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)"), "Opcional", 0): Text 'Opcional' has been set to element 'Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)'
+
+2023-05-16 10:39:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:48 - [MESSAGE][PASSED] - Text 'Opcional' has been set to element 'Object Repository/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)'
+
+2023-05-16 10:39:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN14/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN14/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN14/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN14/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/CPN14/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN14/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("CPN14/android.widget.EditText - Apodo (1)"), "angello16", 0): Text 'angello16' has been set to element 'Object Repository/CPN14/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:53 - [MESSAGE][PASSED] - Text 'angello16' has been set to element 'Object Repository/CPN14/android.widget.EditText - Apodo (1)'
+
+2023-05-16 10:39:53 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:39:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:39:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN14/android.widget.TextView - Apodo no disponible"), "Apodo no disponible"): Actual text and expected text of test object 'Object Repository/CPN14/android.widget.TextView - Apodo no disponible' are matched.
+
+2023-05-16 10:39:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN14/android.widget.TextView - Apodo no disponible' are matched.
+
+2023-05-16 10:39:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CPN14/android.widget.ImageButton"), 0): Element 'Object Repository/CPN14/android.widget.ImageButton' is visible
+
+2023-05-16 10:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:56 - [MESSAGE][PASSED] - Element 'Object Repository/CPN14/android.widget.ImageButton' is visible
+
+2023-05-16 10:39:56 - [TEST_STEP][PASSED] - tap(findTestObject("CPN14/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN14/android.widget.Button - Siguiente'
+
+2023-05-16 10:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN14/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN15" time="8.494" classname="Test Cases/CPN15" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:39:56 - [TEST_CASE][PASSED] - Test Cases/CPN15: Test Cases/CPN15
+
+2023-05-16 10:39:56 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN15/android.widget.EditText - angello16"), 0): Element 'Object Repository/CPN15/android.widget.EditText - angello16' text is cleared
+
+2023-05-16 10:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:57 - [MESSAGE][PASSED] - Element 'Object Repository/CPN15/android.widget.EditText - angello16' text is cleared
+
+2023-05-16 10:39:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN15/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/CPN15/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:39:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN15/android.widget.EditText - Apodo'
+
+2023-05-16 10:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN15/android.widget.EditText - P000"), "LIBRE02", 0): Text 'LIBRE02' has been set to element 'Object Repository/CPN15/android.widget.EditText - P000'
+
+2023-05-16 10:39:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:01 - [MESSAGE][PASSED] - Text 'LIBRE02' has been set to element 'Object Repository/CPN15/android.widget.EditText - P000'
+
+2023-05-16 10:40:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes"), "El apodo te servirá para identificarse en NapoleoN Chat, no lo podrás cambiar despúes"): Actual text and expected text of test object 'Object Repository/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes' are matched.
+
+2023-05-16 10:40:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes' are matched.
+
+2023-05-16 10:40:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN15/android.widget.EditText - Opcional"), 0): Element 'Object Repository/CPN15/android.widget.EditText - Opcional' text is cleared
+
+2023-05-16 10:40:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:02 - [MESSAGE][PASSED] - Element 'Object Repository/CPN15/android.widget.EditText - Opcional' text is cleared
+
+2023-05-16 10:40:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:40:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:40:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN15/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/CPN15/android.widget.Button - Siguiente'
+
+2023-05-16 10:40:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN15/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN16-17" time="9.333" classname="Test Cases/CPN16-17" status="PASSED">
+         <system-out><![CDATA[2023-05-16 10:40:05 - [TEST_CASE][PASSED] - Test Cases/CPN16-17: Test Cases/CPN16-17
+
+2023-05-16 10:40:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso"), 0): Tapped on element 'Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso'
+
+2023-05-16 10:40:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso'
+
+2023-05-16 10:40:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso (1)"), "00000", 0): Text '00000' has been set to element 'Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso (1)'
+
+2023-05-16 10:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:09 - [MESSAGE][PASSED] - Text '00000' has been set to element 'Object Repository/CPN16-17/android.widget.EditText - Pin de Acceso (1)'
+
+2023-05-16 10:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso"), "1234", 0): Text '1234' has been set to element 'Object Repository/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-05-16 10:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:12 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-05-16 10:40:12 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-05-16 10:40:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-16 10:40:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide"), "El pin de acceso no coincide"): Actual text and expected text of test object 'Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide' are matched.
+
+2023-05-16 10:40:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide' are matched.
+
+2023-05-16 10:40:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)"), "El pin de acceso no coincide"): Actual text and expected text of test object 'Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)' are matched.
+
+2023-05-16 10:40:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN18-19" time="9.964" classname="Test Cases/CPN18-19" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CPN18-19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-16 10:40:14 - [TEST_CASE][FAILED] - Test Cases/CPN18-19: Test Cases/CPN18-19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+
+
+2023-05-16 10:40:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN18-19/android.widget.EditText - 0000"), 0): Tapped on element 'Object Repository/CPN18-19/android.widget.EditText - 0000'
+
+2023-05-16 10:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN18-19/android.widget.EditText - 0000'
+
+2023-05-16 10:40:14 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN18-19/android.widget.EditText - 0000 (1)"), 0): Element 'Object Repository/CPN18-19/android.widget.EditText - 0000 (1)' text is cleared
+
+2023-05-16 10:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:16 - [MESSAGE][PASSED] - Element 'Object Repository/CPN18-19/android.widget.EditText - 0000 (1)' text is cleared
+
+2023-05-16 10:40:16 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN18-19/android.widget.EditText - 1234"), 0): Element 'Object Repository/CPN18-19/android.widget.EditText - 1234' text is cleared
+
+2023-05-16 10:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:17 - [MESSAGE][PASSED] - Element 'Object Repository/CPN18-19/android.widget.EditText - 1234' text is cleared
+
+2023-05-16 10:40:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN18-19/android.widget.EditText - Pin de Acceso"), "0000", 0): Text '0000' has been set to element 'Object Repository/CPN18-19/android.widget.EditText - Pin de Acceso'
+
+2023-05-16 10:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:19 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/CPN18-19/android.widget.EditText - Pin de Acceso'
+
+2023-05-16 10:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso"), "1111", 0): Text '1111' has been set to element 'Object Repository/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-05-16 10:40:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:22 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-05-16 10:40:22 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/CPN18-19/android.widget.EditText - 1111"), 0): Element 'Object Repository/CPN18-19/android.widget.EditText - 1111' text is cleared
+
+2023-05-16 10:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-16 10:40:23 - [MESSAGE][PASSED] - Element 'Object Repository/CPN18-19/android.widget.EditText - 1111' text is cleared
+
+2023-05-16 10:40:23 - [TEST_STEP][FAILED] - setText(findTestObject(""), "0000", 0): Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+
+2023-05-16 10:40:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-05-16 10:40:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2023-05-16 10:40:24 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230516_103759\\Crear_usuario\\20230516_103759\\1684251623483.png]]]]></system-out>
+         <system-err><![CDATA[2023-05-16 10:40:14 - [TEST_CASE][FAILED] - Test Cases/CPN18-19: Test Cases/CPN18-19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-16 10:38:06 - [TEST_SUITE][FAILED] - Crear_usuario: Test Cases/CPN18-19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-16 10:38:06 - [TEST_SUITE][FAILED] - Crear_usuario: Test Cases/CPN18-19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1307)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$5.call(Unknown Source)
+	at CPN18-19.run(CPN18-19:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1684251479061.run(TempTestSuite1684251479061.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

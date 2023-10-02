@@ -1,0 +1,95 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pERFILPROPIO,,,,2023-06-20 17:24:47,2023-06-20 17:27:35,"2m - 48,186s",PASSED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-06-20 17:24:47,2023-06-20 17:25:55,"1m - 7,438s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-06-20 17:24:47,2023-06-20 17:25:31,"43,373s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.TextView - Omitir""), 0)",,,,2023-06-20 17:25:31,2023-06-20 17:25:32,"1,374s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta""), 0)",,,,2023-06-20 17:25:32,2023-06-20 17:25:33,"1,315s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-06-20 17:25:33,2023-06-20 17:25:35,"1,358s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Continuar""), 0)",,,,2023-06-20 17:25:35,2023-06-20 17:25:42,"7,055s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Apodo""), ""libre024"", 0)",,,,2023-06-20 17:25:42,2023-06-20 17:25:47,"4,691s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Siguiente""), 0)",,,,2023-06-20 17:25:47,2023-06-20 17:25:48,"1,271s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-06-20 17:25:48,2023-06-20 17:25:51,"3,217s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-06-20 17:25:51,2023-06-20 17:25:54,"2,543s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-06-20 17:25:54,2023-06-20 17:25:55,"0,894s",PASSED
+,,,,,,,
+Test Cases/CPN250,,,,2023-06-20 17:25:55,2023-06-20 17:26:11,"16,962s",PASSED
+"tap(findTestObject(""Object Repository/CPN250/android.widget.ImageView""), 1)",,,,2023-06-20 17:25:55,2023-06-20 17:25:58,"3,064s",PASSED
+"tap(findTestObject(""Object Repository/CPN250/android.widget.ImageView (1)""), 1)",,,,2023-06-20 17:25:58,2023-06-20 17:25:59,"1,563s",PASSED
+"tap(findTestObject(""Object Repository/CPN250/android.widget.ImageButton""), 1)",,,,2023-06-20 17:25:59,2023-06-20 17:26:02,"2,463s",PASSED
+"tap(findTestObject(""Object Repository/CPN250/android.widget.EditText - Mensaje""), 1)",,,,2023-06-20 17:26:02,2023-06-20 17:26:03,"1,221s",PASSED
+"setText(findTestObject(""Object Repository/CPN250/android.widget.EditText - Mensaje (1)""), ""Mensaje de prueba mayor de 20 caracteres"", 0)",,,,2023-06-20 17:26:03,2023-06-20 17:26:06,"3,275s",PASSED
+hideKeyboard(),,,,2023-06-20 17:26:06,2023-06-20 17:26:09,"2,942s",PASSED
+"tap(findTestObject(""Object Repository/CPN250/android.widget.Button - Enviar""), 1)",,,,2023-06-20 17:26:09,2023-06-20 17:26:10,"0,375s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN250/android.widget.TextView - T solicitud ha sido envida satisfactoriamente""), ""Tú solicitud ha sido envida satisfactoriamente"")",,,,2023-06-20 17:26:10,2023-06-20 17:26:11,"1,483s",PASSED
+"tap(findTestObject(""Object Repository/CPN250/android.widget.Button - OK""), 1)",,,,2023-06-20 17:26:11,2023-06-20 17:26:11,"0,343s",PASSED
+,,,,,,,
+Test Cases/CPN251,,,,2023-06-20 17:26:11,2023-06-20 17:26:23,"11,090s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN251/android.view.ViewGroup""), 0)",,,,2023-06-20 17:26:12,2023-06-20 17:26:13,"1,238s",PASSED
+"tap(findTestObject(""Object Repository/CPN251/android.widget.TextView - Reportar un problema""), 1)",,,,2023-06-20 17:26:13,2023-06-20 17:26:13,"0,328s",PASSED
+"tap(findTestObject(""Object Repository/CPN251/android.widget.TextView - Comentario""), 1)",,,,2023-06-20 17:26:13,2023-06-20 17:26:15,"1,796s",PASSED
+"tap(findTestObject(""Object Repository/CPN251/android.widget.EditText - Mensaje""), 1)",,,,2023-06-20 17:26:15,2023-06-20 17:26:15,"0,364s",PASSED
+"setText(findTestObject(""Object Repository/CPN251/android.widget.EditText - Mensaje (1)""), ""Comentario de prueba para App NN CHAT"", 0)",,,,2023-06-20 17:26:15,2023-06-20 17:26:18,"2,750s",PASSED
+hideKeyboard(),,,,2023-06-20 17:26:18,2023-06-20 17:26:20,"2,109s",PASSED
+"tap(findTestObject(""Object Repository/CPN251/android.widget.Button - Enviar""), 1)",,,,2023-06-20 17:26:20,2023-06-20 17:26:21,"0,314s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN251/android.widget.TextView - T solicitud ha sido envida satisfactoriamente""), ""Tú solicitud ha sido envida satisfactoriamente"")",,,,2023-06-20 17:26:21,2023-06-20 17:26:22,"1,549s",PASSED
+"tap(findTestObject(""Object Repository/CPN251/android.widget.Button - OK""), 1)",,,,2023-06-20 17:26:22,2023-06-20 17:26:23,"0,352s",PASSED
+,,,,,,,
+Test Cases/CPN252,,,,2023-06-20 17:26:23,2023-06-20 17:26:32,"9,139s",PASSED
+"tap(findTestObject(""Object Repository/CPN252/android.widget.TextView - Reportar un problema""), 0)",,,,2023-06-20 17:26:23,2023-06-20 17:26:23,"0,689s",PASSED
+"tap(findTestObject(""Object Repository/CPN252/android.widget.TextView - Sugerencia""), 0)",,,,2023-06-20 17:26:23,2023-06-20 17:26:25,"1,730s",PASSED
+"tap(findTestObject(""Object Repository/CPN252/android.widget.EditText - Mensaje""), 0)",,,,2023-06-20 17:26:25,2023-06-20 17:26:26,"0,376s",PASSED
+"setText(findTestObject(""Object Repository/CPN252/android.widget.EditText - Mensaje (1)""), ""Sugerencia de prueba App NN Chat"", 0)",,,,2023-06-20 17:26:26,2023-06-20 17:26:28,"2,872s",PASSED
+"tap(findTestObject(""Object Repository/CPN252/android.widget.Button - Enviar""), 0)",,,,2023-06-20 17:26:28,2023-06-20 17:26:29,"0,876s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN252/android.widget.TextView - T solicitud ha sido envida satisfactoriamente""), ""Tú solicitud ha sido envida satisfactoriamente"")",,,,2023-06-20 17:26:29,2023-06-20 17:26:31,"1,354s",PASSED
+"tap(findTestObject(""Object Repository/CPN252/android.widget.Button - OK""), 0)",,,,2023-06-20 17:26:31,2023-06-20 17:26:32,"1,017s",PASSED
+,,,,,,,
+Test Cases/CPN253,,,,2023-06-20 17:26:32,2023-06-20 17:26:38,"6,499s",PASSED
+"tap(findTestObject(""Object Repository/CPN253/android.widget.EditText - Mensaje""), 0)",,,,2023-06-20 17:26:32,2023-06-20 17:26:33,"1,413s",PASSED
+"setText(findTestObject(""Object Repository/CPN253/android.widget.EditText - Mensaje (1)""), ""Doce caracteres"", 0)",,,,2023-06-20 17:26:33,2023-06-20 17:26:35,"1,694s",PASSED
+hideKeyboard(),,,,2023-06-20 17:26:35,2023-06-20 17:26:37,"2,117s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN253/android.widget.ImageButton""), 0)",,,,2023-06-20 17:26:37,2023-06-20 17:26:37,"0,226s",PASSED
+"verifyElementText(findTestObject(""Object Repository/CPN253/android.widget.TextView - Mnimo 20 caracteres""), ""Mínimo 20 caracteres"")",,,,2023-06-20 17:26:37,2023-06-20 17:26:38,"0,233s",PASSED
+"tap(findTestObject(""Object Repository/CPN253/android.widget.Button - Enviar""), 0)",,,,2023-06-20 17:26:38,2023-06-20 17:26:38,"0,313s",PASSED
+"tap(findTestObject(""Object Repository/CPN253/android.widget.ImageButton (1)""), 0)",,,,2023-06-20 17:26:38,2023-06-20 17:26:38,"0,285s",PASSED
+,,,,,,,
+Test Cases/CPN254,,,,2023-06-20 17:26:38,2023-06-20 17:26:52,"13,626s",PASSED
+"tap(findTestObject(""Object Repository/CPN254/android.widget.ImageButton""), 0)",,,,2023-06-20 17:26:38,2023-06-20 17:26:39,"0,611s",PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-06-20 17:26:39,2023-06-20 17:26:44,"5,033s",PASSED
+"scrollToText(""Adjuntos"")",,,,2023-06-20 17:26:44,2023-06-20 17:26:51,"7,322s",PASSED
+pressBack(),,,,2023-06-20 17:26:51,2023-06-20 17:26:52,"0,441s",PASSED
+,,,,,,,
+Test Cases/CPN255,,,,2023-06-20 17:26:52,2023-06-20 17:27:12,"20,625s",PASSED
+"tap(findTestObject(""Object Repository/CPN254/android.widget.ImageButton (1)""), 0)",,,,2023-06-20 17:26:52,2023-06-20 17:26:56,"4,177s",PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-06-20 17:26:56,2023-06-20 17:27:01,"5,010s",PASSED
+"scrollToText(""Acerca de nuestra aplicación"")",,,,2023-06-20 17:27:01,2023-06-20 17:27:07,"5,779s",PASSED
+pressBack(),,,,2023-06-20 17:27:07,2023-06-20 17:27:07,"0,395s",PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-06-20 17:27:07,2023-06-20 17:27:12,"5,019s",PASSED
+,,,,,,,
+Test Cases/CPN256,,,,2023-06-20 17:27:12,2023-06-20 17:27:15,"2,657s",PASSED
+"tap(findTestObject(""Object Repository/CPN256/android.widget.ImageButton""), 0)",,,,2023-06-20 17:27:13,2023-06-20 17:27:14,"1,084s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN256/android.view.ViewGroup""), 0)",,,,2023-06-20 17:27:14,2023-06-20 17:27:14,"0,232s",PASSED
+"tap(findTestObject(""Object Repository/CPN256/android.widget.ImageButton (1)""), 0)",,,,2023-06-20 17:27:14,2023-06-20 17:27:14,"0,280s",PASSED
+"tap(findTestObject(""CPN256/android.widget.ImageButton (1)""), 0)",,,,2023-06-20 17:27:14,2023-06-20 17:27:15,"0,848s",PASSED
+,,,,,,,
+Test Cases/CPN257,,,,2023-06-20 17:27:15,2023-06-20 17:27:22,"6,567s",PASSED
+"toggleWifi(""OFF"", CONTINUE_ON_FAILURE)",,,,2023-06-20 17:27:15,2023-06-20 17:27:16,"1,018s",PASSED
+"delay(4, CONTINUE_ON_FAILURE)",,,,2023-06-20 17:27:16,2023-06-20 17:27:20,"4,005s",PASSED
+"tap(findTestObject(""Object Repository/CPN257/android.widget.LinearLayout""), 0)",,,,2023-06-20 17:27:20,2023-06-20 17:27:21,"0,424s",PASSED
+"tap(findTestObject(""Object Repository/CPN257/android.widget.Button - No Cerrar Sesin""), 0)",,,,2023-06-20 17:27:21,2023-06-20 17:27:22,"0,929s",PASSED
+,,,,,,,
+Test Cases/CPN258,,,,2023-06-20 17:27:22,2023-06-20 17:27:24,"2,676s",PASSED
+"tap(findTestObject(""Object Repository/CPN258/android.widget.LinearLayout""), 0)",,,,2023-06-20 17:27:22,2023-06-20 17:27:23,"0,601s",PASSED
+"tap(findTestObject(""Object Repository/CPN258/android.widget.Button - S, Estoy Seguro""), 0)",,,,2023-06-20 17:27:23,2023-06-20 17:27:23,"0,814s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN258/android.view.ViewGroup""), 0)",,,,2023-06-20 17:27:23,2023-06-20 17:27:24,"0,784s",PASSED
+"tap(findTestObject(""Object Repository/CPN258/android.widget.Button - OK""), 0)",,,,2023-06-20 17:27:24,2023-06-20 17:27:24,"0,256s",PASSED
+,,,,,,,
+Test Cases/CPN259,,,,2023-06-20 17:27:24,2023-06-20 17:27:35,"10,552s",PASSED
+"toggleWifi(""ON"", CONTINUE_ON_FAILURE)",,,,2023-06-20 17:27:25,2023-06-20 17:27:26,"0,891s",PASSED
+"delay(4, CONTINUE_ON_FAILURE)",,,,2023-06-20 17:27:26,2023-06-20 17:27:30,"4,014s",PASSED
+"tap(findTestObject(""Object Repository/CPN259/android.widget.LinearLayout""), 0)",,,,2023-06-20 17:27:30,2023-06-20 17:27:30,"0,351s",PASSED
+"tap(findTestObject(""Object Repository/CPN259/android.widget.Button - No Cerrar Sesin""), 0)",,,,2023-06-20 17:27:30,2023-06-20 17:27:31,"0,839s",PASSED
+"tap(findTestObject(""CPN259/android.widget.LinearLayout""), 0)",,,,2023-06-20 17:27:31,2023-06-20 17:27:32,"0,813s",PASSED
+"tap(findTestObject(""Object Repository/CPN259/android.widget.Button - S, Estoy Seguro""), 0)",,,,2023-06-20 17:27:32,2023-06-20 17:27:32,"0,823s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CPN259/android.view.ViewGroup""), 0)",,,,2023-06-20 17:27:32,2023-06-20 17:27:33,"0,628s",PASSED
+"tap(findTestObject(""Object Repository/CPN259/android.widget.Button - OK""), 0)",,,,2023-06-20 17:27:33,2023-06-20 17:27:35,"1,979s",PASSED

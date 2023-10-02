@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+prueba,,,,2023-05-23 16:31:01,2023-05-23 16:33:13,"2m - 12,192s",FAILED
+,,,,,,,
+Test Cases/ingreso,,,,2023-05-23 16:31:01,2023-05-23 16:32:06,"1m - 5,362s",PASSED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-05-23 16:31:01,2023-05-23 16:31:42,"40,188s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.TextView - Omitir""), 0)",,,,2023-05-23 16:31:42,2023-05-23 16:31:43,"1,445s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta""), 0)",,,,2023-05-23 16:31:43,2023-05-23 16:31:44,"1,330s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Enviar cdigo de registro""), 0)",,,,2023-05-23 16:31:44,2023-05-23 16:31:46,"1,896s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Continuar""), 0)",,,,2023-05-23 16:31:46,2023-05-23 16:31:53,"6,586s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Apodo""), ""libre02"", 0)",,,,2023-05-23 16:31:53,2023-05-23 16:31:58,"5,346s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Siguiente""), 0)",,,,2023-05-23 16:31:58,2023-05-23 16:32:00,"1,394s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Pin de Acceso""), ""0000"", 0)",,,,2023-05-23 16:32:00,2023-05-23 16:32:03,"3,421s",PASSED
+"setText(findTestObject(""Object Repository/ingreso/android.widget.EditText - Confirmar nuevo pin de acceso""), ""0000"", 0)",,,,2023-05-23 16:32:03,2023-05-23 16:32:06,"2,560s",PASSED
+"tap(findTestObject(""Object Repository/ingreso/android.widget.Button - Crear Cuenta (1)""), 0)",,,,2023-05-23 16:32:06,2023-05-23 16:32:06,"0,889s",PASSED
+,,,,,,,
+Test Cases/agregar,,,,2023-05-23 16:32:06,2023-05-23 16:32:39,"32,093s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.FrameLayout""), 0)",,,,2023-05-23 16:32:07,2023-05-23 16:32:10,"3,123s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.Button - Agregar contactos""), 0)",,,,2023-05-23 16:32:10,2023-05-23 16:32:11,"1,347s",PASSED
+"setText(findTestObject(""Object Repository/agregar/android.widget.EditText - Busca por apodo""), ""prueba2134"", 0)",,,,2023-05-23 16:32:11,2023-05-23 16:32:15,"4,111s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.Button - AGREGAR""), 0)",,,,2023-05-23 16:32:15,2023-05-23 16:32:18,"2,324s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.TextView""), 0)",,,,2023-05-23 16:32:18,2023-05-23 16:32:19,"1,739s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageButton""), 0)",,,,2023-05-23 16:32:19,2023-05-23 16:32:21,"1,424s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView""), 0)",,,,2023-05-23 16:32:21,2023-05-23 16:32:22,"1,458s",PASSED
+"tapAndHold(findTestObject(""Object Repository/agregar/android.view.ViewGroup""), 0, 0)",,,,2023-05-23 16:32:22,2023-05-23 16:32:27,"4,645s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.TextView - Eliminar conversacin""), 0)",,,,2023-05-23 16:32:27,2023-05-23 16:32:28,"1,099s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.Button - Aceptar""), 0)",,,,2023-05-23 16:32:28,2023-05-23 16:32:28,"0,303s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView (1)""), 0)",,,,2023-05-23 16:32:28,2023-05-23 16:32:29,"0,826s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.view.ViewGroup (1)""), 0)",,,,2023-05-23 16:32:29,2023-05-23 16:32:30,"1,130s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView (2)""), 0)",,,,2023-05-23 16:32:30,2023-05-23 16:32:32,"2,138s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.TextView - Eliminar mensajes""), 0)",,,,2023-05-23 16:32:32,2023-05-23 16:32:35,"2,210s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.LinearLayout""), 0)",,,,2023-05-23 16:32:35,2023-05-23 16:32:35,"0,322s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.Button - Aceptar (1)""), 0)",,,,2023-05-23 16:32:35,2023-05-23 16:32:36,"0,876s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.widget.FrameLayout (1)""), 0)",,,,2023-05-23 16:32:36,2023-05-23 16:32:37,"1,689s",PASSED
+"tap(findTestObject(""Object Repository/agregar/android.view.ViewGroup (2)""), 0)",,,,2023-05-23 16:32:37,2023-05-23 16:32:39,"1,109s",PASSED
+,,,,,,,
+Test Cases/Mensaje,,,,2023-05-23 16:32:39,2023-05-23 16:33:13,"34,493s",FAILED
+"tap(findTestObject(""Object Repository/Mensajes/android.view.ViewGroup (1)""), 0)",,,,2023-05-23 16:32:39,2023-05-23 16:33:13,"34,248s",FAILED

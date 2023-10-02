@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Iniciar" time="125.773" tests="4" failures="0" errors="0">
+   <testsuite name="Iniciar" tests="4" failures="0" errors="0" time="125.773" skipped="0" timestamp="2023-05-18 15:12:36" hostname="Testing - DESKTOP-OBIGNLU" id="Test Suites/Iniciar">
+      <properties>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230518_151230\\Iniciar\\20230518_151230"/>
+         <property name="logFiles" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230518_151230\\Iniciar\\20230518_151230\\appium.log, C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230518_151230\\Iniciar\\20230518_151230\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - DESKTOP-OBIGNLU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A107M"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9WN40KBXDJ"/>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Abrir_App/CPN1" time="82.626" classname="Test Cases/Abrir_App/CPN1" status="PASSED">
+         <system-out><![CDATA[2023-05-18 15:12:37 - [TEST_CASE][PASSED] - Test Cases/Abrir_App/CPN1: Test Cases/Abrir_App/CPN1
+
+2023-05-18 15:12:37 - [TEST_STEP][PASSED] - startApplication("C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk", true): Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-18 15:12:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-18 15:12:39 - [MESSAGE][INFO] - Appium server started on port 58.158
+
+2023-05-18 15:13:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-18 15:13:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-18 15:13:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-18 15:13:12 - [TEST_STEP][PASSED] - toggleWifi("OFF", STOP_ON_FAILURE): Toggled wifi
+
+2023-05-18 15:13:12 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-05-18 15:13:12 - [TEST_STEP][PASSED] - startApplication("C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk", true): Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-18 15:13:57 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk'
+
+2023-05-18 15:13:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-18 15:13:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPNTUTORIAL/CPNTUTORIAL" time="11.126" classname="Test Cases/CPNTUTORIAL/CPNTUTORIAL" status="PASSED">
+         <system-out><![CDATA[2023-05-18 15:13:59 - [TEST_CASE][PASSED] - Test Cases/CPNTUTORIAL/CPNTUTORIAL: Test Cases/CPNTUTORIAL/CPNTUTORIAL
+
+2023-05-18 15:14:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-05-18 15:14:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-05-18 15:14:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-05-18 15:14:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-05-18 15:14:01 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-18 15:14:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-18 15:14:02 - [TEST_STEP][PASSED] - toggleWifi("ON", STOP_ON_FAILURE): Toggled wifi
+
+2023-05-18 15:14:03 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-05-18 15:14:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-05-18 15:14:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-05-18 15:14:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:06 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:06 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:09 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-05-18 15:14:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-05-18 15:14:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar"), 0): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar'
+
+2023-05-18 15:14:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN2" time="2.603" classname="Test Cases/CPN2" status="PASSED">
+         <system-out><![CDATA[2023-05-18 15:14:10 - [TEST_CASE][PASSED] - Test Cases/CPN2: Test Cases/CPN2
+
+2023-05-18 15:14:11 - [TEST_STEP][PASSED] - toggleWifi("OFF", STOP_ON_FAILURE): Toggled wifi
+
+2023-05-18 15:14:12 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-05-18 15:14:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CPN2/android.widget.FrameLayout (1)"), 0): Element 'Object Repository/CPN2/android.widget.FrameLayout (1)' is visible
+
+2023-05-18 15:14:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:13 - [MESSAGE][PASSED] - Element 'Object Repository/CPN2/android.widget.FrameLayout (1)' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CPN3" time="29.147" classname="Test Cases/CPN3" status="PASSED">
+         <system-out><![CDATA[2023-05-18 15:14:13 - [TEST_CASE][PASSED] - Test Cases/CPN3: Test Cases/CPN3
+
+2023-05-18 15:14:13 - [TEST_STEP][PASSED] - pressHome(): Home button is pressed
+
+2023-05-18 15:14:13 - [MESSAGE][PASSED] - Home button is pressed
+
+2023-05-18 15:14:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN3/android.widget.TextView - NapoleoN"), 0): Tapped on element 'Object Repository/CPN3/android.widget.TextView - NapoleoN'
+
+2023-05-18 15:14:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN3/android.widget.TextView - NapoleoN'
+
+2023-05-18 15:14:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CPN3/android.widget.ImageView"), 0): Element 'Object Repository/CPN3/android.widget.ImageView' is visible
+
+2023-05-18 15:14:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:16 - [MESSAGE][PASSED] - Element 'Object Repository/CPN3/android.widget.ImageView' is visible
+
+2023-05-18 15:14:16 - [TEST_STEP][PASSED] - tap(findTestObject("CPN3/android.widget.Button - Crear Cuenta"), 0): Tapped on element 'Object Repository/CPN3/android.widget.Button - Crear Cuenta'
+
+2023-05-18 15:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN3/android.widget.Button - Crear Cuenta'
+
+2023-05-18 15:14:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN3/android.widget.Button - Enviar cdigo de registro"), 0): Tapped on element 'Object Repository/CPN3/android.widget.Button - Enviar cdigo de registro'
+
+2023-05-18 15:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN3/android.widget.Button - Enviar cdigo de registro'
+
+2023-05-18 15:14:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/CPN3/android.widget.FrameLayout"), 0): Element 'Object Repository/CPN3/android.widget.FrameLayout' is visible
+
+2023-05-18 15:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:41 - [MESSAGE][PASSED] - Element 'Object Repository/CPN3/android.widget.FrameLayout' is visible
+
+2023-05-18 15:14:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN3/android.widget.Button - OK"), 0): Tapped on element 'Object Repository/CPN3/android.widget.Button - OK'
+
+2023-05-18 15:14:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-18 15:14:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN3/android.widget.Button - OK'
+
+2023-05-18 15:14:41 - [TEST_STEP][PASSED] - toggleWifi("ON", STOP_ON_FAILURE): Toggled wifi
+
+2023-05-18 15:14:42 - [MESSAGE][PASSED] - Toggled wifi]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-18 15:12:36 - [TEST_SUITE][PASSED] - Iniciar: Test Cases/CPN3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

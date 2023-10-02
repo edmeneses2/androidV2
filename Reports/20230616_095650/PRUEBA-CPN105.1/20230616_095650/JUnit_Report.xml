@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PRUEBA-CPN105.1" time="622.766" tests="27" failures="0" errors="0">
+   <testsuite name="PRUEBA-CPN105.1" tests="27" failures="0" errors="0" time="622.766" skipped="0" timestamp="2023-06-16 09:56:56" hostname="Testing - DESKTOP-OBIGNLU" id="Test Suites/PRUEBA-CPN105.1">
+      <properties>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230616_095650\\PRUEBA-CPN105.1\\20230616_095650"/>
+         <property name="logFiles" value="C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230616_095650\\PRUEBA-CPN105.1\\20230616_095650\\appium.log, C:\\Users\\Testing\\Katalon Studio\\NN_Version2\\Reports\\20230616_095650\\PRUEBA-CPN105.1\\20230616_095650\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Testing - DESKTOP-OBIGNLU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A107M"/>
+         <property name="hostAddress" value="192.168.1.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9WN40KBXDJ"/>
+         <property name="deviceName" value="samsung SM-A107M (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/CPNTUTORIAL/CPNTUTORIAL" time="46.911" classname="Test Cases/CPNTUTORIAL/CPNTUTORIAL" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:56:56 - [TEST_CASE][PASSED] - Test Cases/CPNTUTORIAL/CPNTUTORIAL: Test Cases/CPNTUTORIAL/CPNTUTORIAL
+
+2023-06-16 09:56:57 - [TEST_STEP][PASSED] - startApplication("C:\Users\Testing\Desktop\katalon\APK SERVIDOR NUEVO\NapoleoN.apk", true): Started app at: 'C:\Users\Testing\Desktop\katalon\APK SERVIDOR NUEVO\NapoleoN.apk'
+
+2023-06-16 09:56:57 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-06-16 09:56:57 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-06-16 09:56:59 - [MESSAGE][INFO] - Appium server started on port 64.231
+
+2023-06-16 09:57:33 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Testing\Desktop\katalon\APK SERVIDOR NUEVO\NapoleoN.apk'
+
+2023-06-16 09:57:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-06-16 09:57:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout (1)' are matched.
+
+2023-06-16 09:57:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir"), 1): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-06-16 09:57:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Omitir'
+
+2023-06-16 09:57:35 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:36 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:36 - [TEST_STEP][PASSED] - toggleWifi("ON", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:57:37 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:57:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente"), 1): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-06-16 09:57:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente'
+
+2023-06-16 09:57:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 500): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:39 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 500): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:40 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 100): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:42 - [TEST_STEP][PASSED] - tap(findTestObject("CPNTUTORIAL/android.widget.TextView - Siguiente (1)"), 1): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Siguiente (1)'
+
+2023-06-16 09:57:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CPNTUTORIAL/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CPNTUTORIAL/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:57:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar"), 100): Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar'
+
+2023-06-16 09:57:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPNTUTORIAL/android.widget.TextView - Empezar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Abrir_App/CPN1" time="6.925" classname="Test Cases/Abrir_App/CPN1" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:57:43 - [TEST_CASE][PASSED] - Test Cases/Abrir_App/CPN1: Test Cases/Abrir_App/CPN1
+
+2023-06-16 09:57:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:44 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:45 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:45 - [TEST_STEP][PASSED] - toggleWifi("OFF", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:57:46 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:57:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN"), 3000): Tapped on element 'Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN'
+
+2023-06-16 09:57:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN'
+
+2023-06-16 09:57:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-16 09:57:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-16 09:57:49 - [TEST_STEP][PASSED] - toggleWifi("ON", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:57:50 - [MESSAGE][PASSED] - Toggled wifi]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Abrir_App/CPN2" time="5.297" classname="Test Cases/Abrir_App/CPN2" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:57:50 - [TEST_CASE][PASSED] - Test Cases/Abrir_App/CPN2: Test Cases/Abrir_App/CPN2
+
+2023-06-16 09:57:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN2/android.widget.TextView - NapoleoN"), 500): Tapped on element 'Object Repository/CPN2/android.widget.TextView - NapoleoN'
+
+2023-06-16 09:57:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN2/android.widget.TextView - NapoleoN'
+
+2023-06-16 09:57:52 - [TEST_STEP][PASSED] - toggleWifi("off", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:57:53 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:57:53 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-06-16 09:57:55 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Abrir_App/CPN3" time="17.505" classname="Test Cases/Abrir_App/CPN3" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:57:55 - [TEST_CASE][PASSED] - Test Cases/Abrir_App/CPN3: Test Cases/Abrir_App/CPN3
+
+2023-06-16 09:57:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-06-16 09:57:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-06-16 09:57:57 - [TEST_STEP][PASSED] - toggleWifi("ON", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:57:58 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:57:58 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-16 09:58:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-16 09:58:02 - [TEST_STEP][PASSED] - toggleWifi("OFF", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:58:03 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:58:03 - [TEST_STEP][PASSED] - tap(findTestObject("Abrir_App/CPN1/android.widget.TextView - NapoleoN"), 0): Tapped on element 'Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN'
+
+2023-06-16 09:58:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Abrir_App/CPN1/android.widget.TextView - NapoleoN'
+
+2023-06-16 09:58:04 - [TEST_STEP][PASSED] - tap(findTestObject("Abrir_App/CPN3/android.widget.Button - Crear Cuenta"), 0): Tapped on element 'Object Repository/Abrir_App/CPN3/android.widget.Button - Crear Cuenta'
+
+2023-06-16 09:58:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Abrir_App/CPN3/android.widget.Button - Crear Cuenta'
+
+2023-06-16 09:58:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-16 09:58:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 09:58:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Abrir_App/CPN3/android.widget.Button - Enviar cdigo de registro"), 0): Tapped on element 'Object Repository/Abrir_App/CPN3/android.widget.Button - Enviar cdigo de registro'
+
+2023-06-16 09:58:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Abrir_App/CPN3/android.widget.Button - Enviar cdigo de registro'
+
+2023-06-16 09:58:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Abrir_App/CPN3/android.widget.FrameLayout"), 0): Element 'Object Repository/Abrir_App/CPN3/android.widget.FrameLayout' is visible
+
+2023-06-16 09:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:11 - [MESSAGE][PASSED] - Element 'Object Repository/Abrir_App/CPN3/android.widget.FrameLayout' is visible
+
+2023-06-16 09:58:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Abrir_App/CPN3/android.widget.Button - OK"), 0): Tapped on element 'Object Repository/Abrir_App/CPN3/android.widget.Button - OK'
+
+2023-06-16 09:58:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Abrir_App/CPN3/android.widget.Button - OK'
+
+2023-06-16 09:58:12 - [TEST_STEP][PASSED] - toggleWifi("ON", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:58:13 - [MESSAGE][PASSED] - Toggled wifi]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INICIA_SESION_APODO_INEXISTENTE3.1/CPN21" time="26.239" classname="Test Cases/INICIA_SESION_APODO_INEXISTENTE3.1/CPN21" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:58:13 - [TEST_CASE][PASSED] - Test Cases/INICIA_SESION_APODO_INEXISTENTE3.1/CPN21: Test Cases/INICIA_SESION_APODO_INEXISTENTE3.1/CPN21
+
+2023-06-16 09:58:13 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-06-16 09:58:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-16 09:58:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.ImageButton'
+
+2023-06-16 09:58:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.ImageButton'
+
+2023-06-16 09:58:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Iniciar sesin"), 1): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Iniciar sesin'
+
+2023-06-16 09:58:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Iniciar sesin'
+
+2023-06-16 09:58:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Recuperar Cuenta"), "Recuperar Cuenta"): Actual text and expected text of test object 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Recuperar Cuenta' are matched.
+
+2023-06-16 09:58:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.TextView - Recuperar Cuenta' are matched.
+
+2023-06-16 09:58:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.EditText - Apodo"), 1): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.EditText - Apodo'
+
+2023-06-16 09:58:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.EditText - Apodo'
+
+2023-06-16 09:58:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.EditText - Apodo (1)"), "AUTOMATIZACION", 0): Text 'AUTOMATIZACION' has been set to element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:24 - [MESSAGE][PASSED] - Text 'AUTOMATIZACION' has been set to element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:58:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 09:58:26 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 09:58:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Recuperar"), 1): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Recuperar'
+
+2023-06-16 09:58:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Recuperar'
+
+2023-06-16 09:58:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioButton - No eleg esta pregunta"), 400): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-06-16 09:58:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-06-16 09:58:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente"), 200): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente'
+
+2023-06-16 09:58:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente'
+
+2023-06-16 09:58:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)"), 200): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup'
+
+2023-06-16 09:58:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup'
+
+2023-06-16 09:58:31 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)"), 200): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)"), 1): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:33 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:34 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)"), 400): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)"), 200): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)"), 400): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:36 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)"), 400): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Finalizar"), 200): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Finalizar'
+
+2023-06-16 09:58:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Finalizar'
+
+2023-06-16 09:58:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/androidx.appcompat.widget.LinearLayoutCompat"), 200): Element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/androidx.appcompat.widget.LinearLayoutCompat' is visible
+
+2023-06-16 09:58:39 - [MESSAGE][PASSED] - Element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/androidx.appcompat.widget.LinearLayoutCompat' is visible
+
+2023-06-16 09:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Cerrar"), 200): Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Cerrar'
+
+2023-06-16 09:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_INEXISTENTE/CPN21/android.widget.Button - Cerrar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/INICIA_SESION_APODO_EXISTENTE3.2/CPN22" time="18.701" classname="Test Cases/INICIA_SESION_APODO_EXISTENTE3.2/CPN22" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:58:39 - [TEST_CASE][PASSED] - Test Cases/INICIA_SESION_APODO_EXISTENTE3.2/CPN22: Test Cases/INICIA_SESION_APODO_EXISTENTE3.2/CPN22
+
+2023-06-16 09:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo"), 1): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo'
+
+2023-06-16 09:58:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo'
+
+2023-06-16 09:58:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo (1)"), "EDWIN_1324", 0): Text 'EDWIN_1324' has been set to element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:58:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:58:43 - [MESSAGE][PASSED] - Text 'EDWIN_1324' has been set to element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:58:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 09:58:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 09:58:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Recuperar"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Recuperar'
+
+2023-06-16 09:58:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Recuperar'
+
+2023-06-16 09:58:46 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup'
+
+2023-06-16 09:58:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup'
+
+2023-06-16 09:58:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente'
+
+2023-06-16 09:58:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente'
+
+2023-06-16 09:58:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup (1)"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup (1)'
+
+2023-06-16 09:58:49 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioButton - No eleg esta pregunta"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-06-16 09:58:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-06-16 09:58:51 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:52 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup'
+
+2023-06-16 09:58:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup'
+
+2023-06-16 09:58:52 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Siguiente (1)'
+
+2023-06-16 09:58:54 - [TEST_STEP][PASSED] - tap(findTestObject("INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup'
+
+2023-06-16 09:58:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.RadioGroup'
+
+2023-06-16 09:58:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Finalizar"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Finalizar'
+
+2023-06-16 09:58:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Finalizar'
+
+2023-06-16 09:58:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/androidx.appcompat.widget.LinearLayoutCompat"), 100): Element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/androidx.appcompat.widget.LinearLayoutCompat' is visible
+
+2023-06-16 09:58:57 - [MESSAGE][PASSED] - Element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/androidx.appcompat.widget.LinearLayoutCompat' is visible
+
+2023-06-16 09:58:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Cerrar"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Cerrar'
+
+2023-06-16 09:58:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.Button - Cerrar'
+
+2023-06-16 09:58:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.ImageButton'
+
+2023-06-16 09:58:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/INICIA_SESION_APODO_EXISTENTE/CPN22/android.widget.ImageButton']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Abrir_App/CPN4" time="7.169" classname="Test Cases/Abrir_App/CPN4" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:58:58 - [TEST_CASE][PASSED] - Test Cases/Abrir_App/CPN4: Test Cases/Abrir_App/CPN4
+
+2023-06-16 09:58:58 - [TEST_STEP][PASSED] - toggleWifi("off", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:58:59 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:58:59 - [TEST_STEP][PASSED] - toggleWifi("on", STOP_ON_FAILURE): Toggled wifi
+
+2023-06-16 09:59:00 - [MESSAGE][PASSED] - Toggled wifi
+
+2023-06-16 09:59:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-16 09:59:05 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN5" time="6.886" classname="Test Cases/Crear cuenta/CPN5" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:59:05 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN5: Test Cases/Crear cuenta/CPN5
+
+2023-06-16 09:59:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN5/android.widget.Button - Crear Cuenta"), 100): Tapped on element 'Object Repository/Crear_cuenta/CPN5/android.widget.Button - Crear Cuenta'
+
+2023-06-16 09:59:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN5/android.widget.Button - Crear Cuenta'
+
+2023-06-16 09:59:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Crear_cuenta/CPN5/android.widget.FrameLayout"), ""): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN5/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:59:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN5/android.widget.FrameLayout' are matched.
+
+2023-06-16 09:59:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN5/android.widget.Button - Enviar cdigo de registro"), 200): Tapped on element 'Object Repository/Crear_cuenta/CPN5/android.widget.Button - Enviar cdigo de registro'
+
+2023-06-16 09:59:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN5/android.widget.Button - Enviar cdigo de registro'
+
+2023-06-16 09:59:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat"), "Bienvenido a NapoleoN Chat"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat' are matched.
+
+2023-06-16 09:59:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN5/android.widget.TextView - Bienvenido a NapoleoN Chat' are matched.
+
+2023-06-16 09:59:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Crear_cuenta/CPN5/android.widget.LinearLayout"), 0): Element 'Object Repository/Crear_cuenta/CPN5/android.widget.LinearLayout' is visible
+
+2023-06-16 09:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:12 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN5/android.widget.LinearLayout' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN6-7" time="28.92" classname="Test Cases/Crear cuenta/CPN6-7" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:59:12 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN6-7: Test Cases/Crear cuenta/CPN6-7
+
+2023-06-16 09:59:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Crear_cuenta/CPN6-7/android.widget.LinearLayout"), 1): Element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-06-16 09:59:13 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-06-16 09:59:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo"), 1): Tapped on element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo'
+
+2023-06-16 09:59:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo'
+
+2023-06-16 09:59:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-06-16 09:59:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-16 09:59:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Crear_cuenta/CPN6-7/android.widget.LinearLayout"), 1): Element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-06-16 09:59:16 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.LinearLayout' is visible
+
+2023-06-16 09:59:16 - [TEST_STEP][PASSED] - tap(findTestObject("Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo (1)"), 1): Tapped on element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo (1)'
+
+2023-06-16 09:59:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo (1)'
+
+2023-06-16 09:59:16 - [TEST_STEP][PASSED] - delay(24): Delayed 24 second(s)
+
+2023-06-16 09:59:40 - [MESSAGE][PASSED] - Delayed 24 second(s)
+
+2023-06-16 09:59:40 - [TEST_STEP][PASSED] - tap(findTestObject("Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo (1)"), 1): Tapped on element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo (1)'
+
+2023-06-16 09:59:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN6-7/android.widget.Button - Reenviar cdigo (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN9" time="14.28" classname="Test Cases/Crear cuenta/CPN9" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:59:41 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN9: Test Cases/Crear cuenta/CPN9
+
+2023-06-16 09:59:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN9/android.widget.Button - Continuar"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN9/android.widget.Button - Continuar'
+
+2023-06-16 09:59:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN9/android.widget.Button - Continuar'
+
+2023-06-16 09:59:46 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-06-16 09:59:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-16 09:59:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN9/android.view.ViewGroup"), ""): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN9/android.view.ViewGroup' are matched.
+
+2023-06-16 09:59:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN9/android.view.ViewGroup' are matched.
+
+2023-06-16 09:59:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN9/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN9/android.widget.EditText - Apodo'
+
+2023-06-16 09:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN9/android.widget.EditText - Apodo'
+
+2023-06-16 09:59:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN9/android.widget.EditText - Apodo (1)"), "PRUEBA", 0): Text 'PRUEBA' has been set to element 'Object Repository/Crear_cuenta/CPN9/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:52 - [MESSAGE][PASSED] - Text 'PRUEBA' has been set to element 'Object Repository/Crear_cuenta/CPN9/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:59:52 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN9/android.widget.EditText - PRUEBA"), 0): Element 'Object Repository/Crear_cuenta/CPN9/android.widget.EditText - PRUEBA' text is cleared
+
+2023-06-16 09:59:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:53 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN9/android.widget.EditText - PRUEBA' text is cleared
+
+2023-06-16 09:59:53 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 09:59:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 09:59:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN9/android.widget.TextView - El Apodo es obligatorio"), "El Apodo es obligatorio"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN9/android.widget.TextView - El Apodo es obligatorio' are matched.
+
+2023-06-16 09:59:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN9/android.widget.TextView - El Apodo es obligatorio' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN10" time="6.766" classname="Test Cases/Crear cuenta/CPN10" status="PASSED">
+         <system-out><![CDATA[2023-06-16 09:59:55 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN10: Test Cases/Crear cuenta/CPN10
+
+2023-06-16 09:59:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN10/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN10/android.widget.EditText - Apodo'
+
+2023-06-16 09:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN10/android.widget.EditText - Apodo'
+
+2023-06-16 09:59:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN10/android.widget.EditText - Apodo (1)"), "0123456789", 0): Text '0123456789' has been set to element 'Object Repository/Crear_cuenta/CPN10/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 09:59:59 - [MESSAGE][PASSED] - Text '0123456789' has been set to element 'Object Repository/Crear_cuenta/CPN10/android.widget.EditText - Apodo (1)'
+
+2023-06-16 09:59:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra"), "El Apodo debe comenzar con una letra"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra' are matched.
+
+2023-06-16 10:00:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN10/android.widget.TextView - El Apodo debe comenzar con una letra' are matched.
+
+2023-06-16 10:00:00 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:02 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN10/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN10/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN10/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN11" time="8.099" classname="Test Cases/Crear cuenta/CPN11" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:02 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN11: Test Cases/Crear cuenta/CPN11
+
+2023-06-16 10:00:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN11/android.widget.EditText - 0123456789"), 100): Element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - 0123456789' text is cleared
+
+2023-06-16 10:00:02 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - 0123456789' text is cleared
+
+2023-06-16 10:00:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN11/android.widget.EditText - Apodo"), 100): Tapped on element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN11/android.widget.EditText - Apodo (1)"), "abcde", 0): Text 'abcde' has been set to element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - Apodo (1)'
+
+2023-06-16 10:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:07 - [MESSAGE][PASSED] - Text 'abcde' has been set to element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - Apodo (1)'
+
+2023-06-16 10:00:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero"), "El apodo debe contener al menos un número"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero' are matched.
+
+2023-06-16 10:00:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN11/android.widget.TextView - El apodo debe contener al menos un nmero' are matched.
+
+2023-06-16 10:00:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:09 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN11/android.widget.Button - Siguiente"), 1): Tapped on element 'Object Repository/Crear_cuenta/CPN11/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN11/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:10 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN11/android.widget.EditText - abcde"), 100): Element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - abcde' text is cleared
+
+2023-06-16 10:00:10 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN11/android.widget.EditText - abcde' text is cleared]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN12" time="4.671" classname="Test Cases/Crear cuenta/CPN12" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:10 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN12: Test Cases/Crear cuenta/CPN12
+
+2023-06-16 10:00:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN12/android.widget.EditText - Apodo"), "0123456789012345678901", 0): Text '0123456789012345678901' has been set to element 'Object Repository/Crear_cuenta/CPN12/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:13 - [MESSAGE][PASSED] - Text '0123456789012345678901' has been set to element 'Object Repository/Crear_cuenta/CPN12/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:13 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:13 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN12/android.widget.EditText - 01234567890123456789"), 0): Element 'Object Repository/Crear_cuenta/CPN12/android.widget.EditText - 01234567890123456789' text is cleared
+
+2023-06-16 10:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:14 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN12/android.widget.EditText - 01234567890123456789' text is cleared
+
+2023-06-16 10:00:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN12/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN12/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN12/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN13" time="6.974" classname="Test Cases/Crear cuenta/CPN13" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:15 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN13: Test Cases/Crear cuenta/CPN13
+
+2023-06-16 10:00:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN13/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN13/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN13/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN13/android.widget.EditText - Apodo (1)"), "HO", 0): Text 'HO' has been set to element 'Object Repository/Crear_cuenta/CPN13/android.widget.EditText - Apodo (1)'
+
+2023-06-16 10:00:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:18 - [MESSAGE][PASSED] - Text 'HO' has been set to element 'Object Repository/Crear_cuenta/CPN13/android.widget.EditText - Apodo (1)'
+
+2023-06-16 10:00:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero"), "El Apodo debe contener mínimo 3 caracteres y 1 número"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero' are matched.
+
+2023-06-16 10:00:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN13/android.widget.TextView - El Apodo debe contener mnimo 3 caracteres y 1 nmero' are matched.
+
+2023-06-16 10:00:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN13/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN13/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN13/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:21 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN13/android.widget.EditText - HO"), 0): Element 'Object Repository/Crear_cuenta/CPN13/android.widget.EditText - HO' text is cleared
+
+2023-06-16 10:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:22 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN13/android.widget.EditText - HO' text is cleared]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN14" time="11.862" classname="Test Cases/Crear cuenta/CPN14" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:22 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN14: Test Cases/Crear cuenta/CPN14
+
+2023-06-16 10:00:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Nombre a mostrar (opcional)"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Nombre a mostrar (opcional)'
+
+2023-06-16 10:00:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Nombre a mostrar (opcional)'
+
+2023-06-16 10:00:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)"), "Opcional", 0): Text 'Opcional' has been set to element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)'
+
+2023-06-16 10:00:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:25 - [MESSAGE][PASSED] - Text 'Opcional' has been set to element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Nombre a mostrar (opcional) (1)'
+
+2023-06-16 10:00:25 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN14/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:28 - [TEST_STEP][PASSED] - setText(findTestObject("Crear_cuenta/CPN14/android.widget.EditText - Apodo (1)"), "angello16", 0): Text 'angello16' has been set to element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Apodo (1)'
+
+2023-06-16 10:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:31 - [MESSAGE][PASSED] - Text 'angello16' has been set to element 'Object Repository/Crear_cuenta/CPN14/android.widget.EditText - Apodo (1)'
+
+2023-06-16 10:00:31 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:33 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN14/android.widget.TextView - Apodo no disponible"), "Apodo no disponible"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN14/android.widget.TextView - Apodo no disponible' are matched.
+
+2023-06-16 10:00:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN14/android.widget.TextView - Apodo no disponible' are matched.
+
+2023-06-16 10:00:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Crear_cuenta/CPN14/android.widget.ImageButton"), 0): Element 'Object Repository/Crear_cuenta/CPN14/android.widget.ImageButton' is visible
+
+2023-06-16 10:00:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:33 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN14/android.widget.ImageButton' is visible
+
+2023-06-16 10:00:33 - [TEST_STEP][PASSED] - tap(findTestObject("Crear_cuenta/CPN14/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN14/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN15" time="8.125" classname="Test Cases/Crear cuenta/CPN15" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:34 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN15: Test Cases/Crear cuenta/CPN15
+
+2023-06-16 10:00:34 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN15/android.widget.EditText - angello16"), 0): Element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - angello16' text is cleared
+
+2023-06-16 10:00:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:34 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - angello16' text is cleared
+
+2023-06-16 10:00:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN15/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - Apodo'
+
+2023-06-16 10:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN15/android.widget.EditText - P000"), "LIBRE02", 0): Text 'LIBRE02' has been set to element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - P000'
+
+2023-06-16 10:00:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:38 - [MESSAGE][PASSED] - Text 'LIBRE02' has been set to element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - P000'
+
+2023-06-16 10:00:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes"), "El apodo te servirá para identificarse en NapoleoN Chat, no lo podrás cambiar despúes"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes' are matched.
+
+2023-06-16 10:00:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN15/android.widget.TextView - El apodo te servir para identificarse en NapoleoN Chat, no lo podrs cambiar despes' are matched.
+
+2023-06-16 10:00:39 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN15/android.widget.EditText - Opcional"), 0): Element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - Opcional' text is cleared
+
+2023-06-16 10:00:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:40 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN15/android.widget.EditText - Opcional' text is cleared
+
+2023-06-16 10:00:40 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN15/android.widget.Button - Siguiente"), 0): Tapped on element 'Object Repository/Crear_cuenta/CPN15/android.widget.Button - Siguiente'
+
+2023-06-16 10:00:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN15/android.widget.Button - Siguiente']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN16-17" time="11.168" classname="Test Cases/Crear cuenta/CPN16-17" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:42 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN16-17: Test Cases/Crear cuenta/CPN16-17
+
+2023-06-16 10:00:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Pin de Acceso"), 200): Tapped on element 'Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Pin de Acceso'
+
+2023-06-16 10:00:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Pin de Acceso'
+
+2023-06-16 10:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Pin de Acceso (1)"), "00000", 200): Text '00000' has been set to element 'Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Pin de Acceso (1)'
+
+2023-06-16 10:00:46 - [MESSAGE][PASSED] - Text '00000' has been set to element 'Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Pin de Acceso (1)'
+
+2023-06-16 10:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso"), "1234", 200): Text '1234' has been set to element 'Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-16 10:00:49 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/Crear_cuenta/CPN16-17/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-16 10:00:49 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-06-16 10:00:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-16 10:00:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:00:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:00:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN16-17/android.widget.TextView - El pin de acceso no coincide"), "El pin de acceso no coincide"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN16-17/android.widget.TextView - El pin de acceso no coincide' are matched.
+
+2023-06-16 10:00:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN16-17/android.widget.TextView - El pin de acceso no coincide' are matched.
+
+2023-06-16 10:00:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Crear_cuenta/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)"), "El pin de acceso no coincide"): Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)' are matched.
+
+2023-06-16 10:00:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Crear_cuenta/CPN16-17/android.widget.TextView - El pin de acceso no coincide (1)' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crear cuenta/CPN18-19" time="17.515" classname="Test Cases/Crear cuenta/CPN18-19" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:00:53 - [TEST_CASE][PASSED] - Test Cases/Crear cuenta/CPN18-19: Test Cases/Crear cuenta/CPN18-19
+
+2023-06-16 10:00:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 0000"), 1): Tapped on element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 0000'
+
+2023-06-16 10:00:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 0000'
+
+2023-06-16 10:00:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 0000 (1)"), 1): Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 0000 (1)' text is cleared
+
+2023-06-16 10:00:55 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 0000 (1)' text is cleared
+
+2023-06-16 10:00:55 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 1234"), 1): Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 1234' text is cleared
+
+2023-06-16 10:00:56 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 1234' text is cleared
+
+2023-06-16 10:00:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Pin de Acceso"), "0000", 0): Text '0000' has been set to element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Pin de Acceso'
+
+2023-06-16 10:00:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:00:58 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Pin de Acceso'
+
+2023-06-16 10:00:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso"), "1111", 0): Text '1111' has been set to element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-16 10:00:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:01:01 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-16 10:01:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 1111"), 1): Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 1111' text is cleared
+
+2023-06-16 10:01:02 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - 1111' text is cleared
+
+2023-06-16 10:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("Crear_cuenta/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso"), "0000", 0): Text '0000' has been set to element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-16 10:01:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:01:05 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-06-16 10:01:05 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:01:07 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:01:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.Button - Crear Cuenta"), 1): Tapped on element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.Button - Crear Cuenta'
+
+2023-06-16 10:01:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.Button - Crear Cuenta'
+
+2023-06-16 10:01:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Crear_cuenta/CPN18-19/android.widget.TextView - NapoleoN"), 0): Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.TextView - NapoleoN' is exist
+
+2023-06-16 10:01:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:01:10 - [MESSAGE][PASSED] - Element 'Object Repository/Crear_cuenta/CPN18-19/android.widget.TextView - NapoleoN' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/agregar" time="85.422" classname="Test Cases/agregar" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:01:10 - [TEST_CASE][PASSED] - Test Cases/agregar: Test Cases/agregar
+
+2023-06-16 10:01:11 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-06-16 10:01:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-16 10:01:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.ImageView"), 1): Tapped on element 'Object Repository/agregar/android.widget.ImageView'
+
+2023-06-16 10:01:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.ImageView'
+
+2023-06-16 10:01:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.Button - Agregar contactos"), 1): Tapped on element 'Object Repository/agregar/android.widget.Button - Agregar contactos'
+
+2023-06-16 10:01:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.Button - Agregar contactos'
+
+2023-06-16 10:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/agregar/android.widget.EditText - Busca por apodo"), "prueba2134", 1): Text 'prueba2134' has been set to element 'Object Repository/agregar/android.widget.EditText - Busca por apodo'
+
+2023-06-16 10:01:19 - [MESSAGE][PASSED] - Text 'prueba2134' has been set to element 'Object Repository/agregar/android.widget.EditText - Busca por apodo'
+
+2023-06-16 10:01:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.Button - AGREGAR"), 1): Tapped on element 'Object Repository/agregar/android.widget.Button - AGREGAR'
+
+2023-06-16 10:01:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.Button - AGREGAR'
+
+2023-06-16 10:01:20 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:01:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:01:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.TextView"), 1): Tapped on element 'Object Repository/agregar/android.widget.TextView'
+
+2023-06-16 10:01:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.TextView'
+
+2023-06-16 10:01:24 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:01:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:01:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/agregar/android.widget.ImageButton'
+
+2023-06-16 10:01:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.ImageButton'
+
+2023-06-16 10:01:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/agregar/android.view.ViewGroup'
+
+2023-06-16 10:01:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:01:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.view.ViewGroup'
+
+2023-06-16 10:01:28 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:01:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:01:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.ImageButton (1)"), 1): Tapped on element 'Object Repository/agregar/android.widget.ImageButton (1)'
+
+2023-06-16 10:02:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.ImageButton (1)'
+
+2023-06-16 10:02:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.FrameLayout"), 1): Tapped on element 'Object Repository/agregar/android.widget.FrameLayout'
+
+2023-06-16 10:02:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.FrameLayout'
+
+2023-06-16 10:02:23 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/agregar/android.view.ViewGroup (1)"), 3, 1): Tapped and held on element 'Object Repository/agregar/android.view.ViewGroup (1)' with duration 3
+
+2023-06-16 10:02:30 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/agregar/android.view.ViewGroup (1)' with duration 3
+
+2023-06-16 10:02:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/agregar/android.widget.LinearLayout'
+
+2023-06-16 10:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:02:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.LinearLayout'
+
+2023-06-16 10:02:31 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-06-16 10:02:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-16 10:02:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.Button - Aceptar"), 1): Tapped on element 'Object Repository/agregar/android.widget.Button - Aceptar'
+
+2023-06-16 10:02:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.Button - Aceptar'
+
+2023-06-16 10:02:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/agregar/android.widget.FrameLayout (1)"), 1): Tapped on element 'Object Repository/agregar/android.widget.FrameLayout (1)'
+
+2023-06-16 10:02:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.widget.FrameLayout (1)'
+
+2023-06-16 10:02:34 - [TEST_STEP][PASSED] - tap(findTestObject("agregar/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/agregar/android.view.ViewGroup'
+
+2023-06-16 10:02:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:02:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/agregar/android.view.ViewGroup']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN40" time="19.764" classname="Test Cases/EnvioMensajes/CPN40" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:02:36 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN40: Test Cases/EnvioMensajes/CPN40
+
+2023-06-16 10:02:36 - [TEST_STEP][PASSED] - tap(findTestObject("CPN40/android.widget.FrameLayout"), 100): Tapped on element 'Object Repository/CPN40/android.widget.FrameLayout'
+
+2023-06-16 10:02:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.FrameLayout'
+
+2023-06-16 10:02:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN40/android.widget.RadioButton - 1 minuto"), 100): Tapped on element 'Object Repository/CPN40/android.widget.RadioButton - 1 minuto'
+
+2023-06-16 10:02:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.RadioButton - 1 minuto'
+
+2023-06-16 10:02:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN40/android.widget.Button - Aceptar"), 100): Tapped on element 'Object Repository/CPN40/android.widget.Button - Aceptar'
+
+2023-06-16 10:02:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.Button - Aceptar'
+
+2023-06-16 10:02:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN40/android.widget.EditText - Escribir mensaje"), 100): Tapped on element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje'
+
+2023-06-16 10:02:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje'
+
+2023-06-16 10:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)"), "mensaje1", 0): Text 'mensaje1' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:02:42 - [MESSAGE][PASSED] - Text 'mensaje1' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN40/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("CPN40/android.widget.EditText - Escribir mensaje (1)"), "mensaje2", 0): Text 'mensaje2' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:02:46 - [MESSAGE][PASSED] - Text 'mensaje2' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:46 - [TEST_STEP][PASSED] - tap(findTestObject("CPN40/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("CPN40/android.widget.EditText - Escribir mensaje (1)"), "mensaje3", 0): Text 'mensaje3' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:02:50 - [MESSAGE][PASSED] - Text 'mensaje3' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:50 - [TEST_STEP][PASSED] - tap(findTestObject("CPN40/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("CPN40/android.widget.EditText - Escribir mensaje (1)"), "mensaje4", 0): Text 'mensaje4' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:02:54 - [MESSAGE][PASSED] - Text 'mensaje4' has been set to element 'Object Repository/CPN40/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:02:54 - [TEST_STEP][PASSED] - tap(findTestObject("CPN40/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.ImageButton'
+
+2023-06-16 10:02:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN40/android.widget.ImageButton (1)"), 100): Tapped on element 'Object Repository/CPN40/android.widget.ImageButton (1)'
+
+2023-06-16 10:02:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN40/android.widget.ImageButton (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN76" time="35.981" classname="Test Cases/EnvioMensajes/CPN76" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:02:56 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN76: Test Cases/EnvioMensajes/CPN76
+
+2023-06-16 10:02:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN76/android.widget.FrameLayout"), 1): Tapped on element 'Object Repository/CPN76/android.widget.FrameLayout'
+
+2023-06-16 10:02:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN76/android.widget.FrameLayout'
+
+2023-06-16 10:02:57 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:03:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:03:00 - [TEST_STEP][PASSED] - tap(findTestObject("CPN76/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN76/android.view.ViewGroup'
+
+2023-06-16 10:03:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN76/android.view.ViewGroup'
+
+2023-06-16 10:03:00 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("CPN76/android.widget.ImageButton"), 8, 0): Tapped and held on element 'Object Repository/CPN76/android.widget.ImageButton' with duration 8
+
+2023-06-16 10:03:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:11 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN76/android.widget.ImageButton' with duration 8
+
+2023-06-16 10:03:11 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("CPN76/android.widget.ImageButton"), 15, 0): Tapped and held on element 'Object Repository/CPN76/android.widget.ImageButton' with duration 15
+
+2023-06-16 10:03:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:28 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN76/android.widget.ImageButton' with duration 15
+
+2023-06-16 10:03:28 - [TEST_STEP][PASSED] - tap(findTestObject("CPN76/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/CPN76/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN76/android.widget.ImageButton (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN85" time="37.419" classname="Test Cases/EnvioMensajes/CPN85" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:03:32 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN85: Test Cases/EnvioMensajes/CPN85
+
+2023-06-16 10:03:32 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-06-16 10:03:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-06-16 10:03:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN85/android.view.ViewGroup'
+
+2023-06-16 10:03:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.view.ViewGroup'
+
+2023-06-16 10:03:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.SeekBar - 0.0"), 0): Tapped on element 'Object Repository/CPN85/android.widget.SeekBar - 0.0'
+
+2023-06-16 10:03:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.SeekBar - 0.0'
+
+2023-06-16 10:03:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.ImageButton (1)"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:03:43 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.ImageButton (3)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (3)'
+
+2023-06-16 10:03:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (3)'
+
+2023-06-16 10:03:46 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.SeekBar - 0.0"), 0): Tapped on element 'Object Repository/CPN85/android.widget.SeekBar - 0.0'
+
+2023-06-16 10:03:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.SeekBar - 0.0'
+
+2023-06-16 10:03:47 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (1)"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:47 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:03:50 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.ImageButton (4)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (4)'
+
+2023-06-16 10:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (4)'
+
+2023-06-16 10:03:53 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (1)"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:03:55 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-06-16 10:03:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-16 10:03:56 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:03:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:03:56 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton'
+
+2023-06-16 10:03:58 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (4)"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (4)'
+
+2023-06-16 10:03:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (4)'
+
+2023-06-16 10:03:59 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (3)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (3)'
+
+2023-06-16 10:04:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (3)'
+
+2023-06-16 10:04:00 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (1)"), 1): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:04:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (1)'
+
+2023-06-16 10:04:01 - [TEST_STEP][PASSED] - tap(findTestObject("CPN85/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:03 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:04:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:04:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN85/android.widget.ImageButton (5)"), 0): Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (5)'
+
+2023-06-16 10:04:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN85/android.widget.ImageButton (5)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN94" time="85.8" classname="Test Cases/EnvioMensajes/CPN94" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:04:09 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN94: Test Cases/EnvioMensajes/CPN94
+
+2023-06-16 10:04:09 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN94/android.view.ViewGroup'
+
+2023-06-16 10:04:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.view.ViewGroup'
+
+2023-06-16 10:04:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN94/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:11 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("Object Repository/CPN94/android.widget.ImageButton (1)"), 6, 0): Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 6
+
+2023-06-16 10:04:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:20 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 6
+
+2023-06-16 10:04:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN94/android.widget.ImageButton (2)"), 1): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:20 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN94/android.widget.ImageButton (3)"), 600): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (3)'
+
+2023-06-16 10:04:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (3)'
+
+2023-06-16 10:04:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN94/android.widget.SeekBar - 0.0"), 0): Tapped on element 'Object Repository/CPN94/android.widget.SeekBar - 0.0'
+
+2023-06-16 10:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.SeekBar - 0.0'
+
+2023-06-16 10:04:24 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("CPN94/android.widget.ImageButton (1)"), 8, 0): Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 8
+
+2023-06-16 10:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:34 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 8
+
+2023-06-16 10:04:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN94/android.widget.EditText - Escribir mensaje"), 0): Tapped on element 'Object Repository/CPN94/android.widget.EditText - Escribir mensaje'
+
+2023-06-16 10:04:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.EditText - Escribir mensaje'
+
+2023-06-16 10:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN94/android.widget.EditText - Escribir mensaje (1)"), "Prueba video", 0): Text 'Prueba video' has been set to element 'Object Repository/CPN94/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:38 - [MESSAGE][PASSED] - Text 'Prueba video' has been set to element 'Object Repository/CPN94/android.widget.EditText - Escribir mensaje (1)'
+
+2023-06-16 10:04:38 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-06-16 10:04:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-06-16 10:04:41 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:41 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN94/android.widget.ImageButton (4)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (4)'
+
+2023-06-16 10:04:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (4)'
+
+2023-06-16 10:04:44 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("CPN94/android.widget.ImageButton (1)"), 5, 0): Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 5
+
+2023-06-16 10:04:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:52 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 5
+
+2023-06-16 10:04:52 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:04:52 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:04:54 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (4)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (4)'
+
+2023-06-16 10:04:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:04:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (4)'
+
+2023-06-16 10:04:55 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("CPN94/android.widget.ImageButton (1)"), 10, 0): Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 10
+
+2023-06-16 10:04:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:08 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 10
+
+2023-06-16 10:05:08 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:05:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:05:08 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:05:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton'
+
+2023-06-16 10:05:11 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:05:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:05:14 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (4)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (4)'
+
+2023-06-16 10:05:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (4)'
+
+2023-06-16 10:05:15 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("CPN94/android.widget.ImageButton (1)"), 15, 0): Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 15
+
+2023-06-16 10:05:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:32 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/CPN94/android.widget.ImageButton (1)' with duration 15
+
+2023-06-16 10:05:32 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:05:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (2)'
+
+2023-06-16 10:05:33 - [TEST_STEP][PASSED] - tap(findTestObject("CPN94/android.widget.ImageButton (6)"), 0): Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (6)'
+
+2023-06-16 10:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN94/android.widget.ImageButton (6)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN103" time="20.186" classname="Test Cases/EnvioMensajes/CPN103" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:05:35 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN103: Test Cases/EnvioMensajes/CPN103
+
+2023-06-16 10:05:35 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:05:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:05:38 - [TEST_STEP][PASSED] - tap(findTestObject("CPN103/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN103/android.view.ViewGroup'
+
+2023-06-16 10:05:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.view.ViewGroup'
+
+2023-06-16 10:05:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN103/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/CPN103/android.widget.ImageButton'
+
+2023-06-16 10:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.ImageButton'
+
+2023-06-16 10:05:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN103/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/CPN103/android.widget.LinearLayout'
+
+2023-06-16 10:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.LinearLayout'
+
+2023-06-16 10:05:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN103/android.widget.ImageView"), 0): Tapped on element 'Object Repository/CPN103/android.widget.ImageView'
+
+2023-06-16 10:05:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.ImageView'
+
+2023-06-16 10:05:46 - [TEST_STEP][PASSED] - tap(findTestObject("CPN103/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/CPN103/android.widget.ImageButton'
+
+2023-06-16 10:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.ImageButton'
+
+2023-06-16 10:05:48 - [TEST_STEP][PASSED] - tap(findTestObject("CPN103/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/CPN103/android.widget.LinearLayout'
+
+2023-06-16 10:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.LinearLayout'
+
+2023-06-16 10:05:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN103/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/CPN103/android.widget.ImageView (1)'
+
+2023-06-16 10:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.ImageView (1)'
+
+2023-06-16 10:05:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN103/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/CPN103/android.widget.ImageButton (1)'
+
+2023-06-16 10:05:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN103/android.widget.ImageButton (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN104" time="23.391" classname="Test Cases/EnvioMensajes/CPN104" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:05:55 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN104: Test Cases/EnvioMensajes/CPN104
+
+2023-06-16 10:05:55 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:05:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:05:58 - [TEST_STEP][PASSED] - tap(findTestObject("CPN104/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN104/android.view.ViewGroup'
+
+2023-06-16 10:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:05:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.view.ViewGroup'
+
+2023-06-16 10:05:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN104/android.widget.ImageButton'
+
+2023-06-16 10:06:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.ImageButton'
+
+2023-06-16 10:06:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.LinearLayout"), 100): Tapped on element 'Object Repository/CPN104/android.widget.LinearLayout'
+
+2023-06-16 10:06:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.LinearLayout'
+
+2023-06-16 10:06:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/CPN104/android.view.ViewGroup (1)'
+
+2023-06-16 10:06:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.view.ViewGroup (1)'
+
+2023-06-16 10:06:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.ImageView"), 100): Tapped on element 'Object Repository/CPN104/android.widget.ImageView'
+
+2023-06-16 10:06:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.ImageView'
+
+2023-06-16 10:06:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.ImageView (1)"), 100): Tapped on element 'Object Repository/CPN104/android.widget.ImageView (1)'
+
+2023-06-16 10:06:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.ImageView (1)'
+
+2023-06-16 10:06:05 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2023-06-16 10:06:13 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-06-16 10:06:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.ImageView (2)"), 100): Tapped on element 'Object Repository/CPN104/android.widget.ImageView (2)'
+
+2023-06-16 10:06:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.ImageView (2)'
+
+2023-06-16 10:06:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.ImageButton (1)"), 100): Tapped on element 'Object Repository/CPN104/android.widget.ImageButton (1)'
+
+2023-06-16 10:06:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.ImageButton (1)'
+
+2023-06-16 10:06:14 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:06:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:06:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN104/android.widget.ImageButton (2)"), 100): Tapped on element 'Object Repository/CPN104/android.widget.ImageButton (2)'
+
+2023-06-16 10:06:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN104/android.widget.ImageButton (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN105" time="35.621" classname="Test Cases/EnvioMensajes/CPN105" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:06:18 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN105: Test Cases/EnvioMensajes/CPN105
+
+2023-06-16 10:06:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN105/android.view.ViewGroup'
+
+2023-06-16 10:06:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.view.ViewGroup'
+
+2023-06-16 10:06:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton'
+
+2023-06-16 10:06:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton'
+
+2023-06-16 10:06:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.LinearLayout"), 100): Tapped on element 'Object Repository/CPN105/android.widget.LinearLayout'
+
+2023-06-16 10:06:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.LinearLayout'
+
+2023-06-16 10:06:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.ImageButton (1)"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (1)'
+
+2023-06-16 10:06:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (1)'
+
+2023-06-16 10:06:24 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:06:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:06:27 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton'
+
+2023-06-16 10:06:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton'
+
+2023-06-16 10:06:29 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105/android.widget.LinearLayout"), 100): Tapped on element 'Object Repository/CPN105/android.widget.LinearLayout'
+
+2023-06-16 10:06:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.LinearLayout'
+
+2023-06-16 10:06:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.TextView"), 100): Tapped on element 'Object Repository/CPN105/android.widget.TextView'
+
+2023-06-16 10:06:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.TextView'
+
+2023-06-16 10:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CPN105/android.widget.EditText - NapoleoN"), "Valenci", 0): Text 'Valenci' has been set to element 'Object Repository/CPN105/android.widget.EditText - NapoleoN'
+
+2023-06-16 10:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:35 - [MESSAGE][PASSED] - Text 'Valenci' has been set to element 'Object Repository/CPN105/android.widget.EditText - NapoleoN'
+
+2023-06-16 10:06:35 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105/android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/CPN105/android.view.ViewGroup (1)'
+
+2023-06-16 10:06:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.view.ViewGroup (1)'
+
+2023-06-16 10:06:37 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105/android.widget.ImageButton (1)"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (1)'
+
+2023-06-16 10:06:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (1)'
+
+2023-06-16 10:06:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.ImageButton"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton'
+
+2023-06-16 10:06:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton'
+
+2023-06-16 10:06:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.LinearLayout"), 100): Tapped on element 'Object Repository/CPN105/android.widget.LinearLayout'
+
+2023-06-16 10:06:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.LinearLayout'
+
+2023-06-16 10:06:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.TextView"), 100): Tapped on element 'Object Repository/CPN105/android.widget.TextView'
+
+2023-06-16 10:06:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.TextView'
+
+2023-06-16 10:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("CPN105/android.widget.EditText - NapoleoN"), "ikonos", 0): Text 'ikonos' has been set to element 'Object Repository/CPN105/android.widget.EditText - NapoleoN'
+
+2023-06-16 10:06:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:48 - [MESSAGE][PASSED] - Text 'ikonos' has been set to element 'Object Repository/CPN105/android.widget.EditText - NapoleoN'
+
+2023-06-16 10:06:48 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105/android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/CPN105/android.view.ViewGroup (1)'
+
+2023-06-16 10:06:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.view.ViewGroup (1)'
+
+2023-06-16 10:06:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.ImageButton (2)"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (2)'
+
+2023-06-16 10:06:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (2)'
+
+2023-06-16 10:06:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105/android.widget.ImageButton (3)"), 100): Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (3)'
+
+2023-06-16 10:06:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105/android.widget.ImageButton (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EnvioMensajes/CPN105.1" time="24.762" classname="Test Cases/EnvioMensajes/CPN105.1" status="PASSED">
+         <system-out><![CDATA[2023-06-16 10:06:54 - [TEST_CASE][PASSED] - Test Cases/EnvioMensajes/CPN105.1: Test Cases/EnvioMensajes/CPN105.1
+
+2023-06-16 10:06:54 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:06:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:06:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/CPN105.1/android.view.ViewGroup'
+
+2023-06-16 10:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:06:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.view.ViewGroup'
+
+2023-06-16 10:06:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton'
+
+2023-06-16 10:06:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton'
+
+2023-06-16 10:06:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.LinearLayout"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.LinearLayout'
+
+2023-06-16 10:07:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.LinearLayout'
+
+2023-06-16 10:07:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton (1)"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (1)'
+
+2023-06-16 10:07:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (1)'
+
+2023-06-16 10:07:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (2)'
+
+2023-06-16 10:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:07:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (2)'
+
+2023-06-16 10:07:04 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105.1/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton'
+
+2023-06-16 10:07:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton'
+
+2023-06-16 10:07:05 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105.1/android.widget.LinearLayout"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.LinearLayout'
+
+2023-06-16 10:07:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.LinearLayout'
+
+2023-06-16 10:07:06 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-06-16 10:07:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-16 10:07:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton (3)"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (3)'
+
+2023-06-16 10:07:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (3)'
+
+2023-06-16 10:07:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton (4)"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (4)'
+
+2023-06-16 10:07:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (4)'
+
+2023-06-16 10:07:10 - [TEST_STEP][PASSED] - tap(findTestObject("CPN105.1/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (2)'
+
+2023-06-16 10:07:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-16 10:07:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (2)'
+
+2023-06-16 10:07:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton'
+
+2023-06-16 10:07:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton'
+
+2023-06-16 10:07:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageView"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageView'
+
+2023-06-16 10:07:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageView'
+
+2023-06-16 10:07:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CPN105.1/android.widget.ImageButton (5)"), 1): Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (5)'
+
+2023-06-16 10:07:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CPN105.1/android.widget.ImageButton (5)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-16 09:56:56 - [TEST_SUITE][PASSED] - PRUEBA-CPN105.1: Test Cases/EnvioMensajes/CPN105.1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

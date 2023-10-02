@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integracion parte1 y parte 2,,,,2023-07-13 10:31:42,2023-07-13 10:31:46,"3,676s",FAILED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN76,,,,2023-07-13 10:31:43,2023-07-13 10:31:43,"0,777s",FAILED
+"tap(findTestObject(""Object Repository/Parte1/Envio de mensajes/CPN76/android.widget.FrameLayout""), 1)",,,,2023-07-13 10:31:43,2023-07-13 10:31:43,"0,360s",PASSED
+,,,,,,,
+Test Cases/Parte1/Envio de mensajes/CPN94,,,,2023-07-13 10:31:43,2023-07-13 10:31:46,"2,571s",FAILED
+"delay(2, CONTINUE_ON_FAILURE)",,,,2023-07-13 10:31:44,2023-07-13 10:31:46,"2,060s",PASSED
+"tap(findTestObject(""Parte1/Envio de mensajes/CPN94/android.view.ViewGroup""), 0)",,abrir chat,,2023-07-13 10:31:46,2023-07-13 10:31:46,"0,047s",PASSED

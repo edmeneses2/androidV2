@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crear_usuario,,,,2023-07-25 17:07:39,2023-07-25 17:07:43,"4,323s",FAILED
+,,,,,,,
+Test Cases/ingreso para prueba,,,,2023-07-25 17:07:39,2023-07-25 17:07:43,"3,640s",FAILED
+"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23"", true)",,,,2023-07-25 17:07:40,2023-07-25 17:07:43,"3,274s",FAILED
+,,,,,,,
+Test Cases/CPN208,,,,2023-07-25 17:07:43,2023-07-25 17:07:43,"0,397s",FAILED
+"tap(findTestObject(""Parte2/Ajustes cuenta/Chats/android.widget.FrameLayout""), 0)",,,,2023-07-25 17:07:43,2023-07-25 17:07:43,"0,096s",PASSED
