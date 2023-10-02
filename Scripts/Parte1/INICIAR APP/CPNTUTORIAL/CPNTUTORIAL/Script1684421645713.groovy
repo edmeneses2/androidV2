@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk', true)
+Mobile.startApplication('C:\\Users\\PC-09\\Documents\\Apk Katalon\\app-qa.apk', true)
 
 //Mobile.startApplication('C:\\Users\\Testing\\Desktop\\katalon\\APK SERVIDOR NUEVO\\NapoleoN.apk', true)
 Mobile.verifyElementText(findTestObject('Object Repository/Parte1/INICIAR APP/CPNTUTORIAL/android.widget.FrameLayout (1)'), 
