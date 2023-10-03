@@ -39,3 +39,5 @@ Mobile.tap(findTestObject('Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/
 
 Mobile.tap(findTestObject('Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout (1)'), 0)
 
+Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+

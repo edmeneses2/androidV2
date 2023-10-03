@@ -23,6 +23,8 @@ Mobile.pressBack()
 
 Mobile.toggleWifi('OFF', FailureHandling.STOP_ON_FAILURE)
 
+//Mobile.swipe(504, 1722, 0, 0)
+'SE AGREGO PARA PRUEBA EN ANDROID 9 y se dejo comentado'
 Mobile.tap(findTestObject('Object Repository/Parte1/INICIAR APP/Abrir_App/CPN1/android.widget.TextView - NapoleoN'), 3000)
 
 WebUI.delay(2)

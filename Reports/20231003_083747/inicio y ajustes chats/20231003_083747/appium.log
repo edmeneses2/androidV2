@@ -1,0 +1,57 @@
+[35m[Appium][39m Welcome to Appium v1.22.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 51791
+[35m[Appium][39m   tmpDir: C:\Users\PC-09\AppData\Local\Temp\\Katalon\Appium\Temp1696340274309
+[35m[Appium][39m   chromedriverPort: 51792
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 51792
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51791
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","noReset":false,"deviceId":"","deviceName":"motorola moto g(6) plus (Android 9)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ZY323QKJ4H","systemPort":51790},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"motorola moto g(6) plus (Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":51790,"appium:udid":"ZY323QKJ4H"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","noReset":false,"deviceId":"","deviceName":"motorola moto g(6) plus (Android 9)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ZY323QKJ4H","systemPort":51790},null,{"firstMatch":[{"appium:app":"C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"motorola moto g(6) plus (Android 9)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":51790,"appium:udid":"ZY323QKJ4H"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1696340276411 (08:37:56 GMT-0500 (hora estándar de Colombia))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:deviceId": "",
+[debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
+[debug] [35m[BaseDriver][39m     "platformName": "android",
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 51792,
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\Testing\\Desktop\\katalon\\Apk actualizada Android 13\\NapoleoN.apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "uiautomator2",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "motorola moto g(6) plus (Android 9)",
+[debug] [35m[BaseDriver][39m     "appium:fullReset": true,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
+[debug] [35m[BaseDriver][39m     "appium:noReset": false,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "9",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 51790,
+[debug] [35m[BaseDriver][39m     "appium:udid": "ZY323QKJ4H"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: c64399d7-9e17-4a0f-b0aa-906fc2ed5b58
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1696340276648 (08:37:56 GMT-0500 (hora estándar de Colombia))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: The application at 'C:\Users\Testing\Desktop\katalon\Apk actualizada Android 13\NapoleoN.apk' does not exist or is not accessible
+[debug] [35m[W3C][39m     at C:\Users\PC-09\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\helpers.js:234:13
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m270 ms - 831[39m
+[35m[HTTP][39m [90m[39m

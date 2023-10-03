@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="inicio y ajustes chats" time="433.208" tests="19" failures="0" errors="0">
+   <testsuite name="inicio y ajustes chats" tests="19" failures="0" errors="0" time="433.208" skipped="0" timestamp="2023-10-03 09:40:32" hostname="PC-09 - DESKTOP-951A5AB" id="Test Suites/inicio y ajustes chats">
+      <properties>
+         <property name="deviceName" value="motorola moto g(6) plus (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC-09\\KatalonStudio\\androidV2\\Reports\\20231003_094028\\inicio y ajustes chats\\20231003_094028"/>
+         <property name="logFiles" value="C:\\Users\\PC-09\\KatalonStudio\\androidV2\\Reports\\20231003_094028\\inicio y ajustes chats\\20231003_094028\\appium.log, C:\\Users\\PC-09\\KatalonStudio\\androidV2\\Reports\\20231003_094028\\inicio y ajustes chats\\20231003_094028\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC-09 - DESKTOP-951A5AB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="moto g(6) plus"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="deviceManufacturer" value="motorola"/>
+         <property name="deviceId" value="ZY323QKJ4H"/>
+         <property name="deviceName" value="motorola moto g(6) plus (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/ingreso para prueba" time="35.53" classname="Test Cases/ingreso para prueba" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:40:33 - [TEST_CASE][PASSED] - Test Cases/ingreso para prueba: Test Cases/ingreso para prueba
+
+2023-10-03 09:40:33 - [TEST_STEP][PASSED] - startApplication("C:\Users\PC-09\Documents\Apk Katalon\app-qa.apk", true): Started app at: 'C:\Users\PC-09\Documents\Apk Katalon\app-qa.apk'
+
+2023-10-03 09:40:33 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-10-03 09:40:33 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-10-03 09:40:35 - [MESSAGE][INFO] - Appium server started on port 56.011
+
+2023-10-03 09:41:04 - [MESSAGE][PASSED] - Started app at: 'C:\Users\PC-09\Documents\Apk Katalon\app-qa.apk'
+
+2023-10-03 09:41:04 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:41:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:41:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir"), 0): Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir'
+
+2023-10-03 09:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/ingreso solo prueba/android.widget.TextView - Omitir']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24" time="69.817" classname="Test Cases/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:41:08 - [TEST_CASE][PASSED] - Test Cases/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24: Test Cases/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24
+
+2023-10-03 09:41:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Iniciar sesin"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Iniciar sesin'
+
+2023-10-03 09:41:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Iniciar sesin'
+
+2023-10-03 09:41:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Recuperar Cuenta"), 0): Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Recuperar Cuenta' is present
+
+2023-10-03 09:41:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:11 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Recuperar Cuenta' is present
+
+2023-10-03 09:41:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo'
+
+2023-10-03 09:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo'
+
+2023-10-03 09:41:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo (1)"), "edwin_1324", 0): Text 'edwin_1324' has been set to element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo (1)'
+
+2023-10-03 09:41:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:15 - [MESSAGE][PASSED] - Text 'edwin_1324' has been set to element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Apodo (1)'
+
+2023-10-03 09:41:15 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-10-03 09:41:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-10-03 09:41:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar'
+
+2023-10-03 09:41:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar'
+
+2023-10-03 09:41:18 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-10-03 09:41:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - i = 1: null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - while (i <= 5): null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - radioGroupObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup"): null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - optionUnoObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno"): null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - optionDosObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos"): null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - optionTresObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres"): null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - siguienteButton = findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente"): null
+
+2023-10-03 09:41:23 - [TEST_STEP][PASSED] - if (waitForElementPresent(radioGroupObject, 2)): null
+
+2023-10-03 09:41:24 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup' is present
+
+2023-10-03 09:41:24 - [TEST_STEP][PASSED] - if (waitForElementPresent(optionUnoObject, 2)): Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres not found
+
+2023-10-03 09:41:26 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno not found
+
+2023-10-03 09:41:28 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos not found
+
+2023-10-03 09:41:30 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres not found
+
+2023-10-03 09:41:30 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionDosObject, 2)): null
+
+2023-10-03 09:41:30 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionTresObject, 2)): null
+
+2023-10-03 09:41:30 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-10-03 09:41:30 - [TEST_STEP][PASSED] - tap(findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-10-03 09:41:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-10-03 09:41:30 - [TEST_STEP][PASSED] - if (waitForElementPresent(siguienteButton, 2)): null
+
+2023-10-03 09:41:31 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente' is present
+
+2023-10-03 09:41:31 - [TEST_STEP][PASSED] - tap(siguienteButton, 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:31 - [TEST_STEP][PASSED] - (i++): null
+
+2023-10-03 09:41:31 - [TEST_STEP][PASSED] - radioGroupObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup"): null
+
+2023-10-03 09:41:31 - [TEST_STEP][PASSED] - optionUnoObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno"): null
+
+2023-10-03 09:41:31 - [TEST_STEP][PASSED] - optionDosObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos"): null
+
+2023-10-03 09:41:31 - [TEST_STEP][PASSED] - optionTresObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres"): null
+
+2023-10-03 09:41:32 - [TEST_STEP][PASSED] - siguienteButton = findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente"): null
+
+2023-10-03 09:41:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(radioGroupObject, 2)): null
+
+2023-10-03 09:41:32 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup' is present
+
+2023-10-03 09:41:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(optionUnoObject, 2)): Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos' is present
+
+2023-10-03 09:41:34 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno not found
+
+2023-10-03 09:41:34 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos' is present
+
+2023-10-03 09:41:34 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionDosObject, 2)): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos'
+
+2023-10-03 09:41:34 - [TEST_STEP][PASSED] - tap(optionDosObject, 2): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos'
+
+2023-10-03 09:41:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos'
+
+2023-10-03 09:41:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(siguienteButton, 2)): null
+
+2023-10-03 09:41:35 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente' is present
+
+2023-10-03 09:41:35 - [TEST_STEP][PASSED] - tap(siguienteButton, 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - (i++): null
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - radioGroupObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup"): null
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - optionUnoObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno"): null
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - optionDosObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos"): null
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - optionTresObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres"): null
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - siguienteButton = findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente"): null
+
+2023-10-03 09:41:36 - [TEST_STEP][PASSED] - if (waitForElementPresent(radioGroupObject, 2)): null
+
+2023-10-03 09:41:37 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup' is present
+
+2023-10-03 09:41:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(optionUnoObject, 2)): Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres not found
+
+2023-10-03 09:41:39 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno not found
+
+2023-10-03 09:41:41 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos not found
+
+2023-10-03 09:41:43 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres not found
+
+2023-10-03 09:41:43 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionDosObject, 2)): null
+
+2023-10-03 09:41:43 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionTresObject, 2)): null
+
+2023-10-03 09:41:43 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-10-03 09:41:43 - [TEST_STEP][PASSED] - tap(findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-10-03 09:41:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - No eleg esta pregunta'
+
+2023-10-03 09:41:43 - [TEST_STEP][PASSED] - if (waitForElementPresent(siguienteButton, 2)): null
+
+2023-10-03 09:41:44 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente' is present
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - tap(siguienteButton, 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - (i++): null
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - radioGroupObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup"): null
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - optionUnoObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno"): null
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - optionDosObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos"): null
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - optionTresObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres"): null
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - siguienteButton = findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente"): null
+
+2023-10-03 09:41:44 - [TEST_STEP][PASSED] - if (waitForElementPresent(radioGroupObject, 2)): null
+
+2023-10-03 09:41:45 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup' is present
+
+2023-10-03 09:41:45 - [TEST_STEP][PASSED] - if (waitForElementPresent(optionUnoObject, 2)): null
+
+2023-10-03 09:41:45 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno' is present
+
+2023-10-03 09:41:45 - [TEST_STEP][PASSED] - tap(optionUnoObject, 2): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno'
+
+2023-10-03 09:41:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno'
+
+2023-10-03 09:41:45 - [TEST_STEP][PASSED] - if (waitForElementPresent(siguienteButton, 2)): null
+
+2023-10-03 09:41:46 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente' is present
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - tap(siguienteButton, 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente'
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - (i++): null
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - radioGroupObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup"): null
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - optionUnoObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno"): null
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - optionDosObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos"): null
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - optionTresObject = findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres"): null
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - siguienteButton = findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente"): null
+
+2023-10-03 09:41:46 - [TEST_STEP][PASSED] - if (waitForElementPresent(radioGroupObject, 2)): null
+
+2023-10-03 09:41:47 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioGroup' is present
+
+2023-10-03 09:41:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(optionUnoObject, 2)): Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres' is present
+
+2023-10-03 09:41:49 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Uno not found
+
+2023-10-03 09:41:51 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Dos not found
+
+2023-10-03 09:41:51 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres' is present
+
+2023-10-03 09:41:51 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionDosObject, 2)): null
+
+2023-10-03 09:41:51 - [TEST_STEP][PASSED] - else if (waitForElementPresent(optionTresObject, 2)): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres'
+
+2023-10-03 09:41:51 - [TEST_STEP][PASSED] - tap(optionTresObject, 2): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres'
+
+2023-10-03 09:41:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.RadioButton - Tres'
+
+2023-10-03 09:41:51 - [TEST_STEP][PASSED] - if (waitForElementPresent(siguienteButton, 2)): Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente not found
+
+2023-10-03 09:41:54 - [MESSAGE][WARNING] - Object Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Siguiente not found
+
+2023-10-03 09:41:54 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Finalizar'
+
+2023-10-03 09:41:54 - [TEST_STEP][PASSED] - tap(findTestObject("Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Finalizar"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Finalizar'
+
+2023-10-03 09:41:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Finalizar'
+
+2023-10-03 09:41:54 - [TEST_STEP][PASSED] - (i++): null
+
+2023-10-03 09:41:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.FrameLayout"), 0): Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.FrameLayout' is visible
+
+2023-10-03 09:41:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:55 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.FrameLayout' is visible
+
+2023-10-03 09:41:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Cerrar"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Cerrar'
+
+2023-10-03 09:41:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Cerrar'
+
+2023-10-03 09:41:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso'
+
+2023-10-03 09:41:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:41:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso'
+
+2023-10-03 09:41:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso (1)"), "0000", 0): Text '0000' has been set to element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso (1)'
+
+2023-10-03 09:41:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:03 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Pin de Acceso (1)'
+
+2023-10-03 09:42:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-10-03 09:42:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso'
+
+2023-10-03 09:42:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso (1)"), "0000", 0): Text '0000' has been set to element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso (1)'
+
+2023-10-03 09:42:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:07 - [MESSAGE][PASSED] - Text '0000' has been set to element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.EditText - Confirmar nuevo pin de acceso (1)'
+
+2023-10-03 09:42:07 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-10-03 09:42:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-10-03 09:42:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar cuenta"), 0): Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar cuenta'
+
+2023-10-03 09:42:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Recuperar cuenta'
+
+2023-10-03 09:42:12 - [TEST_STEP][PASSED] - delay(6, STOP_ON_FAILURE): Delayed 6 second(s)
+
+2023-10-03 09:42:18 - [MESSAGE][PASSED] - Delayed 6 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tutorial_nuevo" time="6.68" classname="Test Cases/Tutorial_nuevo" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:42:18 - [TEST_CASE][PASSED] - Test Cases/Tutorial_nuevo: Test Cases/Tutorial_nuevo
+
+2023-10-03 09:42:18 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-10-03 09:42:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-10-03 09:42:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte1/Tutorial_nuevo/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte1/Tutorial_nuevo/android.widget.FrameLayout'
+
+2023-10-03 09:42:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte1/Tutorial_nuevo/android.widget.FrameLayout'
+
+2023-10-03 09:42:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Parte1/Tutorial_nuevo/android.widget.TextView - NapoleoN"), 0): Element 'Object Repository/Parte1/Tutorial_nuevo/android.widget.TextView - NapoleoN' is present
+
+2023-10-03 09:42:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:25 - [MESSAGE][PASSED] - Element 'Object Repository/Parte1/Tutorial_nuevo/android.widget.TextView - NapoleoN' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN208" time="40.693" classname="Test Cases/Parte2/Chats/CPN208" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:42:25 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN208: Test Cases/Parte2/Chats/CPN208
+
+2023-10-03 09:42:25 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.FrameLayout'
+
+2023-10-03 09:42:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.FrameLayout'
+
+2023-10-03 09:42:25 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout'
+
+2023-10-03 09:42:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout'
+
+2023-10-03 09:42:26 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:27 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton' is visible
+
+2023-10-03 09:42:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:30 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton' is visible
+
+2023-10-03 09:42:30 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:42:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:42:32 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton' is visible
+
+2023-10-03 09:42:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:33 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton' is visible
+
+2023-10-03 09:42:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)'
+
+2023-10-03 09:42:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)'
+
+2023-10-03 09:42:33 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:42:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:42:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)'
+
+2023-10-03 09:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)'
+
+2023-10-03 09:42:36 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:38 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:42:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:42:40 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:41 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.view.ViewGroup"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.view.ViewGroup' is visible
+
+2023-10-03 09:42:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:42 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.view.ViewGroup' is visible
+
+2023-10-03 09:42:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)'
+
+2023-10-03 09:42:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)'
+
+2023-10-03 09:42:42 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:42:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:42:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)'
+
+2023-10-03 09:42:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)'
+
+2023-10-03 09:42:45 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:47 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:48 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:42:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:42:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:51 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton'
+
+2023-10-03 09:42:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton' is visible
+
+2023-10-03 09:42:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:52 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton' is visible
+
+2023-10-03 09:42:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)'
+
+2023-10-03 09:42:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (1)'
+
+2023-10-03 09:42:52 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:42:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:42:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)'
+
+2023-10-03 09:42:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.ImageButton (2)'
+
+2023-10-03 09:42:55 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (1)'
+
+2023-10-03 09:42:57 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:42:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.LinearLayout (2)'
+
+2023-10-03 09:42:58 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:43:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:43:00 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:43:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:43:00 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:43:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:43:01 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN208/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN208/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:01 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:43:05 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN209" time="31.331" classname="Test Cases/Parte2/Chats/CPN209" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:43:05 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN209: Test Cases/Parte2/Chats/CPN209
+
+2023-10-03 09:43:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.FrameLayout'
+
+2023-10-03 09:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.FrameLayout'
+
+2023-10-03 09:43:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout'
+
+2023-10-03 09:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout'
+
+2023-10-03 09:43:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton'
+
+2023-10-03 09:43:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton'
+
+2023-10-03 09:43:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:11 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:43:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:43:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:14 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:15 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:16 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton'
+
+2023-10-03 09:43:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton'
+
+2023-10-03 09:43:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)'
+
+2023-10-03 09:43:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)'
+
+2023-10-03 09:43:18 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:19 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:43:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:43:22 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:22 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:24 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:24 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton'
+
+2023-10-03 09:43:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton'
+
+2023-10-03 09:43:26 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)"), 1): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)'
+
+2023-10-03 09:43:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)'
+
+2023-10-03 09:43:27 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)'
+
+2023-10-03 09:43:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (3)'
+
+2023-10-03 09:43:27 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:28 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:43:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:43:31 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:43:32 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:43:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN209/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:33 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:43:37 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN210" time="12.448" classname="Test Cases/Parte2/Chats/CPN210" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:43:37 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN210: Test Cases/Parte2/Chats/CPN210
+
+2023-10-03 09:43:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN210/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.FrameLayout'
+
+2023-10-03 09:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.FrameLayout'
+
+2023-10-03 09:43:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (3)'
+
+2023-10-03 09:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.LinearLayout (3)'
+
+2023-10-03 09:43:40 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN210/android.widget.SeekBar - 0.0"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.SeekBar - 0.0'
+
+2023-10-03 09:43:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.SeekBar - 0.0'
+
+2023-10-03 09:43:41 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:43:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:43:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:43:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN210/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:45 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:43:49 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN211" time="14.46" classname="Test Cases/Parte2/Chats/CPN211" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:43:49 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN211: Test Cases/Parte2/Chats/CPN211
+
+2023-10-03 09:43:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.FrameLayout'
+
+2023-10-03 09:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.FrameLayout'
+
+2023-10-03 09:43:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout'
+
+2023-10-03 09:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout'
+
+2023-10-03 09:43:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout (1)'
+
+2023-10-03 09:43:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.LinearLayout (2)'
+
+2023-10-03 09:43:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton'
+
+2023-10-03 09:43:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton'
+
+2023-10-03 09:43:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton (1)'
+
+2023-10-03 09:43:54 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:43:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:43:57 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:43:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:43:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:43:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.ImageButton (2)'
+
+2023-10-03 09:43:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.FrameLayout (1)'
+
+2023-10-03 09:43:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN211/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:00 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:44:04 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN212" time="17.224" classname="Test Cases/Parte2/Chats/CPN212" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:44:04 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN212: Test Cases/Parte2/Chats/CPN212
+
+2023-10-03 09:44:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.FrameLayout'
+
+2023-10-03 09:44:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.FrameLayout'
+
+2023-10-03 09:44:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout'
+
+2023-10-03 09:44:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout'
+
+2023-10-03 09:44:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout (1)'
+
+2023-10-03 09:44:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout (1)'
+
+2023-10-03 09:44:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout (2)'
+
+2023-10-03 09:44:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.LinearLayout (2)'
+
+2023-10-03 09:44:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.SeekBar - 0.0"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.SeekBar - 0.0'
+
+2023-10-03 09:44:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.SeekBar - 0.0'
+
+2023-10-03 09:44:08 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:44:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:44:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.ImageButton'
+
+2023-10-03 09:44:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.ImageButton'
+
+2023-10-03 09:44:12 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:44:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:44:15 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:44:15 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:44:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.ImageButton (1)'
+
+2023-10-03 09:44:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.ImageButton (1)'
+
+2023-10-03 09:44:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN212/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:17 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:44:21 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN213" time="16.29" classname="Test Cases/Parte2/Chats/CPN213" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:44:21 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN213: Test Cases/Parte2/Chats/CPN213
+
+2023-10-03 09:44:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.FrameLayout'
+
+2023-10-03 09:44:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.FrameLayout'
+
+2023-10-03 09:44:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout'
+
+2023-10-03 09:44:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout'
+
+2023-10-03 09:44:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout (1)'
+
+2023-10-03 09:44:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout (1)'
+
+2023-10-03 09:44:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout (2)'
+
+2023-10-03 09:44:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.LinearLayout (2)'
+
+2023-10-03 09:44:24 - [TEST_STEP][PASSED] - delay(1, CONTINUE_ON_FAILURE): Delayed 1 second(s)
+
+2023-10-03 09:44:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-10-03 09:44:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton'
+
+2023-10-03 09:44:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton'
+
+2023-10-03 09:44:26 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:44:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:44:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton (1)'
+
+2023-10-03 09:44:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton (1)'
+
+2023-10-03 09:44:28 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:44:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:44:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:44:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:44:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton (2)'
+
+2023-10-03 09:44:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.ImageButton (2)'
+
+2023-10-03 09:44:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN213/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:33 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:44:37 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN214" time="25.534" classname="Test Cases/Parte2/Chats/CPN214" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:44:37 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN214: Test Cases/Parte2/Chats/CPN214
+
+2023-10-03 09:44:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout'
+
+2023-10-03 09:44:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout'
+
+2023-10-03 09:44:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout'
+
+2023-10-03 09:44:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout'
+
+2023-10-03 09:44:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (1)'
+
+2023-10-03 09:44:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (1)'
+
+2023-10-03 09:44:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (2)'
+
+2023-10-03 09:44:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.LinearLayout (2)'
+
+2023-10-03 09:44:41 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:44:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:44:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton'
+
+2023-10-03 09:44:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton'
+
+2023-10-03 09:44:43 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:44:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:44:46 - [TEST_STEP][PASSED] - pinchToZoomInAtPosition(0, 400, 150, STOP_ON_FAILURE): Zoomed in at [0, 400] with offset 150
+
+2023-10-03 09:44:47 - [MESSAGE][PASSED] - Zoomed in at [0, 400] with offset 150
+
+2023-10-03 09:44:47 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-10-03 09:44:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-10-03 09:44:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:44:52 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:44:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:44:54 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:44:55 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:44:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton (1)'
+
+2023-10-03 09:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.ImageButton (1)'
+
+2023-10-03 09:44:55 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:44:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:44:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:44:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN214/android.widget.FrameLayout (1)'
+
+2023-10-03 09:44:58 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-10-03 09:45:03 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN215" time="16.052" classname="Test Cases/Parte2/Chats/CPN215" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:45:03 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN215: Test Cases/Parte2/Chats/CPN215
+
+2023-10-03 09:45:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.FrameLayout'
+
+2023-10-03 09:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.FrameLayout'
+
+2023-10-03 09:45:03 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout'
+
+2023-10-03 09:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout'
+
+2023-10-03 09:45:04 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:05 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:06 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:45:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:45:08 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageButton'
+
+2023-10-03 09:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageButton'
+
+2023-10-03 09:45:08 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:45:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:45:10 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (3)'
+
+2023-10-03 09:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.LinearLayout (3)'
+
+2023-10-03 09:45:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageView (1)'
+
+2023-10-03 09:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageView (1)'
+
+2023-10-03 09:45:11 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:45:12 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:45:13 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:45:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageButton (1)'
+
+2023-10-03 09:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.ImageButton (1)'
+
+2023-10-03 09:45:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.FrameLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.FrameLayout (2)'
+
+2023-10-03 09:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN215/android.widget.FrameLayout (2)'
+
+2023-10-03 09:45:15 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:45:19 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN216" time="14.138" classname="Test Cases/Parte2/Chats/CPN216" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:45:19 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN216: Test Cases/Parte2/Chats/CPN216
+
+2023-10-03 09:45:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout'
+
+2023-10-03 09:45:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout'
+
+2023-10-03 09:45:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout'
+
+2023-10-03 09:45:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout'
+
+2023-10-03 09:45:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageButton'
+
+2023-10-03 09:45:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageButton'
+
+2023-10-03 09:45:23 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:45:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:45:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (3)'
+
+2023-10-03 09:45:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.LinearLayout (3)'
+
+2023-10-03 09:45:26 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-10-03 09:45:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-10-03 09:45:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:28 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-10-03 09:45:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-10-03 09:45:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageView'
+
+2023-10-03 09:45:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageView'
+
+2023-10-03 09:45:29 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-10-03 09:45:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-10-03 09:45:30 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:45:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:45:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:45:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:45:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageButton (1)'
+
+2023-10-03 09:45:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.ImageButton (1)'
+
+2023-10-03 09:45:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout (2)'
+
+2023-10-03 09:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN216/android.widget.FrameLayout (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN217" time="21.053" classname="Test Cases/Parte2/Chats/CPN217" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:45:33 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN217: Test Cases/Parte2/Chats/CPN217
+
+2023-10-03 09:45:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout'
+
+2023-10-03 09:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout'
+
+2023-10-03 09:45:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout'
+
+2023-10-03 09:45:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout'
+
+2023-10-03 09:45:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton'
+
+2023-10-03 09:45:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton'
+
+2023-10-03 09:45:40 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:45:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:45:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (3)'
+
+2023-10-03 09:45:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.LinearLayout (3)'
+
+2023-10-03 09:45:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:45:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:45:47 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:47 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:45:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:45:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (1)'
+
+2023-10-03 09:45:50 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:45:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:45:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:45:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton (1)'
+
+2023-10-03 09:45:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.ImageButton (1)'
+
+2023-10-03 09:45:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (2)'
+
+2023-10-03 09:45:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN217/android.widget.FrameLayout (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN218" time="25.022" classname="Test Cases/Parte2/Chats/CPN218" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:45:54 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN218: Test Cases/Parte2/Chats/CPN218
+
+2023-10-03 09:45:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout'
+
+2023-10-03 09:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout'
+
+2023-10-03 09:45:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout'
+
+2023-10-03 09:45:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout'
+
+2023-10-03 09:45:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (1)'
+
+2023-10-03 09:45:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:45:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (2)'
+
+2023-10-03 09:45:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton'
+
+2023-10-03 09:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton'
+
+2023-10-03 09:46:01 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:46:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:46:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (3)'
+
+2023-10-03 09:46:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (3)'
+
+2023-10-03 09:46:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:05 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:46:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:46:07 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:07 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:46:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:46:09 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:09 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:46:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:46:12 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (4)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (4)'
+
+2023-10-03 09:46:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.LinearLayout (4)'
+
+2023-10-03 09:46:13 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:46:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:46:14 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:46:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:46:17 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:46:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:46:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton (2)'
+
+2023-10-03 09:46:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.ImageButton (2)'
+
+2023-10-03 09:46:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (2)'
+
+2023-10-03 09:46:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN218/android.widget.FrameLayout (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN219" time="11.774" classname="Test Cases/Parte2/Chats/CPN219" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:46:19 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN219: Test Cases/Parte2/Chats/CPN219
+
+2023-10-03 09:46:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout'
+
+2023-10-03 09:46:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout'
+
+2023-10-03 09:46:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout'
+
+2023-10-03 09:46:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout'
+
+2023-10-03 09:46:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (1)'
+
+2023-10-03 09:46:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (1)'
+
+2023-10-03 09:46:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (2)'
+
+2023-10-03 09:46:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.LinearLayout (2)'
+
+2023-10-03 09:46:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton'
+
+2023-10-03 09:46:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton'
+
+2023-10-03 09:46:26 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:46:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:46:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (1)'
+
+2023-10-03 09:46:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (1)'
+
+2023-10-03 09:46:29 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (2)'
+
+2023-10-03 09:46:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.ImageButton (2)'
+
+2023-10-03 09:46:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN219/android.widget.FrameLayout (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN220" time="12.081" classname="Test Cases/Parte2/Chats/CPN220" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:46:31 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN220: Test Cases/Parte2/Chats/CPN220
+
+2023-10-03 09:46:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout'
+
+2023-10-03 09:46:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout'
+
+2023-10-03 09:46:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout'
+
+2023-10-03 09:46:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout'
+
+2023-10-03 09:46:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (1)'
+
+2023-10-03 09:46:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (1)'
+
+2023-10-03 09:46:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (2)'
+
+2023-10-03 09:46:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.LinearLayout (2)'
+
+2023-10-03 09:46:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton'
+
+2023-10-03 09:46:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton'
+
+2023-10-03 09:46:37 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:46:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:46:40 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:46:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:46:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-10-03 09:46:41 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-10-03 09:46:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton (1)'
+
+2023-10-03 09:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.ImageButton (1)'
+
+2023-10-03 09:46:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN220/android.widget.FrameLayout (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN221" time="23.852" classname="Test Cases/Parte2/Chats/CPN221" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:46:43 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN221: Test Cases/Parte2/Chats/CPN221
+
+2023-10-03 09:46:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout'
+
+2023-10-03 09:46:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout'
+
+2023-10-03 09:46:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout'
+
+2023-10-03 09:46:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout'
+
+2023-10-03 09:46:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (1)'
+
+2023-10-03 09:46:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (1)'
+
+2023-10-03 09:46:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (2)'
+
+2023-10-03 09:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.LinearLayout (2)'
+
+2023-10-03 09:46:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton'
+
+2023-10-03 09:46:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton'
+
+2023-10-03 09:46:49 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:46:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:46:52 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:46:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:46:53 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:46:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:46:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.Button - CANCELAR"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.Button - CANCELAR'
+
+2023-10-03 09:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.Button - CANCELAR'
+
+2023-10-03 09:46:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (1)'
+
+2023-10-03 09:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (1)'
+
+2023-10-03 09:46:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (1)'
+
+2023-10-03 09:46:57 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:46:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:46:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (2)'
+
+2023-10-03 09:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:46:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (2)'
+
+2023-10-03 09:46:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.view.ViewGroup'
+
+2023-10-03 09:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.view.ViewGroup'
+
+2023-10-03 09:47:01 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:47:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-10-03 09:47:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (2)'
+
+2023-10-03 09:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.ImageButton (2)'
+
+2023-10-03 09:47:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (3)'
+
+2023-10-03 09:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN221/android.widget.FrameLayout (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN222" time="27.915" classname="Test Cases/Parte2/Chats/CPN222" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:47:07 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN222: Test Cases/Parte2/Chats/CPN222
+
+2023-10-03 09:47:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout'
+
+2023-10-03 09:47:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout'
+
+2023-10-03 09:47:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout'
+
+2023-10-03 09:47:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout'
+
+2023-10-03 09:47:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (1)'
+
+2023-10-03 09:47:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (1)'
+
+2023-10-03 09:47:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (2)'
+
+2023-10-03 09:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.LinearLayout (2)'
+
+2023-10-03 09:47:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton'
+
+2023-10-03 09:47:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton'
+
+2023-10-03 09:47:13 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:47:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:47:16 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/android.widget.Button"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:47:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/android.widget.Button'
+
+2023-10-03 09:47:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.Button - ACEPTAR"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.Button - ACEPTAR'
+
+2023-10-03 09:47:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.Button - ACEPTAR'
+
+2023-10-03 09:47:18 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-10-03 09:47:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-03 09:47:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (1)'
+
+2023-10-03 09:47:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (1)'
+
+2023-10-03 09:47:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (1)'
+
+2023-10-03 09:47:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (1)'
+
+2023-10-03 09:47:22 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:47:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:47:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (2)'
+
+2023-10-03 09:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (2)'
+
+2023-10-03 09:47:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.view.ViewGroup"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.view.ViewGroup'
+
+2023-10-03 09:47:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.view.ViewGroup'
+
+2023-10-03 09:47:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/androidx.recyclerview.widget.RecyclerView"), 0): Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/androidx.recyclerview.widget.RecyclerView' is visible
+
+2023-10-03 09:47:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:27 - [MESSAGE][PASSED] - Element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/androidx.recyclerview.widget.RecyclerView' is visible
+
+2023-10-03 09:47:27 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2023-10-03 09:47:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-10-03 09:47:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (2)'
+
+2023-10-03 09:47:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.ImageButton (2)'
+
+2023-10-03 09:47:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (3)'
+
+2023-10-03 09:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN222/android.widget.FrameLayout (3)'
+
+2023-10-03 09:47:33 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:47:35 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parte2/Chats/CPN223" time="10.915" classname="Test Cases/Parte2/Chats/CPN223" status="PASSED">
+         <system-out><![CDATA[2023-10-03 09:47:35 - [TEST_CASE][PASSED] - Test Cases/Parte2/Chats/CPN223: Test Cases/Parte2/Chats/CPN223
+
+2023-10-03 09:47:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout'
+
+2023-10-03 09:47:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout'
+
+2023-10-03 09:47:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (1)'
+
+2023-10-03 09:47:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (1)'
+
+2023-10-03 09:47:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (2)'
+
+2023-10-03 09:47:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout (2)'
+
+2023-10-03 09:47:37 - [TEST_STEP][PASSED] - tap(findTestObject("Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout'
+
+2023-10-03 09:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.LinearLayout'
+
+2023-10-03 09:47:38 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:47:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:47:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageView (2)'
+
+2023-10-03 09:47:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageView (2)'
+
+2023-10-03 09:47:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageView (3)'
+
+2023-10-03 09:47:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageView (3)'
+
+2023-10-03 09:47:41 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-10-03 09:47:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-10-03 09:47:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton'
+
+2023-10-03 09:47:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton'
+
+2023-10-03 09:47:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton (1)'
+
+2023-10-03 09:47:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.ImageButton (1)'
+
+2023-10-03 09:47:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout (1)'
+
+2023-10-03 09:47:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-03 09:47:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Parte2/Ajustes cuenta/Chats/CPN223/android.widget.FrameLayout (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-03 09:40:32 - [TEST_SUITE][PASSED] - inicio y ajustes chats: Test Cases/Parte2/Chats/CPN223]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

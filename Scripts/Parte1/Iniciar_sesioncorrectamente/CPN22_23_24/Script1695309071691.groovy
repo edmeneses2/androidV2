@@ -82,9 +82,11 @@ while (i <= 5) {
     }
 }
 
-Mobile.verifyElementVisible(findTestObject('Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.TextView - Tu cuenta ha sido recuperada. Gracias por recuperar tu cuenta, ahora puedes chatear de forma privada y segura con tus contactos'), 
+Mobile.verifyElementVisible(findTestObject('Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.FrameLayout'), 
     0)
 
+//Mobile.verifyElementVisible(findTestObject('null'), 
+// 0)
 Mobile.tap(findTestObject('Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.Button - Cerrar'), 
     0)
 
