@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-PRUEBA-CPN105.1,,,,2023-06-14 14:50:59,2023-06-14 14:51:00,"1,297s",FAILED
-,,,,,,,
-Test Cases/EnvioMensajes/CPN94,,,,2023-06-14 14:50:59,2023-06-14 14:51:00,"0,983s",FAILED
-"tap(findTestObject(""CPN94/android.view.ViewGroup""), 0)",,abrir chat,,2023-06-14 14:51:00,2023-06-14 14:51:00,"0,375s",PASSED

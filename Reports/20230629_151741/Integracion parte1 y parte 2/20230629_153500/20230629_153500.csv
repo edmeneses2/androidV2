@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Integracion parte1 y parte 2,,,,2023-06-29 15:35:10,2023-06-29 15:35:13,"3,474s",FAILED
-,,,,,,,
-Test Cases/Parte1/Agregar contacto/agregar,,,,2023-06-29 15:35:10,2023-06-29 15:35:13,"2,793s",FAILED
-"delay(2, CONTINUE_ON_FAILURE)",,,,2023-06-29 15:35:10,2023-06-29 15:35:12,"2,090s",PASSED
-"tap(findTestObject(""Object Repository/Parte1/agregar/android.widget.ImageView""), 1)",,,,2023-06-29 15:35:12,2023-06-29 15:35:13,"0,291s",PASSED
-,,,,,,,
-Test Cases/Parte1/Envio de mensajes/CPN76,,,,2023-06-29 15:35:13,2023-06-29 15:35:13,"0,393s",FAILED
-"tap(findTestObject(""Object Repository/Parte1/Envio de mensajes/CPN76/android.widget.FrameLayout""), 1)",,,,2023-06-29 15:35:13,2023-06-29 15:35:13,"0,047s",PASSED

@@ -40,9 +40,9 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Parte1/Recuperar_cuenta/CPN27/android.widget.Button'), 0)
 
-Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Parte1/Recuperar_cuenta/CPN27/android.widget.ImageButton (1)'), 0)
+//Mobile.tap(findTestObject('Parte1/Recuperar_cuenta/CPN27/android.widget.ImageButton (1)'), 1)
 
-Mobile.tap(findTestObject('Parte1/Recuperar_cuenta/CPN27/android.widget.FrameLayout (1)'), 0)
+Mobile.tap(findTestObject('Parte1/Recuperar_cuenta/CPN27/android.widget.FrameLayout (1)'), 1)
 

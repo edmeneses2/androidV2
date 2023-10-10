@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-PRUEBA,,,,2023-06-01 10:41:02,2023-06-01 10:41:30,"28,293s",FAILED
-,,,,,,,
-Test Cases/Abrir_App/CPN1,,,,2023-06-01 10:41:02,2023-06-01 10:41:29,"27,549s",FAILED
-"startApplication(""C:\Users\Testing\Desktop\katalon\Version nueva\app-debug (2).apk"", true)",,,,2023-06-01 10:41:02,2023-06-01 10:41:29,"27,198s",FAILED
-,,,,,,,
-Test Cases/Abrir_App/CPN2,,,,2023-06-01 10:41:29,2023-06-01 10:41:30,"0,457s",FAILED
-pressBack(),,,,2023-06-01 10:41:30,2023-06-01 10:41:30,"0,079s",PASSED

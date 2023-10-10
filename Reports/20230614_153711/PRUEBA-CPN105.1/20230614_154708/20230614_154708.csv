@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-PRUEBA-CPN105.1,,,,2023-06-14 15:47:15,2023-06-14 15:47:18,"3,346s",FAILED
-,,,,,,,
-Test Cases/agregar,,,,2023-06-14 15:47:15,2023-06-14 15:47:18,"2,666s",FAILED
-"delay(2, STOP_ON_FAILURE)",,,,2023-06-14 15:47:16,2023-06-14 15:47:18,"2,078s",PASSED
-"tap(findTestObject(""Object Repository/agregar/android.widget.ImageView""), 1)",,,,2023-06-14 15:47:18,2023-06-14 15:47:18,"0,237s",PASSED
-,,,,,,,
-Test Cases/EnvioMensajes/CPN105,,,,2023-06-14 15:47:18,2023-06-14 15:47:18,"0,381s",FAILED
-"tap(findTestObject(""Object Repository/CPN105/android.view.ViewGroup""), 0)",,1,,2023-06-14 15:47:18,2023-06-14 15:47:18,"0,046s",PASSED

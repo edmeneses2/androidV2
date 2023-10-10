@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Crear_usuario,,,,2023-07-25 17:03:04,2023-07-25 17:03:08,"4,110s",FAILED
-,,,,,,,
-Test Cases/ingreso para prueba,,,,2023-07-25 17:03:04,2023-07-25 17:03:07,"3,543s",FAILED
-"startApplication(""C:\Users\Testing\Desktop\katalon\Version QA ACTUALIZADA 25-07-23"", true)",,,,2023-07-25 17:03:04,2023-07-25 17:03:07,"3,186s",FAILED
-,,,,,,,
-Test Cases/CPN208,,,,2023-07-25 17:03:07,2023-07-25 17:03:08,"0,280s",PASSED
-return null,,,,2023-07-25 17:03:08,2023-07-25 17:03:08,"0,001s",PASSED

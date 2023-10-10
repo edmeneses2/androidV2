@@ -38,7 +38,7 @@ Mobile.tap(findTestObject('Object Repository/Parte1/INICIAR APP/Abrir_App/CPN3/a
 
 WebUI.delay(3)
 
-Mobile.tap(findTestObject('Object Repository/Parte1/INICIAR APP/Abrir_App/CPN3/android.widget.Button - OK'), 0)
-
+//Mobile.tap(findTestObject('Object Repository/Parte1/INICIAR APP/Abrir_App/CPN3/android.widget.Button - OK'), 0)
+'SE COMENTO LA LINEA ANTERIOR'
 Mobile.toggleWifi('ON', FailureHandling.STOP_ON_FAILURE)
 

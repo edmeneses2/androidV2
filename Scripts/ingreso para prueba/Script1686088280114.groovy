@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\PC-09\\Documents\\Apk Katalon\\app-qa.apk', true)
+Mobile.startApplication('C:\\Users\\PC-09\\Desktop\\NapoleoN.apk', true)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 

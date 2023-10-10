@@ -21,5 +21,5 @@ Mobile.toggleWifi('off', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.toggleWifi('on', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5)
+Mobile.delay(6)
 

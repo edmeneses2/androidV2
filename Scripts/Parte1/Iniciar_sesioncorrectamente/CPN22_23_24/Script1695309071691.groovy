@@ -82,7 +82,7 @@ while (i <= 5) {
     }
 }
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/android.widget.FrameLayout'), 
+Mobile.verifyElementVisible(findTestObject('Parte1/Iniciar_sesioncorrectamente/CPN22_23_24/androidx.appcompat.widget.LinearLayoutCompat'), 
     0)
 
 //Mobile.verifyElementVisible(findTestObject('null'), 

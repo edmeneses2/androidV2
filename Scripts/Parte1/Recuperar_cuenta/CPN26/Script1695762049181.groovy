@@ -39,9 +39,9 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.Button - Aceptar'), 0)
 
-Mobile.hideKeyboard()
+//Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.ImageButton (2)'), 0)
+Mobile.tap(findTestObject('Parte1/Recuperar_cuenta/CPN26/android.widget.ImageButton (2)'), 0)
 
 Mobile.clearText(findTestObject('Object Repository/Parte1/Recuperar_cuenta/CPN26/android.widget.EditText - android11bshsjsjs'), 
     0)

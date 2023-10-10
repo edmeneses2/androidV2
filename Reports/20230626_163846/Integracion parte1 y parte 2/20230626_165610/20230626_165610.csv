@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Integracion parte1 y parte 2,,,,2023-06-26 16:56:20,2023-06-26 16:56:21,"1,428s",FAILED
-,,,,,,,
-Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN169,,"Seleccionar tiempo para solicitud de pin de acceso ""inmediatamente""",,2023-06-26 16:56:20,2023-06-26 16:56:21,"0,685s",FAILED
-"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.TextView - Tiempo para solicitud de pin de acceso""), 0)",,,,2023-06-26 16:56:21,2023-06-26 16:56:21,"0,335s",PASSED
-,,,,,,,
-Test Cases/Parte2/Ajustes/Cuenta/Tiempo Pin de Acceso/CPN170,,Seleccionar tiempo para pin de acceso en 10 segundos,,2023-06-26 16:56:21,2023-06-26 16:56:21,"0,493s",FAILED
-"tap(findTestObject(""Parte2/Ajustes cuenta/Cuenta/Solicitud Pin de Acceso/android.widget.FrameLayout""), 0)",,,,2023-06-26 16:56:21,2023-06-26 16:56:21,"0,073s",PASSED

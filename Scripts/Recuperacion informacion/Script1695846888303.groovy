@@ -31,15 +31,19 @@ Mobile.tap(findTestObject('Object Repository/Recuperacion informacion/android.wi
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Recuperacion informacion/android.widget.ImageView (1)'), 0)
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Recuperacion informacion/android.widget.ImageButton (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Recuperacion informacion/android.widget.FrameLayout (1)'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.scrollToText('Nombre de prueba')
 
 Mobile.tap(findTestObject('Object Repository/Recuperacion informacion/android.widget.ImageButton (2)'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Recuperacion informacion/android.widget.LinearLayout'), 0)
 
